@@ -1,0 +1,190 @@
+/* Responsive Styles */
+
+/* Large Screens (up to 1200px) */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+    
+    .espetaculos-grid,
+    .cursos,
+    .professores-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Medium Screens (up to 992px) */
+@media screen and (max-width: 992px) {
+    h2 {
+        font-size: 2.2rem;
+    }
+    
+    #hero h1 {
+        font-size: 3.5rem;
+    }
+    
+    #hero h2 {
+        font-size: 1.8rem;
+    }
+    
+    .espetaculos-grid,
+    .cursos,
+    .professores-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    #companhia .content,
+    #centro-cultural .content,
+    #empresarial .content {
+        flex-direction: column;
+    }
+    
+    #companhia .image,
+    #centro-cultural .image,
+    #empresarial .image,
+    #companhia .text,
+    #centro-cultural .text,
+    #empresarial .text {
+        width: 100%;
+    }
+    
+    .contact-content {
+        flex-direction: column;
+    }
+    
+    .contact-info, .contact-form {
+        width: 100%;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .footer-logo {
+        margin: 0 auto;
+    }
+    
+    .footer-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .footer-newsletter form {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+}
+
+/* Small Screens (up to 768px) */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 60px 0;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    #hero {
+        height: 80vh;
+    }
+    
+    #hero h1 {
+        font-size: 3rem;
+    }
+    
+    #hero h2 {
+        font-size: 1.5rem;
+    }
+    
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    nav ul.active {
+        display: flex;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .espetaculos-grid,
+    .cursos,
+    .professores-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    #companhia .content,
+    #centro-cultural .content,
+    #empresarial .content {
+        gap: 30px;
+    }
+    
+    .logos {
+        gap: 20px;
+    }
+    
+    .logos img {
+        height: 40px;
+    }
+}
+
+/* Extra Small Screens (up to 576px) */
+@media screen and (max-width: 576px) {
+    section {
+        padding: 40px 0;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+    
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    #hero h2 {
+        font-size: 1.3rem;
+    }
+    
+    #hero p {
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .logo img {
+        height: 50px;
+    }
+    
+    .footer-logo img {
+        height: 60px;
+    }
+    
+    .footer-newsletter input {
+        width: 150px;
+    }
+}

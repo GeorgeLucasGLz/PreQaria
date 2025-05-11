@@ -1,0 +1,189 @@
+Hero Section Styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+ 
+}
+
+.slider-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    object-fit: cover;
+}
+
+/* Adicionar Setas de navegação */
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+    padding: 0 20px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    /* Importante: permite cliques nos elementos dentro */
+}
+
+.nav-button {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    pointer-events: auto;
+    /* Reativa cliques nos botões */
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Indicadores do Slider */
+.slider-indicators {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 5;
+    pointer-events: none;
+    /* Importante: permite cliques nos elementos dentro */
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    pointer-events: auto;
+    /* Reativa cliques nos indicadores */
+}
+
+.indicator.active {
+    background-color: white;
+}
+
+/* Loader para aguardar o carregamento das imagens */
+.loader-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 15;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid white;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader-container.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .image {
+        max-height: 60vh;
+    }
+
+    .nav-button {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image {
+        max-height: 50vh;
+    }
+
+    .nav-button {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .slider-indicators {
+        bottom: 30px;
+    }
+
+    .indicator {
+        width: 8px;
+        height: 8px;
+    }
+}
