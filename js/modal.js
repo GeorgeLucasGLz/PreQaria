@@ -3,101 +3,101 @@ const galleryData = {
     'qorpo-santo': {
         title: 'Qorpo Santo (2006 - 2008)',
         images: [
-            'images/espetaculo1.jpg',
-            'images/espetaculo2.jpg',
-            'images/espetaculo3.jpg',
-            'images/companhia.jpg',
-            'images/centro-cultural.jpg'
+            './images/gallery/qorpo-santo/1.webp',
+            './images/gallery/qorpo-santo/2.webp',
+            './images/gallery/qorpo-santo/3.webp',
+            './images/gallery/qorpo-santo/4.webp',
+            './images/gallery/qorpo-santo/5.webp'
         ]
     },
     'tribunal': {
         title: 'Tribunal Quarto de Zona (2008 - 2009)',
         images: [
-            'images/qorpo-santo.webp',
-            'images/espetaculo3.jpg',
-            'images/espetaculo1.jpg',
-            'images/companhia.jpg',
-            'images/centro-cultural.jpg'
+            './images/gallery/tribunal/1.webp',
+            './images/gallery/tribunal/2.webp',
+            './images/gallery/tribunal/3.webp',
+            './images/gallery/tribunal/4.webp',
+            './images/gallery/tribunal/5.webp',
         ]
     },
     'conversa': {
         title: 'Conversa Su00e9ria de Calcinha e Soutien (2011 - 2016)',
         images: [
-            'images/espetaculo3.jpg',
-            'images/espetaculo1.jpg',
-            'images/espetaculo2.jpg',
-            'images/companhia.jpg',
-            'images/centro-cultural.jpg'
+            './images/gallery/calcinha-e-soutien/1.webp',
+            './images/gallery/calcinha-e-soutien/2.webp',
+            './images/gallery/calcinha-e-soutien/3.webp',
+            './images/gallery/calcinha-e-soutien/4.webp',
+            './images/gallery/calcinha-e-soutien/5.webp',
         ]
     },
     'praca': {
         title: 'A Prau00e7a Dr. Sem Grau00e7a (2013 - 2016)',
         images: [
-            'images/praca-sem-graca.webp',
-            'images/espetaculo1.jpg',
-            'images/espetaculo2.jpg',
-            'images/espetaculo3.jpg',
-            'images/centro-cultural.jpg'
+            './images/gallery/praca/1.webp',
+            './images/gallery/praca/2.webp',
+            './images/gallery/praca/3.webp',
+            './images/gallery/praca/4.webp',
+            './images/gallery/praca/5.webp',
         ]
     },
     'princesa': {
         title: 'A Princesa Gaia (2015 - 2021)',
         images: [
-            'images/centro-cultural.jpg',
-            'images/espetaculo1.jpg',
-            'images/espetaculo2.jpg',
-            'images/espetaculo3.jpg',
-            'images/companhia.jpg'
+            './images/gallery/princesa-gaia/1.webp',
+            './images/gallery/princesa-gaia/2.webp',
+            './images/gallery/princesa-gaia/3.webp',
+            './images/gallery/princesa-gaia/4.webp',
+            './images/gallery/princesa-gaia/5.webp',
         ]
     },
     'palhacos': {
         title: 'Palhau00e7os (2011 - 2021)',
         images: [
-            'images/espetaculo1.jpg',
-            'images/espetaculo2.jpg',
-            'images/espetaculo3.jpg',
-            'images/companhia.jpg',
-            'images/centro-cultural.jpg'
+            './images/gallery/palhacos/1.webp',
+            './images/gallery/palhacos/2.webp',
+            './images/gallery/palhacos/3.webp',
+            './images/gallery/palhacos/4.webp',
+            './images/gallery/palhacos/5.webp',
         ]
     },
     'amor': {
         title: 'Amor (2017 - 2021)',
         images: [
-            'images/espetaculo2.jpg',
-            'images/espetaculo3.jpg',
-            'images/espetaculo1.jpg',
-            'images/companhia.jpg',
-            'images/centro-cultural.jpg'
+            './images/gallery/amor/1.webp',
+            './images/gallery/amor/2.webp',
+            './images/gallery/amor/3.webp',
+            './images/gallery/amor/4.webp',
+            './images/gallery/amor/5.webp',
         ]
     },
     'tartufo': {
         title: 'Tartufo\'s 80 (2018 - 2023)',
         images: [
-            'images/espetaculo3.jpg',
-            'images/espetaculo1.jpg',
-            'images/espetaculo2.jpg',
-            'images/companhia.jpg',
-            'images/centro-cultural.jpg'
+            './images/gallery/tartufo/1.webp',
+            './images/gallery/tartufo/2.webp',
+            './images/gallery/tartufo/3.webp',
+            './images/gallery/tartufo/4.webp',
+            './images/gallery/tartufo/5.webp',
         ]
     },
     'raio-lua': {
         title: 'Num Raio de Lua (2022 - 2023)',
         images: [
-            'images/companhia.jpg',
-            'images/espetaculo1.jpg',
-            'images/espetaculo2.jpg',
-            'images/espetaculo3.jpg',
-            'images/centro-cultural.jpg'
+            './images/gallery/lua/1.webp',
+            './images/gallery/lua/2.webp',
+            './images/gallery/lua/3.webp',
+            './images/gallery/lua/4.webp',
+            './images/gallery/lua/5.webp',
         ]
     },
     'ceu-constelado': {
         title: 'Cu00e9u Constelado (2022 - 2023)',
         images: [
-            'images/centro-cultural.jpg',
-            'images/espetaculo1.jpg',
-            'images/espetaculo2.jpg',
-            'images/espetaculo3.jpg',
-            'images/companhia.jpg'
+            './images/gallery/ceu-estelado/1.webp',
+            './images/gallery/ceu-estelado/2.webp',
+            './images/gallery/ceu-estelado/3.webp',
+            './images/gallery/ceu-estelado/4.webp',
+            './images/gallery/ceu-estelado/5.webp',
         ]
     },
     'essencias': {
@@ -113,31 +113,22 @@ const galleryData = {
     'cinema-waterapoc': {
         title: 'Waterapoc (2009)',
         images: [
-            'images/espetaculo1.jpg',
-            'images/espetaculo2.jpg',
-            'images/espetaculo3.jpg',
-            'images/companhia.jpg',
-            'images/centro-cultural.jpg'
+            './images/waterapoc.webp',
+           
         ]
     },
     'cinema-pipoca': {
-        title: 'Pipoca (2011)',
+        title: 'Humanamente Mefisto (2005)',
         images: [
-            'images/espetaculo2.jpg',
-            'images/espetaculo3.jpg',
-            'images/espetaculo1.jpg',
-            'images/companhia.jpg',
-            'images/centro-cultural.jpg'
+            './images/mefisto.webp',
+         
         ]
     },
     'cinema-outros-dias': {
-        title: 'Outros Dias (2012)',
+        title: 'Coisa Feita pelo Coração (2025)',
         images: [
-            'images/espetaculo3.jpg',
-            'images/espetaculo1.jpg',
-            'images/espetaculo2.jpg',
-            'images/companhia.jpg',
-            'images/centro-cultural.jpg'
+            './images/coracao.webp',
+          
         ]
     }
 };
@@ -153,23 +144,23 @@ function openModal(galleryId) {
         console.error('Galeria nu00e3o encontrada:', galleryId);
         return;
     }
-    
+
     // Definir a galeria atual
     currentGallery = galleryId;
     currentImageIndex = 0;
-    
+
     // Obter elementos do DOM
     const modal = document.getElementById('galleryModal');
     const modalTitle = document.getElementById('modalTitle');
     const modalGallery = document.getElementById('modalGallery');
     const imageCounter = document.getElementById('imageCounter');
-    
+
     // Limpar galeria anterior
     modalGallery.innerHTML = '';
-    
+
     // Definir tu00edtulo
     modalTitle.textContent = galleryData[galleryId].title;
-    
+
     // Adicionar imagens
     galleryData[galleryId].images.forEach((src, index) => {
         const img = document.createElement('img');
@@ -178,13 +169,13 @@ function openModal(galleryId) {
         img.className = index === 0 ? 'active' : '';
         modalGallery.appendChild(img);
     });
-    
+
     // Atualizar contador
     updateImageCounter();
-    
+
     // Exibir modal
     modal.style.display = 'block';
-    
+
     // Impedir rolagem da pu00e1gina
     document.body.style.overflow = 'hidden';
 }
@@ -193,7 +184,7 @@ function openModal(galleryId) {
 function closeModal() {
     const modal = document.getElementById('galleryModal');
     modal.style.display = 'none';
-    
+
     // Permitir rolagem da pu00e1gina novamente
     document.body.style.overflow = 'auto';
 }
@@ -202,16 +193,16 @@ function closeModal() {
 function changeImage(direction) {
     const gallery = galleryData[currentGallery];
     const images = document.querySelectorAll('#modalGallery img');
-    
+
     // Remover classe active da imagem atual
     images[currentImageIndex].classList.remove('active');
-    
+
     // Calcular novo u00edndice
     currentImageIndex = (currentImageIndex + direction + images.length) % images.length;
-    
+
     // Adicionar classe active u00e0 nova imagem
     images[currentImageIndex].classList.add('active');
-    
+
     // Atualizar contador
     updateImageCounter();
 }
@@ -224,7 +215,7 @@ function updateImageCounter() {
 }
 
 // Fechar o modal quando clicar fora do conteu00fado
-window.addEventListener('click', function(event) {
+window.addEventListener('click', function (event) {
     const modal = document.getElementById('galleryModal');
     if (event.target === modal) {
         closeModal();
@@ -232,7 +223,7 @@ window.addEventListener('click', function(event) {
 });
 
 // Navegar com as teclas do teclado quando o modal estiver aberto
-window.addEventListener('keydown', function(event) {
+window.addEventListener('keydown', function (event) {
     const modal = document.getElementById('galleryModal');
     if (modal.style.display === 'block') {
         if (event.key === 'ArrowLeft') {
