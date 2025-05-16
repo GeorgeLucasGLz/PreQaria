@@ -96,11 +96,16 @@
 //     }
 // });
 
- // Cursor personalizado
- document.addEventListener('mousemove', function(e) {
-    const cursor = document.querySelector('.custom-cursor');
-    cursor.style.left = e.clientX + 'px';
-    cursor.style.top = e.clientY + 'px';
+// Cursor personalizado
+document.addEventListener('mousemove', function(e) {
+    // Verificar se a largura da tela é maior que 1000px
+    if (window.innerWidth > 1000) {
+        const cursor = document.querySelector('.custom-cursor');
+        if (cursor) {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        }
+    }
 });
 
 // Partículas
@@ -156,6 +161,24 @@ document.querySelectorAll('.content, .espetaculo, .curso, .projeto-social, .stat
 
 // Garantir que a seção 'more-shows' seja visível imediatamente
 document.addEventListener('DOMContentLoaded', function() {
+    // Função para controlar a visibilidade do cursor personalizado
+    function checkCursorVisibility() {
+        const cursor = document.querySelector('.custom-cursor');
+        if (cursor) {
+            if (window.innerWidth <= 1000) {
+                cursor.style.display = 'none';
+            } else {
+                cursor.style.display = 'block';
+            }
+        }
+    }
+    
+    // Verificar inicialmente
+    checkCursorVisibility();
+    
+    // Adicionar listener para o evento de redimensionamento
+    window.addEventListener('resize', checkCursorVisibility);
+    
     // Forçar a visibilidade da seção more-shows e seus cards
     const moreShowsSection = document.querySelector('.more-shows');
     if (moreShowsSection) {

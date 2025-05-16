@@ -163,6 +163,13 @@
     }
 }
 
+/* Desativando o cursor personalizado em telas menores que 1000px */
+@media screen and (max-width: 1000px) {
+    .custom-cursor {
+        display: none !important;
+    }
+}
+
 /* Medium Screens (up to 992px) */
 @media screen and (max-width: 992px) {
     h2 {
