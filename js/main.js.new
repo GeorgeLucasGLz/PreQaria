@@ -84,29 +84,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Fechar o menu ao clicar em um link e fazer scroll suave
+    // Fechar o menu ao clicar em um link
     const mobileLinks = document.querySelectorAll('.mobile-menu a');
     mobileLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault(); // Prevenir o comportamento padrão do link
-            
-            const targetId = link.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
-            
-            // Primeiro fechar o menu
+        link.addEventListener('click', () => {
             closeMenuFunc();
-            
-            // Esperar um pouco para o menu fechar antes de rolar
-            setTimeout(() => {
-                // Rolar até o elemento alvo com animação suave
-                if (targetElement) {
-                    const offsetTop = targetElement.offsetTop;
-                    window.scrollTo({
-                        top: offsetTop - 100, // Subtrair 100px para compensar o header
-                        behavior: 'smooth'
-                    });
-                }
-            }, 400); // Esperar 400ms para o menu fechar completamente
         });
     });
 

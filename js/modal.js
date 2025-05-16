@@ -2,6 +2,7 @@
 const galleryData = {
     'qorpo-santo': {
         title: 'Qorpo Santo (2006 - 2008)',
+        fichaTecnica: 'Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes',
         images: [
             './images/gallery/qorpo-santo/1.webp',
             './images/gallery/qorpo-santo/2.webp',
@@ -12,6 +13,7 @@ const galleryData = {
     },
     'tribunal': {
         title: 'Tribunal Quarto de Zona (2008 - 2009)',
+        fichaTecnica: 'Em cena: Max Gonçalves, Rachel de Andrade, Renato Amado, Ronaldo Queiroz, Tacyane Guimarães, Thiago Prata',
         images: [
             './images/gallery/tribunal/1.webp',
             './images/gallery/tribunal/2.webp',
@@ -21,7 +23,15 @@ const galleryData = {
         ]
     },
     'conversa': {
-        title: 'Conversa Su00e9ria de Calcinha e Soutien (2011 - 2016)',
+        title: 'Conversa Séria de Calcinha e Soutien (2011 - 2016)',
+        fichaTecnica: [
+            'Carolina Grigoli',
+            'Kenya Goulart',
+            'Luciene Bernardes',
+            'Luísa Couto',
+            'Mariana Tozzi',
+            'Tacyane Guimarães'
+        ],
         images: [
             './images/gallery/calcinha-e-soutien/1.webp',
             './images/gallery/calcinha-e-soutien/2.webp',
@@ -31,7 +41,15 @@ const galleryData = {
         ]
     },
     'praca': {
-        title: 'A Prau00e7a Dr. Sem Grau00e7a (2013 - 2016)',
+        title: 'A Praça Dr. Sem Graça (2013 - 2016)',
+        fichaTecnica: [
+            'Guilherme Thiago',
+            'João Paulo Valadares',
+            'Max Gonçalves',
+            'Renato Amado',
+            'Ronaldo Queiroz',
+            'Thiago Prata'
+        ],
         images: [
             './images/gallery/praca/1.webp',
             './images/gallery/praca/2.webp',
@@ -42,6 +60,14 @@ const galleryData = {
     },
     'princesa': {
         title: 'A Princesa Gaia (2015 - 2021)',
+        fichaTecnica: [
+            'Bárbara Campos',
+            'Carolina Grigoli',
+            'Kenya Goulart',
+            'Luísa Couto',
+            'Mariana Tozzi',
+            'Rachel de Andrade'
+        ],
         images: [
             './images/gallery/princesa-gaia/1.webp',
             './images/gallery/princesa-gaia/2.webp',
@@ -51,7 +77,15 @@ const galleryData = {
         ]
     },
     'palhacos': {
-        title: 'Palhau00e7os (2011 - 2021)',
+        title: 'Palhaços (2011 - 2021)',
+        fichaTecnica: [
+            'Guilherme Thiago',
+            'João Paulo Valadares',
+            'Max Gonçalves',
+            'Renato Amado',
+            'Ronaldo Queiroz',
+            'Thiago Prata'
+        ],
         images: [
             './images/gallery/palhacos/1.webp',
             './images/gallery/palhacos/2.webp',
@@ -62,6 +96,14 @@ const galleryData = {
     },
     'amor': {
         title: 'Amor (2017 - 2021)',
+        fichaTecnica: [
+            'Bárbara Campos',
+            'Carolina Grigoli',
+            'Guilherme Thiago',
+            'João Paulo Valadares',
+            'Kenya Goulart',
+            'Luciene Bernardes'
+        ],
         images: [
             './images/gallery/amor/1.webp',
             './images/gallery/amor/2.webp',
@@ -72,6 +114,14 @@ const galleryData = {
     },
     'tartufo': {
         title: 'Tartufo\'s 80 (2018 - 2023)',
+        fichaTecnica: [
+            'Max Gonçalves',
+            'Rachel de Andrade',
+            'Renato Amado',
+            'Ronaldo Queiroz',
+            'Tacyane Guimarães',
+            'Thiago Prata'
+        ],
         images: [
             './images/gallery/tartufo/1.webp',
             './images/gallery/tartufo/2.webp',
@@ -82,6 +132,14 @@ const galleryData = {
     },
     'raio-lua': {
         title: 'Num Raio de Lua (2022 - 2023)',
+        fichaTecnica: [
+            'Bárbara Campos',
+            'Carolina Grigoli',
+            'Kenya Goulart',
+            'Luciene Bernardes',
+            'Luísa Couto',
+            'Mariana Tozzi'
+        ],
         images: [
             './images/gallery/lua/1.webp',
             './images/gallery/lua/2.webp',
@@ -91,7 +149,15 @@ const galleryData = {
         ]
     },
     'ceu-constelado': {
-        title: 'Cu00e9u Constelado (2022 - 2023)',
+        title: 'Céu Constelado (2022 - 2023)',
+        fichaTecnica: [
+            'Guilherme Thiago',
+            'João Paulo Valadares',
+            'Max Gonçalves',
+            'Renato Amado',
+            'Ronaldo Queiroz',
+            'Thiago Prata'
+        ],
         images: [
             './images/gallery/ceu-estelado/1.webp',
             './images/gallery/ceu-estelado/2.webp',
@@ -101,17 +167,26 @@ const galleryData = {
         ]
     },
     'essencias': {
-        title: 'Essu00eancias (2022 - 2023)',
+        title: 'Essências (2022 - 2023)',
+        fichaTecnica: [
+            'Carolina Grigoli',
+            'Guilherme Thiago',
+            'João Paulo Valadares',
+            'Kenya Goulart',
+            'Luciene Bernardes',
+            'Luísa Couto'
+        ],
         images: [
-            'images/espetaculo1.jpg',
-            'images/espetaculo2.jpg',
-            'images/espetaculo3.jpg',
-            'images/companhia.jpg',
-            'images/centro-cultural.jpg'
+            'images/gallery/essencias/1.webp',
+            'images/gallery/essencias/2.webp',
+            'images/gallery/essencias/3.webp',
+            'images/gallery/essencias/4.webp',
+            'images/gallery/essencias/5.webp',
         ]
     },
     'cinema-waterapoc': {
         title: 'Waterapoc (2009)',
+        fichaTecnica: 'Direção: Max Gonçalves. Elenco: Rachel de Andrade, Renato Amado, Ronaldo Queiroz, Tacyane Guimarães',
         images: [
             './images/waterapoc.webp',
            
@@ -119,6 +194,7 @@ const galleryData = {
     },
     'cinema-pipoca': {
         title: 'Humanamente Mefisto (2005)',
+        fichaTecnica: 'Direção: Thiago Prata. Elenco: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares',
         images: [
             './images/mefisto.webp',
          
@@ -126,6 +202,7 @@ const galleryData = {
     },
     'cinema-outros-dias': {
         title: 'Coisa Feita pelo Coração (2025)',
+        fichaTecnica: 'Direção: Mariana Tozzi. Elenco: Kenya Goulart, Luciene Bernardes, Luísa Couto, Max Gonçalves, Rachel de Andrade',
         images: [
             './images/coracao.webp',
           
@@ -133,15 +210,15 @@ const galleryData = {
     }
 };
 
-// Variu00e1veis globais para o modal
+// Variáveis globais para o modal
 let currentGallery = '';
 let currentImageIndex = 0;
 
-// Funu00e7u00e3o para abrir o modal
+// Função para abrir o modal
 function openModal(galleryId) {
     // Verificar se a galeria existe
     if (!galleryData[galleryId]) {
-        console.error('Galeria nu00e3o encontrada:', galleryId);
+        console.error('Galeria não encontrada:', galleryId);
         return;
     }
 
@@ -154,12 +231,28 @@ function openModal(galleryId) {
     const modalTitle = document.getElementById('modalTitle');
     const modalGallery = document.getElementById('modalGallery');
     const imageCounter = document.getElementById('imageCounter');
+    const fichaTecnica = document.getElementById('fichaTecnica');
 
     // Limpar galeria anterior
     modalGallery.innerHTML = '';
 
-    // Definir tu00edtulo
+    // Definir título
     modalTitle.textContent = galleryData[galleryId].title;
+    
+    // Adicionar ficha técnica
+    if (galleryData[galleryId].fichaTecnica) {
+        // Verificar se a ficha técnica é um array ou uma string
+        if (Array.isArray(galleryData[galleryId].fichaTecnica)) {
+            // Se for um array, formatar como lista
+            fichaTecnica.innerHTML = 'Em cena: ' + galleryData[galleryId].fichaTecnica.join(', ');
+        } else {
+            // Se for uma string, usar diretamente
+            fichaTecnica.innerHTML = galleryData[galleryId].fichaTecnica;
+        }
+    } else {
+        // Ficha técnica padrão se não houver nenhuma definida
+        fichaTecnica.innerHTML = 'Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes, Luísa Couto, Mariana Tozzi, Max Gonçalves, Rachel de Andrade, Renato Amado, Ronaldo Queiroz, Tacyane Guimarães e Thiago Prata.';
+    }
 
     // Adicionar imagens
     galleryData[galleryId].images.forEach((src, index) => {

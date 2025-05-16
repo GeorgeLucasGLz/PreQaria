@@ -40,10 +40,23 @@
                 </ul>
             </nav>
             <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
+                <i></i>
             </div>
         </div>
     </header>
+
+    <!-- Menu Mobile -->
+    <div class="mobile-menu">
+        <div class="close-menu" id="close-menu"></div>
+        <ul>
+            <li><a href="#companhia">Companhia</a></li>
+            <li><a href="#espetaculos">Espetáculos</a></li>
+            <li><a href="#centro-cultural">Centro Cultural</a></li>
+            <li><a href="#escola-arte">Escola de Arte</a></li>
+            <li><a href="#empresarial">Formação de Público</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </div>
 
     <section id="hero">
       
@@ -228,7 +241,7 @@
                     
                     <!-- Essências -->
                     <div class="show-card" data-show="essencias">
-                        <div class="show-card-img" style="background-image: url('images/espetaculo1.jpg');"></div>
+                        <div class="show-card-img" style="background-image: url('images/gallery/essencias/2.webp');"></div>
                         <div class="show-card-content">
                             <h4>Essências</h4>
                             <p>Reflexão sobre a profundidade do ser (2022 - 2023)</p>
@@ -268,14 +281,42 @@
             <div id="galleryModal" class="modal">
                 <div class="modal-content">
                     <span class="close-modal" onclick="closeModal()">&times;</span>
-                    <h3 id="modalTitle">Galeria de Imagens</h3>
-                    <div class="modal-gallery" id="modalGallery">
-                        <!-- As imagens serão inseridas dinamicamente via JavaScript -->
+                    <h3 id="modalTitle">Título do Espetáculo</h3>
+                    <p id="fichaTecnica" class="ficha-tecnica"></p>
+                    <div id="modalGallery" class="modal-gallery">
+                        <!-- Imagens serão inseridas aqui via JavaScript -->
                     </div>
                     <div class="modal-nav">
-                        <button id="prevImage" onclick="changeImage(-1)">&#10094;</button>
-                        <div id="imageCounter">1 / 5</div>
-                        <button id="nextImage" onclick="changeImage(1)">&#10095;</button>
+                        <button onclick="changeImage(-1)"><i class="fas fa-chevron-left"></i></button>
+                        <span id="imageCounter">1 / 5</span>
+                        <button onclick="changeImage(1)"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proximos-espetaculos" class="proximos-espetaculos">
+        <div class="container">
+            <h2>Em Breve</h2>
+            <p class="section-intro">Fique atento às próximas produções da Preqaria que estão em desenvolvimento e chegarão em breve aos palcos.</p>
+            
+            <div class="proximos-grid">
+                <div class="proximo-espetaculo">
+                    <div class="proximo-img" style="background-image: url('./images/estranho-amor.webp');"></div>
+                    <h3>Eu sou o vento</h3>
+                    <p>Uma nova produção que explora as profundezas da existência humana através de uma narrativa poética e envolvente.</p>
+                    <div class="em-breve">
+                        <span><i class="fas fa-clock"></i> Em breve</span>
+                    </div>
+                </div>
+                
+                <div class="proximo-espetaculo">
+                    <div class="proximo-img" style="background-image: url('./images/ceu-estelado.webp');"></div>
+                    <h3>Piterlundi - viagem ao Brasil profundo</h3>
+                    <p>Uma jornada imersiva pelas raízes culturais brasileiras, revelando a riqueza e diversidade do nosso país.</p>
+                    <div class="em-breve">
+                        <span><i class="fas fa-clock"></i> Em breve</span>
                     </div>
                 </div>
             </div>

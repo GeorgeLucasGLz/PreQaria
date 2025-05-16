@@ -581,6 +581,221 @@ nav.mobile-active {
     }
 }
 
+/* Estilos para a seção de próximos espetáculos */
+.proximos-espetaculos {
+    background-color: #0a0a0a;
+    position: relative;
+    overflow: hidden;
+    padding: 100px 0;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    transform: skewY(-2deg);
+}
+
+.proximos-espetaculos .container {
+    transform: skewY(2deg);
+}
+
+.proximos-espetaculos::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/pattern.png') repeat;
+    opacity: 0.05;
+    z-index: 1;
+}
+
+.proximos-espetaculos::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(152, 60, 34, 0.3) 0%, rgba(0, 0, 0, 0.9) 50%, rgba(85, 19, 20, 0.3) 100%);
+    z-index: 1;
+}
+
+.proximos-espetaculos h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
+}
+
+.proximos-espetaculos h2::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 4px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    margin: 20px auto 0;
+    box-shadow: 0 0 10px rgba(218, 182, 129, 0.5);
+}
+
+.proximos-espetaculos .section-intro {
+    color: #fff;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    position: relative;
+    z-index: 2;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.proximos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.proximo-espetaculo {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(152, 60, 34, 0.3);
+    transform: translateY(30px);
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.3s;
+    position: relative;
+    backdrop-filter: blur(5px);
+}
+
+.proximo-espetaculo:hover {
+    transform: translateY(-15px) scale(1.03);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    border-color: var(--secondary-color);
+}
+
+.proximo-espetaculo::before {
+    content: 'EM BREVE';
+    position: absolute;
+    top: 20px;
+    right: -35px;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 8px 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transform: rotate(45deg);
+    z-index: 10;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.proximo-img {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.proximo-espetaculo:hover .proximo-img {
+    transform: scale(1.1);
+}
+
+.proximo-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    z-index: 1;
+}
+
+.proximo-espetaculo h3 {
+    color: var(--secondary-color);
+    padding: 25px 25px 15px;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.proximo-espetaculo h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    width: 50px;
+    height: 3px;
+    background: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.proximo-espetaculo:hover h3::after {
+    width: 100px;
+}
+
+.proximo-espetaculo p {
+    padding: 0 25px 25px;
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.em-breve {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 25px 25px;
+    gap: 15px;
+}
+
+.em-breve span {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.proximo-espetaculo:hover .em-breve span {
+    background-color: var(--primary-color);
+    transform: translateY(-5px);
+}
+
+.em-breve span i {
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .proximos-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .proximos-espetaculos {
+        padding: 80px 0;
+    }
+    
+    .proximos-espetaculos h2 {
+        font-size: 2.5rem;
+    }
+}
+
 /* Section Content */
 .content {
     display: flex;
