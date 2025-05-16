@@ -1008,8 +1008,8 @@ nav.mobile-active {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
-    opacity: 0;
-    transform: translateY(30px);
+    opacity: 1; /* Alterado para garantir visibilidade */
+    transform: translateY(0); /* Removida a transformau00e7u00e3o inicial */
     transition: var(--transition);
     border: 1px solid rgba(152, 60, 34, 0.3);
     background-image: url('../images/pattern.png');

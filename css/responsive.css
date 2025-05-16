@@ -233,11 +233,18 @@
 /* Small Screens (up to 768px) */
 @media screen and (max-width: 768px) {
     /* Corrigindo a seção more-shows que aparece preta no mobile */
-    .more-shows {
+    #espetaculos .more-shows {
+        display: block !important;
+        position: relative !important;
+        z-index: 10 !important;
         background-color: rgba(15, 15, 15, 0.9) !important;
         padding: 30px 20px !important;
         border: 1px solid rgba(152, 60, 34, 0.5) !important;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
+        opacity: 1 !important; /* Garantir visibilidade */
+        transform: none !important; /* Remover qualquer transformação */
+        display: block !important; /* Garantir que seja exibido */
+        visibility: visible !important; /* Garantir visibilidade */
     }
     
     .more-shows::before {
@@ -256,6 +263,9 @@
         transform: none !important;
         border: 1px solid rgba(152, 60, 34, 0.5) !important;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25) !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: flex !important;
     }
     
     .show-card h4 {

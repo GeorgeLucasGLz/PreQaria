@@ -140,7 +140,6 @@ const observer = new IntersectionObserver(function(entries, observer) {
         if (entry.isIntersecting) {
             if (entry.target.classList.contains('content') || 
                 entry.target.classList.contains('espetaculo') || 
-                entry.target.classList.contains('more-shows') || 
                 entry.target.classList.contains('curso') || 
                 entry.target.classList.contains('projeto-social') || 
                 entry.target.classList.contains('stat-item') ||
@@ -151,6 +150,27 @@ const observer = new IntersectionObserver(function(entries, observer) {
     });
 }, observerOptions);
 
-document.querySelectorAll('.content, .espetaculo, .more-shows, .curso, .projeto-social, .stat-item, #escola-arte .btn').forEach(element => {
+document.querySelectorAll('.content, .espetaculo, .curso, .projeto-social, .stat-item, #escola-arte .btn').forEach(element => {
     observer.observe(element);
+});
+
+// Garantir que a seção 'more-shows' seja visível imediatamente
+document.addEventListener('DOMContentLoaded', function() {
+    // Forçar a visibilidade da seção more-shows e seus cards
+    const moreShowsSection = document.querySelector('.more-shows');
+    if (moreShowsSection) {
+        moreShowsSection.classList.add('fade-in');
+        moreShowsSection.style.opacity = '1';
+        moreShowsSection.style.transform = 'translateY(0)';
+        moreShowsSection.style.visibility = 'visible';
+    }
+    
+    // Forçar a visibilidade de todos os cards dentro da seção more-shows
+    const showCards = document.querySelectorAll('.more-shows .show-card');
+    showCards.forEach(card => {
+        card.classList.add('fade-in');
+        card.style.opacity = '1';
+        card.style.transform = 'none';
+        card.style.visibility = 'visible';
+    });
 });
