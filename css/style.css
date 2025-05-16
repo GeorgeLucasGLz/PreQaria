@@ -1001,7 +1001,7 @@ nav.mobile-active {
 }
 
 .more-shows {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(10, 10, 10, 0.85);
     padding: 40px;
     border-radius: 8px;
     margin-top: 60px;
@@ -1015,6 +1015,7 @@ nav.mobile-active {
     background-image: url('../images/pattern.png');
     background-blend-mode: overlay;
     background-size: 200px;
+    z-index: 2;
 }
 
 .more-shows.fade-in {
@@ -1029,7 +1030,7 @@ nav.mobile-active {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(152, 60, 34, 0.4) 0%, transparent 50%, rgba(218, 182, 129, 0.2) 100%);
+    background: linear-gradient(135deg, rgba(152, 60, 34, 0.5) 0%, rgba(50, 20, 10, 0.7) 50%, rgba(218, 182, 129, 0.3) 100%);
     z-index: 1;
     animation: shimmerEffect 8s ease-in-out infinite alternate;
 }
@@ -1093,18 +1094,18 @@ nav.mobile-active {
 
 /* Card de show */
 .show-card {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(20, 20, 20, 0.8);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     transition: var(--transition);
-    border: 1px solid rgba(152, 60, 34, 0.2);
+    border: 1px solid rgba(152, 60, 34, 0.4);
     height: 100%;
     display: flex;
     flex-direction: column;
     transform: translateY(0);
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .show-card:hover {
