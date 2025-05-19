@@ -102,43 +102,68 @@
 
     <section id="espetaculos">
         <div class="container">
-            <h2>Espetáculos Premiados</h2>
-            <p class="section-intro">Desde 2006, a Preqaria vem construindo um repertório de espetáculos aclamados, levando arte e cultura para diversos públicos, com produções que conquistaram prêmios e reconhecimento nacional.</p>
+            <h2>Espetáculos em Repertório</h2>
+            <p class="section-intro">Desde 2006, a Preqaria vem construindo um repertório de espetáculos aclamados, levando arte e cultura para diversos públicos, com produções que conquistaram reconhecimento nacional.</p>
+            
             <div class="espetaculos-grid">
+                <!-- A Princesa Gaia -->
                 <div class="espetaculo">
-                    <div class="espetaculo-img" style="background-image: url('images/estranho-amor.webp');"></div>
-                    <h3>Nosso Estranho Amor</h3>
-                    <p>Vencedor do Prêmio Funarte de Teatro Myriam Muniz / 2008, livremente inspirado nas novelas do
-                        escritor irlandês Samuel Beckett.</p>
-                    <div class="achievements">
-                        <span><i class="fas fa-award"></i> Prêmio Funarte de Teatro</span>
-                        <span><i class="fas fa-calendar"></i> 2009 - 2020</span>
+                    <div class="espetaculo-img" style="background-image: url('images/princesa-gaia.webp');"></div>
+                    <div class="espetaculo-content">
+                        <h3>A Princesa Gaia</h3>
+                        <p>Espetáculo infantil sobre consciência ambiental e a importância de preservar a natureza.</p>
+                        <div class="achievements">
+                            <span><i class="fas fa-ticket-alt"></i> Em repertório desde 2015</span>
+                            <span><i class="fas fa-users"></i> Mais de 10.000 espectadores</span>
+                        </div>
+                        <button class="show-gallery-btn" onclick="openModal('princesa')">Ver Galeria</button>
                     </div>
                 </div>
+                
+                <!-- Num Raio de Lua -->
                 <div class="espetaculo">
-                    <div class="espetaculo-img" style="background-image: url('images/fausto.webp');"></div>
-                    <h3>Fausto(s!)</h3>
-                    <p>Vencedor do Prêmio Funarte de Teatro Myriam Muniz, propõe uma releitura contemporânea do "Fausto"
-                        de Goethe com encenação itinerante.</p>
-                    <div class="achievements">
-                        <span><i class="fas fa-award"></i> Prêmio Funarte de Teatro</span>
-                        <span><i class="fas fa-calendar"></i> 2010 - 2016</span>
+                    <div class="espetaculo-img" style="background-image: url('images/lua.webp');"></div>
+                    <div class="espetaculo-content">
+                        <h3>Num Raio de Lua</h3>
+                        <p>Espetáculo infantil sobre imaginação e a magia de sonhar.</p>
+                        <div class="achievements">
+                            <span><i class="fas fa-ticket-alt"></i> Em repertório desde 2022</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Apresentações em diversas cidades</span>
+                        </div>
+                        <button class="show-gallery-btn" onclick="openModal('raio-lua')">Ver Galeria</button>
                     </div>
                 </div>
+                
+                <!-- Céu Constelado -->
                 <div class="espetaculo">
-                    <div class="espetaculo-img" style="background-image: url('images/windsor.webp');"></div>
-                    <h3>As Alegres Comadres de Windsor</h3>
-                    <p>Comédia de William Shakespeare com extensa pesquisa no campo das Máscaras da Commedia Dell Arte.
-                    </p>
-                    <div class="achievements">
-                        <span><i class="fas fa-theater-masks"></i> Commedia Dell Arte</span>
-                        <span><i class="fas fa-calendar"></i> 2017 - 2023</span>
+                    <div class="espetaculo-img" style="background-image: url('images/ceu-estelado.webp');"></div>
+                    <div class="espetaculo-content">
+                        <h3>Céu Constelado</h3>
+                        <p>Sobre amor e guerras, com música ao vivo e uma narrativa envolvente.</p>
+                        <div class="achievements">
+                            <span><i class="fas fa-ticket-alt"></i> Em repertório desde 2022</span>
+                            <span><i class="fas fa-music"></i> Trilha sonora original ao vivo</span>
+                        </div>
+                        <button class="show-gallery-btn" onclick="openModal('ceu-constelado')">Ver Galeria</button>
+                    </div>
+                </div>
+                
+                <!-- Saga - Uma História do Povo Preto -->
+                <div class="espetaculo">
+                    <div class="espetaculo-img" style="background-image: url('images/a-ultima-noite.webp');"></div>
+                    <div class="espetaculo-content">
+                        <h3>Saga - Uma História do Povo Preto</h3>
+                        <p>Uma jornada pela história e cultura afro-brasileira através do teatro.</p>
+                        <div class="achievements">
+                            <span><i class="fas fa-ticket-alt"></i> Em repertório desde 2023</span>
+                            <span><i class="fas fa-users"></i> Espetáculo de grande impacto social</span>
+                        </div>
+                        <button class="show-gallery-btn" onclick="openModal('saga')">Ver Galeria</button>
                     </div>
                 </div>
             </div>
-            <div class="more-shows fade-in">
-                <h3>Mais Produções</h3>
-                <div class="shows-grid">
+            <h3 class="subcategory-title">Espetáculos da Trajetória do Grupo</h3>
+            <div class="shows-grid">
                     <!-- Qorpo Santo -->
                     <div class="show-card fade-in" data-show="qorpo-santo">
                         <div class="show-card-img" style="background-image: url('images/qorpo-santo-2.webp');"></div>
@@ -179,13 +204,35 @@
                         </div>
                     </div>
                     
-                    <!-- A Princesa Gaia -->
-                    <div class="show-card fade-in" data-show="princesa">
-                        <div class="show-card-img" style="background-image: url('images/princesa-gaia.webp');"></div>
+                    <!-- Nosso Estranho Amor -->
+                    <div class="show-card fade-in" data-show="estranho-amor">
+                        <div class="show-card-img" style="background-image: url('images/estranho-amor.webp');"></div>
                         <div class="show-card-content">
-                            <h4>A Princesa Gaia</h4>
-                            <p>Espetáculo infantil sobre consciência ambiental (2015 - 2021)</p>
-                            <button class="show-gallery-btn" onclick="openModal('princesa')">Ver Galeria</button>
+                            <h4>Nosso Estranho Amor</h4>
+                            <p>Vencedor do Prêmio Funarte de Teatro Myriam Muniz / 2008, livremente inspirado nas novelas do escritor irlandês Samuel Beckett.</p>
+                            <button class="show-gallery-btn" onclick="openModal('estranho-amor')">Ver Galeria</button>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <!-- Fausto(s!) -->
+                    <div class="show-card fade-in" data-show="fausto">
+                        <div class="show-card-img" style="background-image: url('images/fausto.webp');"></div>
+                        <div class="show-card-content">
+                            <h4>Fausto(s!)</h4>
+                            <p>Releitura contemporânea do "Fausto" de Goethe (2010 - 2016)</p>
+                            <button class="show-gallery-btn" onclick="openModal('fausto')">Ver Galeria</button>
+                        </div>
+                    </div>
+                    
+                    <!-- As Alegres Comadres de Windsor -->
+                    <div class="show-card fade-in" data-show="windsor">
+                        <div class="show-card-img" style="background-image: url('images/windsor.webp');"></div>
+                        <div class="show-card-content">
+                            <h4>As Alegres Comadres de Windsor</h4>
+                            <p>Comédia de William Shakespeare (2017 - 2023)</p>
+                            <button class="show-gallery-btn" onclick="openModal('windsor')">Ver Galeria</button>
                         </div>
                     </div>
                     
@@ -219,25 +266,7 @@
                         </div>
                     </div>
                     
-                    <!-- Num Raio de Lua -->
-                    <div class="show-card fade-in" data-show="raio-lua">
-                        <div class="show-card-img" style="background-image: url('images/lua.webp');"></div>
-                        <div class="show-card-content">
-                            <h4>Num Raio de Lua</h4>
-                            <p>Espetáculo infantil sobre imaginação (2022 - 2023)</p>
-                            <button class="show-gallery-btn" onclick="openModal('raio-lua')">Ver Galeria</button>
-                        </div>
-                    </div>
-                    
-                    <!-- Céu Constelado -->
-                    <div class="show-card fade-in" data-show="ceu-constelado">
-                        <div class="show-card-img" style="background-image: url('images/ceu-estelado.webp');"></div>
-                        <div class="show-card-content">
-                            <h4>Céu Constelado</h4>
-                            <p>Sobre amor e guerras, com música ao vivo (2022 - 2023)</p>
-                            <button class="show-gallery-btn" onclick="openModal('ceu-constelado')">Ver Galeria</button>
-                        </div>
-                    </div>
+
                     
                     <!-- Essências -->
                     <div class="show-card fade-in" data-show="essencias">
@@ -282,7 +311,16 @@
                 <div class="modal-content">
                     <span class="close-modal" onclick="closeModal()">&times;</span>
                     <h3 id="modalTitle">Título do Espetáculo</h3>
-                    <p id="fichaTecnica" class="ficha-tecnica"></p>
+                    <div class="modal-tabs">
+                        <button id="tabFicha" class="tab-button active" onclick="showTab('ficha')">Ficha Técnica</button>
+                        <button id="tabApresentacao" class="tab-button" onclick="showTab('apresentacao')">Saiba Mais</button>
+                    </div>
+                    <div id="fichaContent" class="tab-content">
+                        <p id="fichaTecnica" class="ficha-tecnica"></p>
+                    </div>
+                    <div id="apresentacaoContent" class="tab-content" style="display: none;">
+                        <p id="textoApresentacao" class="texto-apresentacao"></p>
+                    </div>
                     <div id="modalGallery" class="modal-gallery">
                         <!-- Imagens serão inseridas aqui via JavaScript -->
                     </div>

@@ -1,8 +1,61 @@
 // Dados das galerias de imagens para cada espetu00e1culo
 const galleryData = {
+    'estranho-amor': {
+        title: 'Nosso Estranho Amor (2009 - 2020)',
+        fichaTecnica: 'Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.',
+        images: [
+            './images/estranho-amor.webp'
+        ]
+    },
+    'sagrado-feminino': {
+        title: 'Sagrado Feminino (2021 - 2022)',
+        fichaTecnica: 'Em cena: Carolina Grigoli, Kenya Goulart, Luciene Bernardes, Luísa Couto, Mariana Tozzi, Rachel de Andrade',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.',
+        images: [
+            './images/sagrado-feminino.webp'
+        ]
+    },
+    'ultima-noite': {
+        title: 'A Última Noite (2023)',
+        fichaTecnica: 'Em cena: Guilherme Thiago, João Paulo Valadares, Max Gonçalves, Renato Amado, Ronaldo Queiroz, Thiago Prata',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.',
+        images: [
+            './images/a-ultima-noite.webp'
+        ]
+    },
+    'fausto': {
+        title: 'Fausto(s!) (2010 - 2016)',
+        fichaTecnica: 'Em cena: Guilherme Thiago, João Paulo Valadares, Max Gonçalves, Renato Amado, Ronaldo Queiroz, Thiago Prata',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.',
+        images: [
+            './images/fausto.webp'
+        ]
+    },
+    'windsor': {
+        title: 'As Alegres Comadres de Windsor (2017 - 2023)',
+        fichaTecnica: 'Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.',
+        images: [
+            './images/windsor.webp'
+        ]
+    },
+    'saga': {
+        title: 'Saga - Uma História do Povo Preto (2023 - Atual)',
+        fichaTecnica: 'Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.',
+        images: [
+            './images/gallery/saga/1.webp',
+            './images/gallery/saga/2.webp',
+            './images/gallery/saga/3.webp',
+            './images/gallery/saga/4.webp',
+            './images/gallery/saga/5.webp'
+        ]
+    },
     'qorpo-santo': {
         title: 'Qorpo Santo (2006 - 2008)',
         fichaTecnica: 'Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
         images: [
             './images/gallery/qorpo-santo/1.webp',
             './images/gallery/qorpo-santo/2.webp',
@@ -14,6 +67,7 @@ const galleryData = {
     'tribunal': {
         title: 'Tribunal Quarto de Zona (2008 - 2009)',
         fichaTecnica: 'Em cena: Max Gonçalves, Rachel de Andrade, Renato Amado, Ronaldo Queiroz, Tacyane Guimarães, Thiago Prata',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo.',
         images: [
             './images/gallery/tribunal/1.webp',
             './images/gallery/tribunal/2.webp',
@@ -24,6 +78,7 @@ const galleryData = {
     },
     'conversa': {
         title: 'Conversa Séria de Calcinha e Soutien (2011 - 2016)',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
         fichaTecnica: [
             'Carolina Grigoli',
             'Kenya Goulart',
@@ -42,6 +97,7 @@ const galleryData = {
     },
     'praca': {
         title: 'A Praça Dr. Sem Graça (2013 - 2016)',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.',
         fichaTecnica: [
             'Guilherme Thiago',
             'João Paulo Valadares',
@@ -60,6 +116,7 @@ const galleryData = {
     },
     'princesa': {
         title: 'A Princesa Gaia (2015 - 2021)',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
         fichaTecnica: [
             'Bárbara Campos',
             'Carolina Grigoli',
@@ -78,6 +135,7 @@ const galleryData = {
     },
     'palhacos': {
         title: 'Palhaços (2011 - 2021)',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
         fichaTecnica: [
             'Guilherme Thiago',
             'João Paulo Valadares',
@@ -96,6 +154,7 @@ const galleryData = {
     },
     'amor': {
         title: 'Amor (2017 - 2021)',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
         fichaTecnica: [
             'Bárbara Campos',
             'Carolina Grigoli',
@@ -114,6 +173,7 @@ const galleryData = {
     },
     'tartufo': {
         title: 'Tartufo\'s 80 (2018 - 2023)',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
         fichaTecnica: [
             'Max Gonçalves',
             'Rachel de Andrade',
@@ -132,6 +192,7 @@ const galleryData = {
     },
     'raio-lua': {
         title: 'Num Raio de Lua (2022 - 2023)',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.',
         fichaTecnica: [
             'Bárbara Campos',
             'Carolina Grigoli',
@@ -150,6 +211,7 @@ const galleryData = {
     },
     'ceu-constelado': {
         title: 'Céu Constelado (2022 - 2023)',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
         fichaTecnica: [
             'Guilherme Thiago',
             'João Paulo Valadares',
@@ -168,6 +230,7 @@ const galleryData = {
     },
     'essencias': {
         title: 'Essências (2022 - 2023)',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
         fichaTecnica: [
             'Carolina Grigoli',
             'Guilherme Thiago',
@@ -187,6 +250,7 @@ const galleryData = {
     'cinema-waterapoc': {
         title: 'Waterapoc (2009)',
         fichaTecnica: 'Direção: Max Gonçalves. Elenco: Rachel de Andrade, Renato Amado, Ronaldo Queiroz, Tacyane Guimarães',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.',
         images: [
             './images/waterapoc.webp',
            
@@ -195,6 +259,7 @@ const galleryData = {
     'cinema-pipoca': {
         title: 'Humanamente Mefisto (2005)',
         fichaTecnica: 'Direção: Thiago Prata. Elenco: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo.',
         images: [
             './images/mefisto.webp',
          
@@ -203,6 +268,7 @@ const galleryData = {
     'cinema-outros-dias': {
         title: 'Coisa Feita pelo Coração (2025)',
         fichaTecnica: 'Direção: Mariana Tozzi. Elenco: Kenya Goulart, Luciene Bernardes, Luísa Couto, Max Gonçalves, Rachel de Andrade',
+        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna.',
         images: [
             './images/coracao.webp',
           
@@ -213,6 +279,32 @@ const galleryData = {
 // Variáveis globais para o modal
 let currentGallery = '';
 let currentImageIndex = 0;
+
+// Função para mostrar uma aba específica no modal
+function showTab(tabName) {
+    // Obter os elementos das abas e conteúdos
+    const tabFicha = document.getElementById('tabFicha');
+    const tabApresentacao = document.getElementById('tabApresentacao');
+    const fichaContent = document.getElementById('fichaContent');
+    const apresentacaoContent = document.getElementById('apresentacaoContent');
+    
+    // Remover classe active de todas as abas
+    tabFicha.classList.remove('active');
+    tabApresentacao.classList.remove('active');
+    
+    // Esconder todos os conteúdos
+    fichaContent.style.display = 'none';
+    apresentacaoContent.style.display = 'none';
+    
+    // Mostrar a aba selecionada
+    if (tabName === 'ficha') {
+        tabFicha.classList.add('active');
+        fichaContent.style.display = 'block';
+    } else if (tabName === 'apresentacao') {
+        tabApresentacao.classList.add('active');
+        apresentacaoContent.style.display = 'block';
+    }
+}
 
 // Função para abrir o modal
 function openModal(galleryId) {
@@ -232,6 +324,7 @@ function openModal(galleryId) {
     const modalGallery = document.getElementById('modalGallery');
     const imageCounter = document.getElementById('imageCounter');
     const fichaTecnica = document.getElementById('fichaTecnica');
+    const textoApresentacao = document.getElementById('textoApresentacao');
 
     // Limpar galeria anterior
     modalGallery.innerHTML = '';
@@ -253,6 +346,16 @@ function openModal(galleryId) {
         // Ficha técnica padrão se não houver nenhuma definida
         fichaTecnica.innerHTML = 'Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes, Luísa Couto, Mariana Tozzi, Max Gonçalves, Rachel de Andrade, Renato Amado, Ronaldo Queiroz, Tacyane Guimarães e Thiago Prata.';
     }
+    
+    // Adicionar texto de apresentação
+    if (galleryData[galleryId].textoApresentacao) {
+        textoApresentacao.innerHTML = galleryData[galleryId].textoApresentacao;
+    } else {
+        textoApresentacao.innerHTML = 'Informações sobre este espetáculo em breve.';
+    }
+    
+    // Mostrar a aba de ficha técnica por padrão
+    showTab('ficha');
 
     // Adicionar imagens
     galleryData[galleryId].images.forEach((src, index) => {
