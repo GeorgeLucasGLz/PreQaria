@@ -5,7 +5,16 @@ const galleryData = {
         fichaTecnica: 'Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes',
         textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.',
         images: [
-            './images/estranho-amor.webp'
+            './images/gallery/nosso-estranho-amor/1.webp',
+            './images/gallery/nosso-estranho-amor/2.webp',
+            './images/gallery/nosso-estranho-amor/3.webp',
+            './images/gallery/nosso-estranho-amor/4.webp',
+            './images/gallery/nosso-estranho-amor/5.webp',
+            './images/gallery/nosso-estranho-amor/6.webp',
+            './images/gallery/nosso-estranho-amor/7.webp',
+            './images/gallery/nosso-estranho-amor/8.webp',
+            './images/gallery/nosso-estranho-amor/9.webp',
+            './images/gallery/nosso-estranho-amor/10.webp'
         ]
     },
     'sagrado-feminino': {
@@ -29,7 +38,16 @@ const galleryData = {
         fichaTecnica: 'Em cena: Guilherme Thiago, João Paulo Valadares, Max Gonçalves, Renato Amado, Ronaldo Queiroz, Thiago Prata',
         textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.',
         images: [
-            './images/fausto.webp'
+            './images/gallery/faustos/1.webp',
+            './images/gallery/faustos/2.webp',
+            './images/gallery/faustos/3.webp',
+            './images/gallery/faustos/4.webp',
+            './images/gallery/faustos/5.webp',
+            './images/gallery/faustos/6.webp',
+            './images/gallery/faustos/7.webp',
+            './images/gallery/faustos/8.webp',
+            './images/gallery/faustos/9.webp',
+            './images/gallery/faustos/10.webp',
         ]
     },
     'windsor': {
@@ -37,7 +55,16 @@ const galleryData = {
         fichaTecnica: 'Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes',
         textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.',
         images: [
-            './images/windsor.webp'
+            './images/gallery/windsor/1.webp',
+            './images/gallery/windsor/2.webp',
+            './images/gallery/windsor/3.webp',
+            './images/gallery/windsor/4.webp',
+            './images/gallery/windsor/5.webp',
+            './images/gallery/windsor/6.webp',
+            './images/gallery/windsor/7.webp',
+            './images/gallery/windsor/8.webp',
+            './images/gallery/windsor/9.webp',
+            './images/gallery/windsor/10.webp'
         ]
     },
     'saga': {
@@ -49,7 +76,12 @@ const galleryData = {
             './images/gallery/saga/2.webp',
             './images/gallery/saga/3.webp',
             './images/gallery/saga/4.webp',
-            './images/gallery/saga/5.webp'
+            './images/gallery/saga/5.webp',
+            './images/gallery/saga/6.webp',
+            './images/gallery/saga/7.webp',
+            './images/gallery/saga/8.webp',
+            './images/gallery/saga/9.webp',
+            './images/gallery/saga/10.webp'
         ]
     },
     'qorpo-santo': {
@@ -74,6 +106,11 @@ const galleryData = {
             './images/gallery/tribunal/3.webp',
             './images/gallery/tribunal/4.webp',
             './images/gallery/tribunal/5.webp',
+            './images/gallery/tribunal/6.webp',
+            './images/gallery/tribunal/7.webp',
+            './images/gallery/tribunal/8.webp',
+            './images/gallery/tribunal/9.webp',
+            './images/gallery/tribunal/10.webp'
         ]
     },
     'conversa': {
@@ -112,6 +149,11 @@ const galleryData = {
             './images/gallery/praca/3.webp',
             './images/gallery/praca/4.webp',
             './images/gallery/praca/5.webp',
+            './images/gallery/praca/6.webp',
+            './images/gallery/praca/7.webp',
+            './images/gallery/praca/8.webp',
+            './images/gallery/praca/9.webp',
+            './images/gallery/praca/10.webp',
         ]
     },
     'princesa': {
@@ -200,6 +242,11 @@ const galleryData = {
             './images/gallery/tartufo/3.webp',
             './images/gallery/tartufo/4.webp',
             './images/gallery/tartufo/5.webp',
+            './images/gallery/tartufo/6.webp',
+            './images/gallery/tartufo/7.webp',
+            './images/gallery/tartufo/8.webp',
+            './images/gallery/tartufo/9.webp',
+            './images/gallery/tartufo/10.webp',
         ]
     },
     'raio-lua': {
@@ -219,6 +266,11 @@ const galleryData = {
             './images/gallery/lua/3.webp',
             './images/gallery/lua/4.webp',
             './images/gallery/lua/5.webp',
+            './images/gallery/lua/6.webp',
+            './images/gallery/lua/7.webp',
+            './images/gallery/lua/8.webp',
+            './images/gallery/lua/9.webp',
+            './images/gallery/lua/10.webp',
         ]
     },
     'ceu-constelado': {
@@ -262,6 +314,11 @@ const galleryData = {
             'images/gallery/essencias/3.webp',
             'images/gallery/essencias/4.webp',
             'images/gallery/essencias/5.webp',
+            'images/gallery/essencias/6.webp',
+            'images/gallery/essencias/7.webp',
+            'images/gallery/essencias/8.webp',
+            'images/gallery/essencias/9.webp',
+            'images/gallery/essencias/10.webp',
         ]
     },
     'cinema-waterapoc': {

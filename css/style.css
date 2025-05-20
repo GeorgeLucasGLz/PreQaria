@@ -943,7 +943,7 @@ nav.mobile-active {
 
 .espetaculos-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-bottom: 50px;
 }
@@ -970,9 +970,9 @@ nav.mobile-active {
 }
 
 .espetaculo-img {
-    height: 250px;
+    height: 280px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     position: relative;
     overflow: hidden;
     transition: var(--transition);
