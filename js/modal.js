@@ -131,6 +131,12 @@ const galleryData = {
             './images/gallery/princesa-gaia/3.webp',
             './images/gallery/princesa-gaia/4.webp',
             './images/gallery/princesa-gaia/5.webp',
+            './images/gallery/princesa-gaia/6.webp',
+            './images/gallery/princesa-gaia/7.webp',
+            './images/gallery/princesa-gaia/8.webp',
+            './images/gallery/princesa-gaia/9.webp',
+            './images/gallery/princesa-gaia/10.webp',
+
         ]
     },
     'palhacos': {
@@ -150,6 +156,11 @@ const galleryData = {
             './images/gallery/palhacos/3.webp',
             './images/gallery/palhacos/4.webp',
             './images/gallery/palhacos/5.webp',
+            './images/gallery/palhacos/6.webp',
+            './images/gallery/palhacos/7.webp',
+            './images/gallery/palhacos/8.webp',
+            './images/gallery/palhacos/9.webp',
+            './images/gallery/palhacos/10.webp',
         ]
     },
     'amor': {
@@ -169,18 +180,19 @@ const galleryData = {
             './images/gallery/amor/3.webp',
             './images/gallery/amor/4.webp',
             './images/gallery/amor/5.webp',
+            './images/gallery/amor/6.webp',
+            './images/gallery/amor/7.webp',
+            './images/gallery/amor/8.webp',
+            './images/gallery/amor/9.webp',
+            './images/gallery/amor/10.webp',
         ]
     },
     'tartufo': {
         title: 'Tartufo\'s 80 (2018 - 2023)',
-        textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
+        textoApresentacao: 'A Preqaria Cia de Teatro apresenta seu mais novo espetáculo "Tartufo’s 80", uma comédia debochada e irreverente do mestre francês Molière adaptada para os anos de 1980. A peça com direção de Ricardo Martins traz em cena Izabela Oliveira, João Valadares, Marina Galeri, Piera Rodrigues e Rogério Alves. A referência da década se deu a partir do cenário, uma Brasília ano 1980. O carro é a casa da família de Orgon. A partir daí várias ideias para completar essa atmosfera como as roupas características, a parodia de  sucessos musicais e filmes populares da época, fazem desta montagem uma grande viagem ao passado. Venha rir e se divertir com essa deliciosa comédia!',
         fichaTecnica: [
-            'Max Gonçalves',
-            'Rachel de Andrade',
-            'Renato Amado',
-            'Ronaldo Queiroz',
-            'Tacyane Guimarães',
-            'Thiago Prata'
+            'Ficha Técnica: Molière Direção e Adaptação: Ricardo Martins; Atuação: Anna Oliveira, Felipe Gontijo, João Valadares, Iasmim Duarte, Nathan Brits.',
+            'Figurinos: Steysse Reis; Assistente de Figurino: Isabela Pena; Cenário: Preqaria Cia de Teatro'
         ],
         images: [
             './images/gallery/tartufo/1.webp',
@@ -221,11 +233,16 @@ const galleryData = {
             'Thiago Prata'
         ],
         images: [
-            './images/gallery/ceu-estelado/1.webp',
-            './images/gallery/ceu-estelado/2.webp',
-            './images/gallery/ceu-estelado/3.webp',
-            './images/gallery/ceu-estelado/4.webp',
-            './images/gallery/ceu-estelado/5.webp',
+            './images/gallery/ceu-constelado/1.webp',
+            './images/gallery/ceu-constelado/2.webp',
+            './images/gallery/ceu-constelado/3.webp',
+            './images/gallery/ceu-constelado/4.webp',
+            './images/gallery/ceu-constelado/5.webp',
+            './images/gallery/ceu-constelado/6.webp',
+            './images/gallery/ceu-constelado/7.webp',
+            './images/gallery/ceu-constelado/8.webp',
+            './images/gallery/ceu-constelado/9.webp',
+            './images/gallery/ceu-constelado/10.webp',
         ]
     },
     'essencias': {
@@ -253,7 +270,7 @@ const galleryData = {
         textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.',
         images: [
             './images/waterapoc.webp',
-           
+
         ]
     },
     'cinema-pipoca': {
@@ -262,7 +279,7 @@ const galleryData = {
         textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo.',
         images: [
             './images/mefisto.webp',
-         
+
         ]
     },
     'cinema-outros-dias': {
@@ -271,7 +288,7 @@ const galleryData = {
         textoApresentacao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna.',
         images: [
             './images/coracao.webp',
-          
+
         ]
     }
 };
@@ -287,15 +304,15 @@ function showTab(tabName) {
     const tabApresentacao = document.getElementById('tabApresentacao');
     const fichaContent = document.getElementById('fichaContent');
     const apresentacaoContent = document.getElementById('apresentacaoContent');
-    
+
     // Remover classe active de todas as abas
     tabFicha.classList.remove('active');
     tabApresentacao.classList.remove('active');
-    
+
     // Esconder todos os conteúdos
     fichaContent.style.display = 'none';
     apresentacaoContent.style.display = 'none';
-    
+
     // Mostrar a aba selecionada
     if (tabName === 'ficha') {
         tabFicha.classList.add('active');
@@ -331,7 +348,7 @@ function openModal(galleryId) {
 
     // Definir título
     modalTitle.textContent = galleryData[galleryId].title;
-    
+
     // Adicionar ficha técnica
     if (galleryData[galleryId].fichaTecnica) {
         // Verificar se a ficha técnica é um array ou uma string
@@ -346,14 +363,14 @@ function openModal(galleryId) {
         // Ficha técnica padrão se não houver nenhuma definida
         fichaTecnica.innerHTML = 'Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes, Luísa Couto, Mariana Tozzi, Max Gonçalves, Rachel de Andrade, Renato Amado, Ronaldo Queiroz, Tacyane Guimarães e Thiago Prata.';
     }
-    
+
     // Adicionar texto de apresentação
     if (galleryData[galleryId].textoApresentacao) {
         textoApresentacao.innerHTML = galleryData[galleryId].textoApresentacao;
     } else {
         textoApresentacao.innerHTML = 'Informações sobre este espetáculo em breve.';
     }
-    
+
     // Mostrar a aba de ficha técnica por padrão
     showTab('ficha');
 
