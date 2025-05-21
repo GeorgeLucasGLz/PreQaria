@@ -2,7 +2,8 @@
 
 /* Menu Mobile Styles */
 .mobile-menu {
-    display: none; /* Escondido por padrão em todas as resoluções */
+    display: none;
+    /* Escondido por padrão em todas as resoluções */
     position: fixed;
     top: 0;
     right: -100%;
@@ -50,16 +51,33 @@
     transform: translateY(0);
 }
 
-.mobile-menu li:nth-child(1) { transition-delay: 0.1s; }
-.mobile-menu li:nth-child(2) { transition-delay: 0.2s; }
-.mobile-menu li:nth-child(3) { transition-delay: 0.3s; }
-.mobile-menu li:nth-child(4) { transition-delay: 0.4s; }
-.mobile-menu li:nth-child(5) { transition-delay: 0.5s; }
-.mobile-menu li:nth-child(6) { transition-delay: 0.6s; }
+.mobile-menu li:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.mobile-menu li:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.mobile-menu li:nth-child(3) {
+    transition-delay: 0.3s;
+}
+
+.mobile-menu li:nth-child(4) {
+    transition-delay: 0.4s;
+}
+
+.mobile-menu li:nth-child(5) {
+    transition-delay: 0.5s;
+}
+
+.mobile-menu li:nth-child(6) {
+    transition-delay: 0.6s;
+}
 
 .mobile-menu a {
     color: var(--text-color);
-    font-size: 2rem;
+    font-size: 2em;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -72,15 +90,404 @@
     margin: 15px 0;
 }
 
-@media screen and (max-width: 480px) {
+
+
+/* Large Screens (up to 1200px) */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+
+    .espetaculos-grid,
+    .cursos,
+    .professores-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: block;
+        width: 30px;
+        height: 25px;
+        position: relative;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .menu-toggle:before,
+    .menu-toggle:after,
+    .menu-toggle i {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: var(--secondary-color);
+        position: absolute;
+        left: 0;
+        transition: all 0.3s ease;
+    }
+
+    .menu-toggle:before {
+        top: 0;
+    }
+
+    .menu-toggle i {
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+
+    .menu-toggle:after {
+        bottom: 0;
+    }
+
+    .menu-toggle.active:before {
+        transform: translateY(11px) rotate(45deg);
+    }
+
+    .menu-toggle.active i {
+        opacity: 0;
+    }
+
+    .menu-toggle.active:after {
+        transform: translateY(-11px) rotate(-45deg);
+    }
+
+    /* Mobile menu styling */
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.95);
+        z-index: 1000;
+        overflow: auto;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease;
+    }
+
+    .mobile-menu.active {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile-menu li {
+        margin: 20px 0;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.3s ease;
+    }
+
+    .mobile-menu.active li {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .mobile-menu li:nth-child(1) {
+        transition-delay: 0.1s;
+    }
+
+    .mobile-menu li:nth-child(2) {
+        transition-delay: 0.2s;
+    }
+
+    .mobile-menu li:nth-child(3) {
+        transition-delay: 0.3s;
+    }
+
+    .mobile-menu li:nth-child(4) {
+        transition-delay: 0.4s;
+    }
+
+    .mobile-menu li:nth-child(5) {
+        transition-delay: 0.5s;
+    }
+
+    .mobile-menu li:nth-child(6) {
+        transition-delay: 0.6s;
+    }
+
     .mobile-menu a {
-        font-size: 1.4rem;
+        color: var(--text-color);
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+        padding: 10px 20px;
+        display: inline-block;
+        transition: all 0.3s ease;
+    }
+
+    .mobile-menu a:hover {
+        color: var(--secondary-color);
+        transform: scale(1.1);
+    }
+
+    .mobile-menu a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 3px;
+        background: var(--primary-color);
+        transition: all 0.3s ease;
+    }
+
+    .mobile-menu a:hover::after {
+        width: 70%;
+        left: 15%;
+    }
+
+    body.menu-open {
+        overflow: hidden;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+}
+
+/* Desativando o cursor personalizado em telas menores que 1000px */
+@media screen and (max-width: 1000px) {
+    .custom-cursor {
+        display: none !important;
     }
 }
 
-@media screen and (max-width: 360px) {
+/* Medium Screens (up to 992px) */
+@media screen and (max-width: 992px) {
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    #hero h1 {
+        font-size: 3.5rem;
+    }
+
+    #hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .espetaculos-grid,
+    .cursos,
+    .professores-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    #companhia .content,
+    #centro-cultural .content,
+    #empresarial .content {
+        flex-direction: column;
+    }
+
+    #companhia .image,
+    #centro-cultural .image,
+    #empresarial .image,
+    #companhia .text,
+    #centro-cultural .text,
+    #empresarial .text {
+        width: 100%;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin: 0 auto;
+    }
+
+    .footer-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-newsletter form {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+}
+
+/* Small Screens (up to 768px) */
+@media screen and (max-width: 768px) {
+
     .mobile-menu a {
-        font-size: 1.2rem;
+
+        margin: 0px 0;
+    }
+
+
+    /* Corrigindo a seção more-shows que aparece preta no mobile */
+    #espetaculos .more-shows {
+        display: block !important;
+        position: relative !important;
+        z-index: 10 !important;
+        background-color: rgba(15, 15, 15, 0.9) !important;
+        padding: 30px 20px !important;
+        border: 1px solid rgba(152, 60, 34, 0.5) !important;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
+        opacity: 1 !important;
+        /* Garantir visibilidade */
+        transform: none !important;
+        /* Remover qualquer transformação */
+        display: block !important;
+        /* Garantir que seja exibido */
+        visibility: visible !important;
+        /* Garantir visibilidade */
+    }
+
+    .more-shows::before {
+        opacity: 0.5 !important;
+        background: linear-gradient(135deg, rgba(152, 60, 34, 0.6) 0%, rgba(50, 20, 10, 0.7) 50%, rgba(218, 182, 129, 0.4) 100%) !important;
+    }
+
+    .shows-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+
+    .show-card {
+        background-color: rgba(25, 25, 25, 0.85) !important;
+        margin-bottom: 15px;
+        transform: none !important;
+        border: 1px solid rgba(152, 60, 34, 0.5) !important;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25) !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: flex !important;
+    }
+
+    .show-card h4 {
+        font-size: 1.3rem !important;
+        color: var(--secondary-color) !important;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .show-card p {
+        color: #e0e0e0 !important;
+        font-size: 1rem !important;
+    }
+
+    .show-gallery-btn {
+        background-color: var(--primary-color) !important;
+        padding: 10px 20px !important;
+        font-size: 1rem !important;
+        margin-top: 10px !important;
+    }
+
+    header .logo {
+        width: 70%;
+    }
+
+    .espetaculo-img {
+        background-position: top;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #hero {
+        height: 100vh;
+        background-image: url(../images/banner-mobile.webp);
+    }
+
+    #hero img {
+        width: 80vw;
+    }
+
+    #hero .btn {
+        font-size: 4vw;
+    }
+
+    #hero p {
+        font-size: 4.6vw;
+    }
+
+    /* Hide desktop navigation on mobile */
+    nav ul {
+        display: none;
+    }
+
+    /* Mostrar o botão de menu burger apenas em telas menores que 768px */
+
+
+    .espetaculos-grid,
+    .cursos,
+    .professores-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #companhia .content,
+    #centro-cultural .content,
+    #empresarial .content {
+        gap: 30px;
+    }
+
+    .logos {
+        gap: 20px;
+    }
+
+    .logos img {
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .mobile-menu a {
+
+        font-size: 5vw;
+    }
+}
+
+/* @media screen and (max-width: 480px) {
+    .mobile-menu a {
+        font-size: 1.4rem;
+    }
+} */
+
+@media screen and (max-width: 380px) {
+    .mobile-menu a {
+        font-size: 4vw;
         letter-spacing: 1px;
     }
 }
@@ -120,6 +527,7 @@
     border-radius: 50%;
     background: transparent;
     transition: all 0.3s ease;
+  
 }
 
 .close-menu:hover {
@@ -150,375 +558,30 @@
     width: 30px;
 }
 
-/* Large Screens (up to 1200px) */
-@media screen and (max-width: 1200px) {
-    .container {
-        width: 95%;
-    }
-    
-    .espetaculos-grid,
-    .cursos,
-    .professores-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-/* Desativando o cursor personalizado em telas menores que 1000px */
-@media screen and (max-width: 1000px) {
-    .custom-cursor {
-        display: none !important;
-    }
-}
-
-/* Medium Screens (up to 992px) */
-@media screen and (max-width: 992px) {
-    h2 {
-        font-size: 2.2rem;
-    }
-    
-    #hero h1 {
-        font-size: 3.5rem;
-    }
-    
-    #hero h2 {
-        font-size: 1.8rem;
-    }
-    
-    .espetaculos-grid,
-    .cursos,
-    .professores-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-    
-    #companhia .content,
-    #centro-cultural .content,
-    #empresarial .content {
-        flex-direction: column;
-    }
-    
-    #companhia .image,
-    #centro-cultural .image,
-    #empresarial .image,
-    #companhia .text,
-    #centro-cultural .text,
-    #empresarial .text {
-        width: 100%;
-    }
-    
-    .contact-content {
-        flex-direction: column;
-    }
-    
-    .contact-info, .contact-form {
-        width: 100%;
-    }
-    
-    .footer-content {
-        flex-direction: column;
-        gap: 30px;
-        text-align: center;
-    }
-    
-    .footer-logo {
-        margin: 0 auto;
-    }
-    
-    .footer-links ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-    
-    .footer-newsletter form {
-        margin: 0 auto;
-        max-width: 300px;
-    }
-}
-
-/* Small Screens (up to 768px) */
-@media screen and (max-width: 768px) {
-    /* Corrigindo a seção more-shows que aparece preta no mobile */
-    #espetaculos .more-shows {
-        display: block !important;
-        position: relative !important;
-        z-index: 10 !important;
-        background-color: rgba(15, 15, 15, 0.9) !important;
-        padding: 30px 20px !important;
-        border: 1px solid rgba(152, 60, 34, 0.5) !important;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
-        opacity: 1 !important; /* Garantir visibilidade */
-        transform: none !important; /* Remover qualquer transformação */
-        display: block !important; /* Garantir que seja exibido */
-        visibility: visible !important; /* Garantir visibilidade */
-    }
-    
-    .more-shows::before {
-        opacity: 0.5 !important;
-        background: linear-gradient(135deg, rgba(152, 60, 34, 0.6) 0%, rgba(50, 20, 10, 0.7) 50%, rgba(218, 182, 129, 0.4) 100%) !important;
-    }
-    
-    .shows-grid {
-        grid-template-columns: 1fr !important;
-        gap: 20px !important;
-    }
-    
-    .show-card {
-        background-color: rgba(25, 25, 25, 0.85) !important;
-        margin-bottom: 15px;
-        transform: none !important;
-        border: 1px solid rgba(152, 60, 34, 0.5) !important;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25) !important;
-        opacity: 1 !important;
-        visibility: visible !important;
-        display: flex !important;
-    }
-    
-    .show-card h4 {
-        font-size: 1.3rem !important;
-        color: var(--secondary-color) !important;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5) !important;
-    }
-    
-    .show-card p {
-        color: #e0e0e0 !important;
-        font-size: 1rem !important;
-    }
-    
-    .show-gallery-btn {
-        background-color: var(--primary-color) !important;
-        padding: 10px 20px !important;
-        font-size: 1rem !important;
-        margin-top: 10px !important;
-    }
-
-    header .logo{
-       width: 70%;
-    }
-    .espetaculo-img {
-        background-position: top;
-    }
-
-    section {
-        padding: 60px 0;
-    }
-    
-    h2 {
-        font-size: 2rem;
-    }
-    
-    #hero {
-        height: 100vh;
-        background-image: url(../images/banner-mobile.webp);
-    }
-
-    #hero img{
-        width: 80vw;
-    }
-    
-    #hero .btn {
-        font-size: 4vw;
-    }
-
-    #hero p {
-        font-size: 4.6vw;
-    }
-    
-    /* Hide desktop navigation on mobile */
-    nav ul {
-        display: none;
-    }
-    
-    /* Mostrar o botão de menu burger apenas em telas menores que 768px */
-    .menu-toggle {
-        display: block;
-    }
-    
-    /* Mobile menu styling */
-    .mobile-menu {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.95);
-        z-index: 1000;
-        overflow: auto;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.4s ease;
-    }
-    
-    .mobile-menu.active {
-        display: block;
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .mobile-menu li {
-        margin: 20px 0;
-        opacity: 0;
-        transform: translateY(20px);
-        transition: all 0.3s ease;
-    }
-    
-    .mobile-menu.active li {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    
-    .mobile-menu li:nth-child(1) { transition-delay: 0.1s; }
-    .mobile-menu li:nth-child(2) { transition-delay: 0.2s; }
-    .mobile-menu li:nth-child(3) { transition-delay: 0.3s; }
-    .mobile-menu li:nth-child(4) { transition-delay: 0.4s; }
-    .mobile-menu li:nth-child(5) { transition-delay: 0.5s; }
-    .mobile-menu li:nth-child(6) { transition-delay: 0.6s; }
-    
-    .mobile-menu a {
-        color: var(--text-color);
-        font-size: 1.8rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        position: relative;
-        padding: 10px 20px;
-        display: inline-block;
-        transition: all 0.3s ease;
-    }
-    
-    .mobile-menu a:hover {
-        color: var(--secondary-color);
-        transform: scale(1.1);
-    }
-    
-    .mobile-menu a::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        width: 0;
-        height: 3px;
-        background: var(--primary-color);
-        transition: all 0.3s ease;
-    }
-    
-    .mobile-menu a:hover::after {
-        width: 70%;
-        left: 15%;
-    }
-    
-    body.menu-open {
-        overflow: hidden;
-    }
-    
-    nav ul li {
-        margin: 10px 0;
-    }
-    
-    .menu-toggle {
-        display: block;
-        width: 30px;
-        height: 25px;
-        position: relative;
-        cursor: pointer;
-        z-index: 1001;
-    }
-    
-    .menu-toggle:before,
-    .menu-toggle:after,
-    .menu-toggle i {
-        content: '';
-        display: block;
-        width: 100%;
-        height: 3px;
-        background-color: var(--secondary-color);
-        position: absolute;
-        left: 0;
-        transition: all 0.3s ease;
-    }
-    
-    .menu-toggle:before {
-        top: 0;
-    }
-    
-    .menu-toggle i {
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    
-    .menu-toggle:after {
-        bottom: 0;
-    }
-    
-    .menu-toggle.active:before {
-        transform: translateY(11px) rotate(45deg);
-    }
-    
-    .menu-toggle.active i {
-        opacity: 0;
-    }
-    
-    .menu-toggle.active:after {
-        transform: translateY(-11px) rotate(-45deg);
-    }
-    
-    .espetaculos-grid,
-    .cursos,
-    .professores-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    #companhia .content,
-    #centro-cultural .content,
-    #empresarial .content {
-        gap: 30px;
-    }
-    
-    .logos {
-        gap: 20px;
-    }
-    
-    .logos img {
-        height: 40px;
-    }
-}
-
 /* Extra Small Screens (up to 576px) */
 @media screen and (max-width: 576px) {
     section {
         padding: 40px 0;
     }
-    
+
     h2 {
         font-size: 1.8rem;
         margin-bottom: 30px;
     }
-    
+
     .btn {
         padding: 10px 20px;
         font-size: 0.9rem;
     }
-    
+
     .logo img {
         height: 50px;
     }
-    
+
     .footer-logo img {
         height: 60px;
     }
-    
+
     .footer-newsletter input {
         width: 150px;
     }
