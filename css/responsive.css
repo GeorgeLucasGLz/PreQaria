@@ -295,11 +295,24 @@
         gap: 20px;
     }
 
-    #companhia .content,
+
     #centro-cultural .content,
     #empresarial .content {
         flex-direction: column;
     }
+
+    #centro-cultural .content{
+
+        padding: 1em;
+    }
+
+    #companhia .content {
+        flex-direction: column-reverse;
+        padding: 1em;
+        background-color: transparent;
+        border: none;
+    }
+
 
     #companhia .image,
     #centro-cultural .image,
@@ -527,7 +540,7 @@
     border-radius: 50%;
     background: transparent;
     transition: all 0.3s ease;
-  
+
 }
 
 .close-menu:hover {

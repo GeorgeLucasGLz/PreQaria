@@ -2034,8 +2034,10 @@ footer::before {
     background-color: var(--primary-color);
     color: var(--lighter-color);
     border: none;
-    padding: 0 15px;
-    border-radius: 0 4px 4px 0;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 2px;
+    text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
