@@ -96,6 +96,76 @@
 //     }
 // });
 
+// Configuração do formulário de contato
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.querySelector('.contact-form form');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Coletar dados do formulário
+            const formData = new FormData(contactForm);
+            const formValues = {
+                nome: formData.get('nome') || '',
+                email: formData.get('email') || '',
+                assunto: formData.get('assunto') || '',
+                mensagem: formData.get('mensagem') || ''
+            };
+            
+            // Validar campos obrigatórios
+            const requiredFields = contactForm.querySelectorAll('[required]');
+            let isValid = true;
+            
+            requiredFields.forEach(field => {
+                if (!field.value.trim()) {
+                    isValid = false;
+                    field.style.borderColor = '#e63946';
+                } else {
+                    field.style.borderColor = '#ddd';
+                }
+            });
+            
+            if (!isValid) {
+                alert('Por favor, preencha todos os campos obrigatórios.');
+                return;
+            }
+            
+            // Mapear o valor do assunto para o texto correspondente
+            const assuntos = {
+                'escola': 'Escola de Arte',
+                'centro-cultural': 'Centro Cultural',
+                'empresarial': 'Apresentações Empresariais',
+                'outro': 'Outro Assunto'
+            };
+            
+            // Construir a mensagem formatada seguindo o padrão que funciona
+            const phoneNumber = '5531988944243'; // Número já existente no site
+            const assuntoTexto = assuntos[formValues.assunto] || formValues.assunto;
+            
+            // Construir a mensagem exatamente como no exemplo que funciona
+            let message = 'Olá! Recebi um novo contato através do site com os seguintes dados:';
+            message += '%0A%0A'; // Duas quebras de linha
+            message += `*Nome:* ${formValues.nome}%0A`;
+            message += `*Email:* ${formValues.email}%0A`;
+            message += `*Assunto:* ${assuntoTexto}%0A`;
+            message += `*Mensagem:*%0A${formValues.mensagem}`;
+            
+            // Construir a URL do WhatsApp seguindo o mesmo padrão
+            const whatsappUrl = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${message}&type=phone_number&app_absent=0`;
+            
+            // Abrir o WhatsApp Web com a mensagem
+            window.open(whatsappUrl, '_blank');
+            
+            // Limpar o formulário após o envio
+            contactForm.reset();
+            
+            // Feedback para o usuário
+            alert('Abrindo o WhatsApp com sua mensagem. Por favor, confirme o envio!');
+        });
+    }
+});
+
 // Cursor personalizado
 document.addEventListener('mousemove', function(e) {
     // Verificar se a largura da tela é maior que 1000px
