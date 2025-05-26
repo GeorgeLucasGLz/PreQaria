@@ -3,7 +3,7 @@ const galleryData = {
   "estranho-amor": {
     title: "Nosso Estranho Amor (2009 - 2020)",
     fichaTecnica:
-      "Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes",
+      "Direção: Cláudio Dias Dramaturgia: João Valadares Cenografia: Luiz Dias Iluminação: Felipe Cosse e Juliano Coelho Música: Caetano Veloso Violonista: Paulinho do Boi Violinista: Clarice Rodrigues Atriz: Piera Rodrigues ",
     textoApresentacao: `As pessoas normais, as pessoas que não são estranhas, elas dizem, elas olham nos olhos umas das outras e dizem: Eu te amo! Mas este não é o caso dos personagens de “Nosso Estranho Amor”, espetáculo da Preqaria Cia de Teatro. Trata-se aqui de pessoas que se apaixonam em situações extremas, personagens que se definem pelo que perderam, pelo que na têm, pelo que lhes falta.<br /><br />
 
 Realizado com recursos do Prêmio Funarte de Teatro Myriam Muniz 2008, “Nosso Estranho Amor” é uma livre adaptação do enredo da novela “Primeiro Amor” em diálogo com as novelas “O expulso”, “O Calmante” e “O fim” de Samuel Beckett. Os “sem teto” apresentados por Beckett foram o ponto de partida para que a companhia criasse a sua própria dramaturgia.  Na montagem o grupo sugere uma leitura metafórica dos textos originais em que a situação de morador de rua do protagonista, ou seja, o fato de ele não ter uma casa, se evidencia com a falta do amor em sua vida. Com este universo, por cadeias de situações simples e pequenos diálogos cotidianos, a peça constrói uma fábula contemporânea sobre um dos sentimentos primordiais do homem como ser social: o amor, o absurdo que há no amor entre um homem e uma mulher.<br /><br />
@@ -31,10 +31,11 @@ Pena, é que nenhuma história termina com um começo. O amor é sempre começo.
       "./images/gallery/nosso-estranho-amor/10.webp",
     ],
   },
+
   fausto: {
     title: "Fausto(s!) (2010 - 2016)",
     fichaTecnica:
-      "Em cena: Guilherme Thiago, João Paulo Valadares, Max Gonçalves, Renato Amado, Ronaldo Queiroz, Thiago Prata",
+      "Realizado com recursos do Prêmio Funarte de Teatro Myriam Muniz 2009, a montagem do espetáculo Fausto(s!) reuniu um coletivo formado por artistas da Preqaria Cia de Teatro (Gabriela Domínguez, João Valadares, Kenya Goulart, Milenna Trindade, Raysner de Paula e Tacy Guimarães), da Cia do Chá de Teatro (Francis Severino, Jésus Lataliza, Luiz Dias e Sara Pinheiro) e artistas convidados (Alexandre Toledo, Amanda Prates, Joaquim Elias e Raul Belém Machado). A partir dessas parcerias, a Preqaria Cia de Teatro se propôs abrir sua perspectiva para outras formas de se fazer teatro, sem se distanciar em nada do seu campo de pesquisa: a precariedade da existência humana.",
     textoApresentacao: `O espetáculo Fausto(s!) é uma releitura contemporânea do drama “Fausto” de Goethe, em que Fausto faz um pacto com Mefistófeles e tem todos os desejos realizados: torna-se jovem, rico e conquista a mulher por quem se apaixonou. Mas, em um momento de lucidez, o próprio Fausto questiona essa condição: "Mefistófeles criou no meu peito um fogo vivo que me atraí para todas as imagens da beleza. Assim me sinto transportado do desejo ao prazer e, em pleno prazer, anseio pelo desejo". Na opinião desse coletivo essa é uma característica de todo ser humano: "no auge do prazer, anseia pelo desejo", acaba de conquistar algo e já está pensando na próxima conquista. Isso é humano, embora Fausto atribua essa falculdade ao demônio, ela é humana, e é, de certa forma, o motor do mundo e ao mesmo tempo a sua maneira de auto-destruição. Nesse sentido todos fizeram o pacto e todos são Fausto(s!). <br /><br />
 
 A estratégia dramatúrgica foi partir de algumas situações sugeridas no texto de Goethe para se criar imagens cênicas que discutisse questões pertinentes ao nosso tempo. Em dado momento do texto original, Fausto questiona Mefistófoles da razão pela qual ele, um demônio com poderes sobrenaturais, perde seu tempo com uma pequena alma, um "grão de areia" em relação ao imenso universo. Diante do questionamento, Mefistófoles se declara incapaz de destruir o mundo: <br /><br />
@@ -46,7 +47,7 @@ Novamente uma leitura de aproximação se faz possível: o demônio se declara i
 Essa possibilidade de transitar do clássico ao contemporâneo foi um dos objetivos motivadores desse espetáculo. A partir desse pressuposto a cozinha da bruxa que prepara em seu caldeirão um elixir capaz de rejuvenescer Fausto, pode ser uma clínica de reabilitação estética, um spa/academia que oferece serviços de cirurgia plástica, redução de estômago ou escova permanente. Os macacos que circundam e servem a bruxa são também os personal trainers ou enfermeiros estéticos. A intenção é passar do alegórico – personificando Deus, os anjos e o demônio em seres humanos, para chegar na resignificação desses naquilo que está contido em cada indivíduo. Assim a metáfora do bem e do mal pode não ser traduzida como a fisicalização dos seres Deus e Diabo, mas, antes disso, na constatação de que o bem ou o mal estão por ser feitos, são frutos das ações humanas.
 Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de si mesmo para poder se enchergar, algo eminentemente existencialista, e que insurgiu a idéia de investigar a linguagem do Coro.  Como parte de um todo hegemônico o integrante do coro se manifesta criticamente em relação às ações de seu corifeu. Todos os atores fazem parte do coro,  mas todos eles tem também seus momentos como Fausto, o personagem/mito que “no auge do prazer anseia pelo desejo”,  tornando-se ao mesmo tempo crítico e autor da ação. <br /><br />
 
-Realizado com recursos do Prêmio Funarte de Teatro Myriam Muniz 2009, a montagem do espetáculo Fausto(s!) reuniu um coletivo formado por artistas da Preqaria Cia de Teatro (Gabriela Domínguez, João Valadares, Kenya Goulart, Milenna Trindade, Raysner de Paula e Tacy Guimarães), da Cia do Chá de Teatro (Francis Severino, Jésus Lataliza, Luiz Dias e Sara Pinheiro) e artistas convidados (Alexandre Toledo, Amanda Prates, Joaquim Elias e Raul Belém Machado). A partir dessas parcerias, a Preqaria Cia de Teatro se propôs abrir sua perspectiva para outras formas de se fazer teatro, sem se distanciar em nada do seu campo de pesquisa: a precariedade da existência humana.<br />
+
 `,
 
     images: [
@@ -64,8 +65,24 @@ Realizado com recursos do Prêmio Funarte de Teatro Myriam Muniz 2009, a montage
   },
   windsor: {
     title: "As Alegres Comadres de Windsor (2017 - 2023)",
-    fichaTecnica:
-      "Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes",
+    fichaTecnica: [
+      "Direção e adaptação: João Valadares",
+      "Assistência de direção: Rogério Alves",
+      "Figurino: Pedro Marota ",
+      "Cenografia: Paulinho do Boi",
+      "Iluminação: Allan Calisto",
+      "Designer Gráfico: Fabiano Lana",
+      "Assessoria de Imprensa: Glenda Souza",
+      "Em cena:",
+      "Júlio Gomes,",
+      "Layla Valadares,",
+      "Luciano Jordão,",
+      "Paulinho do Boi,",
+      "Pedro Paulo,",
+      "Roberta Rodrigues,",
+      "Tatiana Aparecida",
+      "e Thais Azevedo.",
+    ],
     textoApresentacao: `“As Alegres Comadres de Windsor” é uma comedia de William Shakespeare onde o protagonista Falstaff é um impostor inominável que tenta, ao mesmo tempo, seduzir duas mulheres casadas de Windsor: Senhora Page e Senhora Ford. As alegres comadres se voltam contra o balofo fanfarrão cuja moral é inversamente proporcional ao tamanho de sua “pança majestosa”. Sob o engenho dessas nobres comadres e o ciúmes doentio de seus maridos, Falstaff é enganado, tratado como roupa suja, espancado, espetado, ridicularizado e insultado.
 `,
     images: [
@@ -83,8 +100,10 @@ Realizado com recursos do Prêmio Funarte de Teatro Myriam Muniz 2009, a montage
   },
   saga: {
     title: "Saga - Uma História do Povo Preto (2023 - Atual)",
-    fichaTecnica:
-      "Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes",
+    fichaTecnica: `Preqaria Cia de Teatro	<br /> A companhia foi fundada em Belo Horizonte em 14 de Julho de 2006 e, desde 2014, tem sua sede em Sete Lagoas MG. A partir de seu terceiro espetáculo “Nosso Estranho Amor” inspirado na obra de Samuel Beckett, vencedor do Prêmio Miriam Muniz em 2009, o grupo aprofunda a investigação as voltas com a precariedade da existência humana através de variadas linguagens cênicas. Ao longo de seus 18 anos, realizou treze espetáculos e 3 curta metragens, conquistou vários prêmios, realizou parcerias com artistas de renome internacional, participou de importantes festivais do país.<br /><br />
+
+Orgulhosamente, ajudou a transformar a realidade teatral de Sete Lagoas com projetos como a “Temporada de Teatro de Sete Lagoas”, que em 8 edições levou 60 mil pessoas ao teatro na cidade e, principalmente, com a Escola Livre de Artes, que há 15 anos forma artistas e cidadãos. <br />`,
+
     textoApresentacao: `“SAGA – Uma história do povo preto” traz uma narrativa possível para a trajetória do negro africano, partindo de uma de suas cosmovisões até o Brasil de hoje, misturando aspectos históricos, mitológicos e culturais. Apesar do tema sério, a peça traz leveza, como na versão do grupo para a história de Ananse, a entidade Aranha da África Central. Muito astuto Ananse consegue alcançar seus objetivos frente a Nyame, um Deus forte e poderoso, em uma das cosmogonias africanas para o início dos tempos. <br />
 
 Um diferencial do espetáculo é tratar um tema sério como o racismo estrutural no Brasil também para o público infanto-juvenil, a peça vem se apresentando em escolas e já foi vista por mais de 5 mil crianças a partir de 10 anos de idade. <br /><br />
@@ -96,11 +115,7 @@ Em "SAGA – Uma história do povo preto", a companhia recorre a diversas áreas
 
 A dramaturgia aberta e contemporânea força os atores ao diálogo com o público, assume o compromisso épico das narrativas, mas também se apoia em cenas dramáticas onde os atores devem assumir personas mais definidas.<br /><br />
 
-Preqaria Cia de Teatro	<br />
 
-A companhia foi fundada em Belo Horizonte em 14 de Julho de 2006 e, desde 2014, tem sua sede em Sete Lagoas MG. A partir de seu terceiro espetáculo “Nosso Estranho Amor” inspirado na obra de Samuel Beckett, vencedor do Prêmio Miriam Muniz em 2009, o grupo aprofunda a investigação as voltas com a precariedade da existência humana através de variadas linguagens cênicas. Ao longo de seus 18 anos, realizou treze espetáculos e 3 curta metragens, conquistou vários prêmios, realizou parcerias com artistas de renome internacional, participou de importantes festivais do país.<br /><br />
-
-Orgulhosamente, ajudou a transformar a realidade teatral de Sete Lagoas com projetos como a “Temporada de Teatro de Sete Lagoas”, que em 8 edições levou 60 mil pessoas ao teatro na cidade e, principalmente, com a Escola Livre de Artes, que há 15 anos forma artistas e cidadãos. <br />
 `,
     images: [
       "./images/gallery/saga/1.webp",
@@ -118,12 +133,12 @@ Orgulhosamente, ajudou a transformar a realidade teatral de Sete Lagoas com proj
   "qorpo-santo": {
     title: "Qorpo Santo (2006 - 2008)",
     fichaTecnica:
-      "Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes",
+      "Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes, Luísa Couto, Mariana Tozzi, Max Gonçalves, Rachel de Andrade , Renato Amado, Ronaldo Queiroz, Tacyane Guimarães e Thiago Prata.",
     textoApresentacao: `O espetáculo Qorpo Santo é a peça de fundação da Preqaria Cia de Teatro e faz uma colagem-livre dos textos mais conhecidos do escritor maldito José Joaquim de Campos Leão, o Qorpo Santo (1833-1883). Poeta, jornalista e anarquista, considerando louco por seus pares em sua época, foi perseguido pelas autoridades imperiais, no final do século passado, sendo internado em um sanatório. Qorpo Santo, criou no século XIX uma escrita ousada, genial, desconsiderada pelos seus contemporâneos. A originalidade de sua obra foi reconhecida pela crítica especializada. Houve quem afirmasse ser ele o precursor mundial do Teatro do Absurdo, mesmo que inconscientemente, só depois dos movimentos de vanguarda do início do século XX e das características sociais da contemporaneidade é que se pôde ler Qorpo Santo e descobrir sua genialidade.<br /><br />
  
 O espetáculo é uma farsa cômica, faz um cruzamento de três textos onde se pode observar também o drama pessoal do incompreendido dramaturgo: O Credor da Fazenda Nacional é uma paródia sobre a burocracia, conta sobre a absurda via-crúcis de um cidadão que tenta exaustivamente receber do governo o que lhe é devido, as agruras sofridas, que o deixa refém das resoluções de funcionários públicos. As Relações Naturais trata dos desejos reprimidos, do erotismo exacerbado e dos pecados da carne, praticamente um manifesto as avessas sobre religiosidade, sexualidade e a família. Mateus e Mateusa é sobre as irônicas relações de amor e ódio de um casal de velhos e suas três filhas em que os personagens se agridem mutuamente, chantagens emocionais, suborno, solidão, discute a respeito da família, casamento e da vida em comum.<br /><br />
  
-O espetáculo "Qorpo Santo" surgiu como uma pesquisa sobre o grotesco e o trabalho de bufão, uma tentativa de desconstrução do cotidiano, inspirado em imagens surrealistas, nos manifestos antropofágicos e tropicalistas, tem como principal objetivo homenagear o autor e resgatá-lo do brutal esquecimento que, de tempos em tempos, sempre acaba sendo vítima. O espetáculo procura ser irreverente, descompromissado com padrões, despretensioso, mas fiel à figura de Qorpo Santo. A montagem é uma realização da Turma de Formandos do primeiro semestre de 2006 do SKENÉ - Curso de Iniciação Teatral no SESC-MG, Unidade Tupinambás. Sob a direção conjunta de Yuri Simon e Iolene Di Stéfano estão quatorze atores que apresentam a narrativa fragmentada do dramaturgo em papéis diversos, mesclando algumas das longas falas do autor com cenas grotescas e momentos de escracho. Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes, Luísa Couto, Mariana Tozzi, Max Gonçalves, Rachel de Andrade , Renato Amado, Ronaldo Queiroz, Tacyane Guimarães e Thiago Prata.
+O espetáculo "Qorpo Santo" surgiu como uma pesquisa sobre o grotesco e o trabalho de bufão, uma tentativa de desconstrução do cotidiano, inspirado em imagens surrealistas, nos manifestos antropofágicos e tropicalistas, tem como principal objetivo homenagear o autor e resgatá-lo do brutal esquecimento que, de tempos em tempos, sempre acaba sendo vítima. O espetáculo procura ser irreverente, descompromissado com padrões, despretensioso, mas fiel à figura de Qorpo Santo. A montagem é uma realização da Turma de Formandos do primeiro semestre de 2006 do SKENÉ - Curso de Iniciação Teatral no SESC-MG, Unidade Tupinambás. Sob a direção conjunta de Yuri Simon e Iolene Di Stéfano estão quatorze atores que apresentam a narrativa fragmentada do dramaturgo em papéis diversos, mesclando algumas das longas falas do autor com cenas grotescas e momentos de escracho. 
 <br />`,
     images: [
       "./images/gallery/qorpo-santo/1.webp",
@@ -135,7 +150,7 @@ O espetáculo "Qorpo Santo" surgiu como uma pesquisa sobre o grotesco e o trabal
   },
   tribunal: {
     title: "Tribunal Quarto de Zona (2008 - 2009)",
-    fichaTecnica:`
+    fichaTecnica: `
 Elenco<br />
 Cristiane Andrade,<br /> Gabriela Dominguez,<br /> Guilherme Thiago,<br /> João Valadares,<br /> Kênia Goulart, <br />Milena Trindade,<br /> Raysner d’Paula,<br /> Ronaldo Queiroz e<br /> Tacyane Guimarães.`,
     textoApresentacao: ` “TRIBUNAL - Quarto de Zona” é o resultado de uma pesquisa da Preqaria Cia de Teatro que partiu da apropriação cênica de alguns conceitos do existencialismo filosófico e seu diálogo estrito com o Teatro do Absurdo. <br />
@@ -174,7 +189,7 @@ Cristiane Andrade,<br /> Gabriela Dominguez,<br /> Guilherme Thiago,<br /> João
   },
   conversa: {
     title: "Conversa Séria de Calcinha e Soutien (2011 - 2016)",
-    textoApresentacao: `Este projeto tem como objetivo a continuidade do trabalho de investigação teatral da Preqaria Cia de Teatro através da montagem da cena Conversa Séria de Calcinha e Soutien, livremente inspirada na peça Entre Quatro Paredes de Jean-Paul Sartre com direção de João Valadares e dramaturgia de Anderson Feliciano.<br /><br />
+    textoApresentacao: `
 
 Nos últimos cinco anos a Preqaria Cia de Teatro desenvolveu os espetáculos Qorpo Santo com direção de Yuri Simon (Grupo Teatro de Pesquisa / BH-MG); Tribunal – Quarto de Zona com direção e dramaturgia de João Valadares; Nosso Estranho Amor com direção de Cláudio Dias (Luna Lunera Cia de Teatro) e dramaturgia de João Valadares; e Fausto(s!) com direção e dramaturgia de João Valadares. Em seus trabalhos o grupo está as voltas com os princípios básicos do Teatro do Absurdo e seu estrito diálogo com o existencialismo filosófico. Nos dois primeiros se propôs uma linguagem visceral, associando estudos de conteúdo filosófico - sua pesquisa sobre a precariedade da existência humana, com uma releitura do grotesco no teatro e a caracterização dos personagens a partir da bufonaria.<br /><br />
 
@@ -214,14 +229,7 @@ Estelle despreza Inês não apenas porque a corteja, mas sobretudo, por sua cond
 O Criado no texto de Sartre tem participação modesta. É o responsável por levar os outros personagem ao salão segundo império que no texto representa o inferno e dar-lhes os primeiras informações sobre a “estadia”. Em italiano, Zanni é simplesmente o nome dado a qualquer personagem sem nome, uma pessoa cuja real identidade não pode ser descoberta. O Zanni é uma máscara e também a primeira referência da classe dos Zanni, ou servos: Arlequino, Brighella, Pedrolino, etc. Inferior da hierarquia da ordem.  Zanni é a eterna referência do imigrante trabalhador sem posse.
 `,
 
-    fichaTecnica: [
-      "Carolina Grigoli",
-      "Kenya Goulart",
-      "Luciene Bernardes",
-      "Luísa Couto",
-      "Mariana Tozzi",
-      "Tacyane Guimarães",
-    ],
+    fichaTecnica: `Este projeto tem como objetivo a continuidade do trabalho de investigação teatral da Preqaria Cia de Teatro através da montagem da cena Conversa Séria de Calcinha e Soutien, livremente inspirada na peça Entre Quatro Paredes de Jean-Paul Sartre com direção de João Valadares e dramaturgia de Anderson Feliciano.<br /><br />`,
     images: [
       "./images/gallery/calcinha-e-soutien/1.webp",
       "./images/gallery/calcinha-e-soutien/2.webp",
@@ -240,14 +248,7 @@ O Criado no texto de Sartre tem participação modesta. É o responsável por le
 O espetáculo de rua "A Praça Dr. Sem Graça" coloca em cena Lacrimoso, Feioso e Xaxato: 3 palhaços que tentam a todo custo se apresentar em um espaço público, mas são impedidos pela Dona Guarda que os surpreende com a notícia da morte de Chouriço, quarto integrante e fiel companheiro da trupe. De forma inusitada os palhaços tentam reconstituir o assassinato e encontrar o culpado. Através de suas versões absurdas para o crime abrem uma brecha para concretizar o encontro com o público.
 `,
 
-    fichaTecnica: [
-      "Guilherme Thiago",
-      "João Paulo Valadares",
-      "Max Gonçalves",
-      "Renato Amado",
-      "Ronaldo Queiroz",
-      "Thiago Prata",
-    ],
+    fichaTecnica: `Em cena Brenda Campos, João Valadares, Keu Freire e  o ator convidado Vinício Queiros, depois substituido por Claudio Márcio, que escreveu juntamente com Keu Freire e Max Hebert o texto do espetáculo.`,
     images: [
       "./images/gallery/praca/1.webp",
       "./images/gallery/praca/2.webp",
@@ -284,12 +285,19 @@ A Preqaria Cia de Teatro realiza desde 2014 a "Temporada de Teatro” em Sete La
 
 `,
     fichaTecnica: [
-      "Bárbara Campos",
-      "Carolina Grigoli",
-      "Kenya Goulart",
-      "Luísa Couto",
-      "Mariana Tozzi",
-      "Rachel de Andrade",
+      "Texto: Raysner D’ Paula",
+      "Direção: João Valadares",
+      "Elenco: Iasmin Duarte,",
+      "Leticia Cley,",
+      "Nathan Britz,",
+      "Rafa Martins",
+      "Trilha sonora Original: Nathan Britz e Rafa Martins",
+      "Cenário: Iuri Simon",
+      "Iluminação: João Valadares ",
+      "Cenotecnia: Paulinho do Boi ",
+      "Figurinos: Elenco com orientação de Ilza Gonçalves.",
+      "Fotos: Junio Souza",
+      "Realização: Preqaria Cia de Teatro",
     ],
     images: [
       "./images/gallery/princesa-gaia/1.webp",
@@ -346,12 +354,19 @@ Avançando na instigante pesquisa sobre a precariedade da existência humana, a 
 O espetáculo “Amor” é um manifesto contra o medo de amar.
 `,
     fichaTecnica: [
-      "Bárbara Campos",
-      "Carolina Grigoli",
-      "Guilherme Thiago",
-      "João Paulo Valadares",
-      "Kenya Goulart",
-      "Luciene Bernardes",
+      "Dramaturgia: Coletiva",
+      "Direção: João Valadares",
+      "Elenco:",
+      "Izabela Oliveira,",
+      "Leo Horta,",
+      "Piera Rodrigues,",
+      "Rogério Alves",
+      "e Valquíria Correa.",
+      "Iluminação: João Valadares e Leo Horta",
+      "Cenário e Figurino: Sérgio Coelho",
+      "Designer Gráfico: Fabiano Lana",
+      "Fotografia: Elmo Gomes",
+      "Realização: Preqaria Cia de Teatro",
     ],
     images: [
       "./images/gallery/amor/1.webp",
@@ -486,8 +501,33 @@ Empatia e valorização das diferenças: NUM RAIO DE LUA é fundamentado no univ
   },
   "cinema-waterapoc": {
     title: "Waterapoc (2009)",
-    fichaTecnica:
-      "Direção: Max Gonçalves. Elenco: Rachel de Andrade, Renato Amado, Ronaldo Queiroz, Tacyane Guimarães",
+    fichaTecnica: [
+      "Roteiro: Gilvan Marçal",
+      "Direção: João Valadares",
+      "Assistente de Direção: Mariana Souto",
+      "Direção de Fotografia: Marco Aurelio Ribeiro",
+      "Assistente de Fotografia: Diogo Lisboa",
+      "Câmera: Gabriel Martins",
+      "Direção de Arte: Carolina Linares",
+      "Figurino: Caroline Candido",
+      "Assistente de Figurino: Rafael Ramalho",
+      "Maquiagem: Elisinha Silva e Fernanda Botelho",
+      "Direção de Produção: Vanessa Maciel e Fernanda Botelho",
+      "Assistente de Produção: Maíra Camargo e Luciene Bernardes",
+      "Continuidade: João Paulo Teixeira",
+      "Still e Making off: João Paulo Lustosa",
+      "Som Direto: André Novaes",
+      "Edição: João Valadares",
+      "Trilha Sonora e Mixagem: Felipe Fantoni e Na Trilha Produções",
+      "Arte Gráfica: Daniel Roscoe e Raquel Alvarenga",
+      "Elenco:",
+      "Carlos Magno Ribeiro",
+      "Jerry Magalhaes",
+      "Marcos Cordeiro",
+      "Renato Amado",
+      "Alexandre Toledo",
+    ],
+
     textoApresentacao: `O curta-metragem Waterapoc aborda a temática da provável escassez de água, o aquecimento global e o fim de recursos naturais como o petróleo.
 <br /><br />Na trama o protagonista viaja de um futuro hipotético, no qual uma empresa privada detém o monopólio de toda a água do planeta, para um passado histórico, alguns dias antes dos atentados de 11 de setembro de 2001. A única e coerente prova do homem que afirma vir do futuro é prever o que vai acontecer no dia seguinte: a queda das torres gêmeas do World Trade Center. 
 <br /><br />Um dos pontos diferenciais do projeto Waterapoc é fundamentar as bases de uma estória absurda, de viagem no tempo, em acontecimentos reais. O protagonista André é inspirado no aplicador Andrew Carlssin, que em 2003 foi preso após lucrar milhões em Wall Street. Acusado de ter acesso a informações privilegiadas, Andrew alegou saber de tais informações por ser um viajante do tempo. Liberto, Andrew nunca mais foi visto. 
@@ -508,16 +548,148 @@ Waterapoc é um curta-metragem de ficção científica que conta a estória de A
   },
   "cinema-pipoca": {
     title: "Humanamente Mefisto (2005)",
-    fichaTecnica:
-      "Direção: Thiago Prata. Elenco: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares",
+    fichaTecnica:[
+        "Elenco: Jerry Adriane ",
+             "Rodrigo Melgaço ",
+             "Guilherme Théo ",
+             "Roteiro e Direção: João Valadares",
+             "Assistente de Direção: Laly Cataguases ",
+             "Direção de Fotografia: Iuri Bastos",
+             "Assistente de Fotografia: Daniel Roscoe ",
+             "Produção: João Valadares",
+             "Tamira Ferreira",
+             "Júlio César Callado ",
+             "Continuidade: Ricardo Moraleida",
+             "Direção de Arte: Luzimar Pereira ",
+             "Assistente de Arte: Elessandro Matos",
+             "Edição: Carlos Canela",
+             "Trilha Sonora: Licio Daf ",
+             "Câmera: Suzana Markus",
+             "Carlos Canela ",
+             "Som Direto: Carlos Magno",
+             "Maquiagem: Sol Baracho ",
+             "Eletricista: Glauco ",
+             "Still/Making off: Ana Luiza Oliveira"
+
+    ],
+      
     textoApresentacao: `O curta-metragem Humanamente Mefisto conta a estória de Álvaro, um ator teatral experiente que vive dias de profunda inquietação causadas pelo texto de sua próxima peça: Fausto de Goethe. No processo do espetáculo o texto da peça faz Álvaro pensar em sua própria vida: a relação que tem com o bem e o mal, com Deus e o Diabo, e todas as coisas que são atribuídas a essas entidades. É como se no fundo Deus e o Diabo fossem parte dele mesmo, como se o bem ou o mal ainda estivessem por serem feitos – são frutos das ações humanas.
 `,
     images: ["./images/mefisto.webp"],
   },
   "cinema-outros-dias": {
     title: "Coisa Feita pelo Coração (2025)",
-    fichaTecnica:
-      "Direção: Mariana Tozzi. Elenco: Kenya Goulart, Luciene Bernardes, Luísa Couto, Max Gonçalves, Rachel de Andrade",
+    fichaTecnica:[
+        
+"Elenco",
+
+"Eduardo ......................... Nikolas Hoffman",
+"Mãe de Eduardo ............ Carine França",
+"Mônica ......................... Clarissa Nadu",
+"Aninha........................... Iasmin Duarte",
+"Marinete ...................... Marina Ribas",
+"Marcos .......................... Matheus Carvalho",
+"Divino ........................... Marcelo Drummond",
+"Professora ...................... Rejane Félix",
+"Renato ........................... Pedro Cordeiro",
+"DJ Silveira......................Delley Silveira",
+"Garota do Balançø ......... Julia Karoline",
+"Garçonete ....................... Maria Maia",
+"Banda Vocalista ............ Leo Guto",
+            "Baixista ..............Samuel Oliveira",
+            "Baterista .............Markus Kupertino",
+            "João de Santo Cristo ...... Nathan Brits",
+            "Maria Lúcia ................... Thais Azevedo",
+            "Prisioneiro 1................... Lorenzo Kaverna",
+            "Prisioneiro 2................... João Valadares",
+"Policial........................... Carlos Sauva",
+
+"Turma da Escola, Festa Estranha e Rodoviária: ",
+"Alice Fernandes",
+"Alice Pontello",
+"Álvaro Texeira",
+"Ana Clara Soares",
+"Anna Pontelo",
+"Arthur Boniek",
+"Barbara Pascoalone",
+"Cecilia Garone",
+"Deley Silveira",
+"Eduardo José Golçalves",
+"Ester Goulart",
+"Gabriela Pacheco",
+"Guilherme de Morais",
+"Helena Rosa",
+"Isabela Lupifieri",
+"Kauan Coelho",
+"Kauan Tavares",
+"Lucas Antôny",
+"Luiza Pontello",
+"Malu Brasil",
+"Maria Maia",
+"Marcela Guimarães",
+"Mirian Rayane",
+"Nick Fonthelli",
+"Patricia Lopes",
+"Richard Emanuel",
+"Roberta Lanza",
+"Teresa Raquel",
+"Thaysa Pires",
+"Valentina Pereira",
+"Vitor Pierry",
+"Yasmin Ferrari",
+
+"Produção Executiva",
+"Nathan Brits e Maskcine Produções",
+
+"Roteiro",
+"Lincoln F. Dos Santos (In Memorian)",
+
+"Direção",
+"Maicon Douglas",
+
+"Direção de Produção",
+"João Valadares",
+
+"Assistente de Produção",
+"Iasmin Duarte",
+
+"Direção de Fotografia",
+"Álvaro Starling",
+
+"Câmeras",
+"Alvaro Starling",
+"Maicon Douglas",
+"Mindu Reiler",
+
+"Som Direto",
+"Thales de Castro",
+
+"Direção de Arte",
+"Iasmin Duarte",
+
+"Assistente de Arte",
+"João Valadares",
+
+"Continuidade",
+"Thaysa Pires Pereira",
+
+"Direção de Cena e Produção de Elenco",
+"João Valadares",
+
+"Edição e Finalização AV",
+"Álvaro Starling",
+"Rodrigo Lapa",
+
+"Apoio",
+"Panificadora Galdina",
+"Colégio Caetano",
+"Amor Saúde",
+"Setelagoano",
+"Preqaria Cia de Teatro",
+"Rodoviária de Sete Lagoas",
+"Sangreal Produções"
+
+    ],
     textoApresentacao: `O media-metragem "Coisa Feita pelo Coração" une as narrativas de "Eduardo e Mônica" e "Faroeste Caboclo", duas das mais icônicas composições de Renato Russo para contar uma história contemporânea, explorando as belezas naturais, Centro Cultural, pontos turísticos e cotidianos de Sete Lagoas. 
 <br /><br />O filme realizado com recursos da Lei Paulo Gustavo do Governo Federal com Apoio da Secretaria Municipal de Cultura, Turismo e Esporte de Sete Lagoas, é dirigido por Maicon Douglas, com Direção de Fotografia de Álvaro Starling, Direção de Cena de João Valadares e Produção Executiva de Nathan Brits. O projeto faz uma releitura cinematográfica que coloca as personagens das canções atemporais da Legião Urbana em um mesmo universo, interagindo entre si e com o próprio Renato Manfredini Jr. (Renato Russo), antes de sua ascensão à fama vivido por Pedro Cordeiro. Em cena Clarissa Nadu é Monica e Nikolas Hoffman Eduardo.
 <br /><br />O elenco revela mais uma vez a força da Escola Livre de Artes da Preqaria Cia de Teatro, já que é composto totalmente por alunos, ex-alunos, atores e professores da instituição. 
