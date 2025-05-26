@@ -301,7 +301,7 @@
         flex-direction: column;
     }
 
-    #centro-cultural .content{
+    #centro-cultural .content {
 
         padding: 1em;
     }
@@ -352,6 +352,13 @@
     .footer-newsletter form {
         margin: 0 auto;
         max-width: 300px;
+    }
+
+    .footer-newsletter button {
+        font-size: 1em;
+        font-weight: bold;
+        padding: 0.5em 1em;
+
     }
 }
 
@@ -475,6 +482,14 @@
         gap: 30px;
     }
 
+    #companhia .content p{
+        text-align: justify;
+    }
+
+    #empresarial .content {
+        padding: 1em;
+    }
+
     .logos {
         gap: 20px;
     }
@@ -482,6 +497,18 @@
     .logos img {
         height: 40px;
     }
+
+    .cinema {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.7em;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-left: 3px solid var(--secondary-color);
+    transform: perspective(1000px) rotateX(2deg);
+}
 }
 
 
@@ -588,7 +615,7 @@
     }
 
     .logo img {
-        height: 50px;
+        height: 40px;
     }
 
     .footer-logo img {
