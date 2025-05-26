@@ -31,22 +31,6 @@ Pena, é que nenhuma história termina com um começo. O amor é sempre começo.
       "./images/gallery/nosso-estranho-amor/10.webp",
     ],
   },
-  "sagrado-feminino": {
-    title: "Sagrado Feminino (2021 - 2022)",
-    fichaTecnica:
-      "Em cena: Carolina Grigoli, Kenya Goulart, Luciene Bernardes, Luísa Couto, Mariana Tozzi, Rachel de Andrade",
-    textoApresentacao:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
-    images: ["./images/sagrado-feminino.webp"],
-  },
-  "ultima-noite": {
-    title: "A Última Noite (2023)",
-    fichaTecnica:
-      "Em cena: Guilherme Thiago, João Paulo Valadares, Max Gonçalves, Renato Amado, Ronaldo Queiroz, Thiago Prata",
-    textoApresentacao:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
-    images: ["./images/a-ultima-noite.webp"],
-  },
   fausto: {
     title: "Fausto(s!) (2010 - 2016)",
     fichaTecnica:
