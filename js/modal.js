@@ -3,7 +3,14 @@ const galleryData = {
   "estranho-amor": {
     title: "Nosso Estranho Amor (2009 - 2020)",
     fichaTecnica:
-      "Direção: Cláudio Dias Dramaturgia: João Valadares Cenografia: Luiz Dias Iluminação: Felipe Cosse e Juliano Coelho Música: Caetano Veloso Violonista: Paulinho do Boi Violinista: Clarice Rodrigues Atriz: Piera Rodrigues ",
+      `Direção: Cláudio Dias<br/> 
+      Dramaturgia: João Valadares<br/> 
+      Cenografia: Luiz Dias<br/> 
+      Iluminação: Felipe Cosse e Juliano Coelho<br/> 
+      Música: Caetano Veloso<br/> 
+      Violonista: Paulinho do Boi<br/> 
+      Violinista: Clarice Rodrigues<br/> 
+      Atriz: Piera Rodrigues`,
     textoApresentacao: `As pessoas normais, as pessoas que não são estranhas, elas dizem, elas olham nos olhos umas das outras e dizem: Eu te amo! Mas este não é o caso dos personagens de “Nosso Estranho Amor”, espetáculo da Preqaria Cia de Teatro. Trata-se aqui de pessoas que se apaixonam em situações extremas, personagens que se definem pelo que perderam, pelo que na têm, pelo que lhes falta.<br /><br />
 
 Realizado com recursos do Prêmio Funarte de Teatro Myriam Muniz 2008, “Nosso Estranho Amor” é uma livre adaptação do enredo da novela “Primeiro Amor” em diálogo com as novelas “O expulso”, “O Calmante” e “O fim” de Samuel Beckett. Os “sem teto” apresentados por Beckett foram o ponto de partida para que a companhia criasse a sua própria dramaturgia.  Na montagem o grupo sugere uma leitura metafórica dos textos originais em que a situação de morador de rua do protagonista, ou seja, o fato de ele não ter uma casa, se evidencia com a falta do amor em sua vida. Com este universo, por cadeias de situações simples e pequenos diálogos cotidianos, a peça constrói uma fábula contemporânea sobre um dos sentimentos primordiais do homem como ser social: o amor, o absurdo que há no amor entre um homem e uma mulher.<br /><br />
