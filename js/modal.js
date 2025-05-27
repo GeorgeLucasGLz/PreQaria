@@ -2,8 +2,7 @@
 const galleryData = {
   "estranho-amor": {
     title: "Nosso Estranho Amor (2009 - 2020)",
-    fichaTecnica:
-      `Direção: Cláudio Dias<br/> 
+    fichaTecnica: `Direção: Cláudio Dias<br/> 
       Dramaturgia: João Valadares<br/> 
       Cenografia: Luiz Dias<br/> 
       Iluminação: Felipe Cosse e Juliano Coelho<br/> 
@@ -89,7 +88,7 @@ Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de
       Tatiana Aparecida<br/>
       e Thais Azevedo.`,
 
-    textoApresentacao:  `“As Alegres Comadres de Windsor” é uma comedia de William Shakespeare onde o protagonista Falstaff é um impostor inominável que tenta, ao mesmo tempo, seduzir duas mulheres casadas de Windsor: Senhora Page e Senhora Ford. As alegres comadres se voltam contra o balofo fanfarrão cuja moral é inversamente proporcional ao tamanho de sua “pança majestosa”. Sob o engenho dessas nobres comadres e o ciúmes doentio de seus maridos, Falstaff é enganado, tratado como roupa suja, espancado, espetado, ridicularizado e insultado.
+    textoApresentacao: `“As Alegres Comadres de Windsor” é uma comedia de William Shakespeare onde o protagonista Falstaff é um impostor inominável que tenta, ao mesmo tempo, seduzir duas mulheres casadas de Windsor: Senhora Page e Senhora Ford. As alegres comadres se voltam contra o balofo fanfarrão cuja moral é inversamente proporcional ao tamanho de sua “pança majestosa”. Sob o engenho dessas nobres comadres e o ciúmes doentio de seus maridos, Falstaff é enganado, tratado como roupa suja, espancado, espetado, ridicularizado e insultado.
 `,
     images: [
       "./images/gallery/windsor/1.webp",
@@ -412,7 +411,7 @@ O espetáculo “Amor” é um manifesto contra o medo de amar.
      Figurinos: Steysse Reis<br/>
      Assistente de Figurino: Isabela Pena<br/>
      Cenário: Preqaria Cia de Teatro`,
-      
+
     images: [
       "./images/gallery/tartufo/1.webp",
       "./images/gallery/tartufo/2.webp",
@@ -732,6 +731,58 @@ Waterapoc é um curta-metragem de ficção científica que conta a estória de A
 <br /><br />A produção enfrenta questões contemporâneas importantes como o protagonismo feminino, através da personagem Mônica – interpretada como uma jovem mulher independente, intelectual e engajada em causas sociais – e o racismo estrutural brasileiro, por meio da representação de João de Santo Cristo, interpretado pelo ator e produtor executivo Nathan Brits. A produção promete trazer uma nova perspectiva às canções que marcaram gerações, abordando temas universais como a juventude, o amor e os dilemas existenciais que atravessam diferentes idades e realidades sociais.
 `,
     images: ["./images/coracao.webp"],
+  },
+  "cinema-morrer": {
+    title: "Almir não sabe morrer (2005)",
+    fichaTecnica: `Elenco:<br/> 
+    João Valadares <br/> 
+    Iasmin Duarte <br/> 
+    Mario Loura<br/> 
+    Ilza Gonçalves<br/> 
+    Carlos Saúva<br/> 
+    Delley Silveira<br/> 
+    Thais Azevedo<br/> 
+    Layla Valadares<br/> 
+    Bernardo Marques<br/> 
+    Laura Rosa<br/> 
+    Carine França.<br/> <br/> 
+Direção e Edição: Claudio Costa Val<br/> 
+Roteiro: Matheus Moura<br/> 
+Diretor de Fotografia: Gabriel Teixeira<br/> 
+Diretor de Som: Thales de Castro<br/> 
+Direção de Arte: Ana Pantoja<br/>
+Continuidade: Thais Azevedo<br/> 
+Casting dos Atores: João Valadares<br/> 
+Produção: Duds Tuts<br/> 
+Maquiagem: Isadora Lopes<br/> 
+Fotos e Still: JP Silva<br/> <br/> 
+Figuração:<br/> 
+ Mateus Carvalho<br/> 
+ Kauan Coelho<br/> 
+ Lucas Antony<br/> 
+ Denise Moraes<br/> 
+ Alice Pontello<br/> 
+ Gabriela Valadares<br/> 
+ Luiza Pontello<br/> 
+ Andreia Cabral<br/> 
+ Bia Cabral<br/> 
+ Nicolas Dias<br/> 
+ Clarice Martins<br/> 
+ Gabriela Carvalho<br/> 
+ Dayane Silva<br/> 
+ Rogerio Oliveira<br/> 
+ Clébio Pereira<br/> <br/> 
+Realização: Quixote Produções
+`,
+
+    textoApresentacao: `O filme "Almir não sabe morrer", é um projeto da Quixote Produções em co-produção da Preqaria Cia de Teatro que discute temas como imigração, preconceito e amor. O filme conta a história de Almir, um imigrante sírio que, após ter sua barraquinha de Kibes confiscada, decide fundar seu próprio país em uma praça da cidade. Em meio a sua desventura, ele conhece Rosa, uma assistente social que se torna sua aliada e embaixadora.<br/> <br/> 
+
+O roteiro de Mateus Moura, sete-lagoano que passou pela Escola Livre de Artes e hoje mora no México, tem simplicidade e elegância poética, aborda um tema forte com leveza e consegue, em alguns momentos, ser cômico e romântico. João Valadares protagoniza o filme e conta que para desenvolver o personagem precisou estudar o sotaque e os costumes de imigrantes sírios no Brasil. “Está sendo bem bacana essa pesquisa da cultura Síria. São desses prazeres que a arte nos traz, poder brincar de ser outro para discutir temas universais”, comenta.  O elenco é 100% sete-lagoano composto por atores da Preqaria Cia de Teatro e alunos da Escola Livre de Artes de Sete Lagoas como Iasmin Duarte, Mario Loura, Ilza Gonçalves, Carlos Saúva, Delley Silveira, Bernardo Costa. A direção é do experiente Cláudio Costa Val, coordenador da Escola Livre de Cinema de Belo Horizonte "Queremos trazer à tona a importância de ouvir e entender cada indivíduo, especialmente aqueles que enfrentam dificuldades e preconceitos por serem imigrantes ou estarem em situação de vulnerabilidade", explica Costa Val.<br/> <br/> 
+
+O filme foi realizado com recursos da Lei Paulo Gustavo do Governo Federal, sob edital da Secretaria de Cultura, Esporte e Turismo de Sete Lagoas, com apoio da Panificadora Galdina, da Preqaria Associação Cultural e da Escola Livre de Artes. 
+
+`,
+    images: ["./images/Almir.webp"],
   },
 };
 
