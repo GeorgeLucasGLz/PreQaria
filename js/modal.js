@@ -353,21 +353,19 @@ Avançando na instigante pesquisa sobre a precariedade da existência humana, a 
 <br /><br />
 O espetáculo “Amor” é um manifesto contra o medo de amar.
 `,
-    fichaTecnica: [
-      "Dramaturgia: Coletiva",
-      "Direção: João Valadares",
-      "Elenco:",
-      "Izabela Oliveira,",
-      "Leo Horta,",
-      "Piera Rodrigues,",
-      "Rogério Alves",
-      "e Valquíria Correa.",
-      "Iluminação: João Valadares e Leo Horta",
-      "Cenário e Figurino: Sérgio Coelho",
-      "Designer Gráfico: Fabiano Lana",
-      "Fotografia: Elmo Gomes",
-      "Realização: Preqaria Cia de Teatro",
-    ],
+    fichaTecnica: `Dramaturgia: Coletiva<br/>
+      Direção: João Valadares<br/><br/>
+      Elenco:<br/>
+      Izabela Oliveira<br/>
+      Leo Horta<br/>
+      Piera Rodrigues<br/>
+      Rogério Alves<br/>
+      Valquíria Correa<br/><br/>
+      Iluminação: João Valadares e Leo Horta<br/>
+      Cenário e Figurino: Sérgio Coelho<br/>
+      Designer Gráfico: Fabiano Lana<br/>
+      Fotografia: Elmo Gomes<br/>
+      Realização: Preqaria Cia de Teatro`,
     images: [
       "./images/gallery/amor/1.webp",
       "./images/gallery/amor/2.webp",
@@ -385,10 +383,18 @@ O espetáculo “Amor” é um manifesto contra o medo de amar.
     title: "Tartufo's 80 (2018 - 2023)",
     textoApresentacao:
       'A Preqaria Cia de Teatro apresenta seu mais novo espetáculo "Tartufo’s 80", uma comédia debochada e irreverente do mestre francês Molière adaptada para os anos de 1980. A peça com direção de Ricardo Martins traz em cena Izabela Oliveira, João Valadares, Marina Galeri, Piera Rodrigues e Rogério Alves. A referência da década se deu a partir do cenário, uma Brasília ano 1980. O carro é a casa da família de Orgon. A partir daí várias ideias para completar essa atmosfera como as roupas características, a parodia de  sucessos musicais e filmes populares da época, fazem desta montagem uma grande viagem ao passado. Venha rir e se divertir com essa deliciosa comédia!',
-    fichaTecnica: [
-      "Ficha Técnica: Molière Direção e Adaptação: Ricardo Martins; Atuação: Anna Oliveira, Felipe Gontijo, João Valadares, Iasmim Duarte, Nathan Brits.",
-      "Figurinos: Steysse Reis; Assistente de Figurino: Isabela Pena; Cenário: Preqaria Cia de Teatro",
-    ],
+    fichaTecnica: `Ficha Técnica: Molière<br/>
+     Direção e Adaptação: Ricardo Martins<br/><br/>
+     Atuação:<br/> 
+     Anna Oliveira<br/> 
+     Felipe Gontijo<br/> 
+     João Valadares<br/> 
+     Iasmim Duarte<br/> 
+     Nathan Brits<br/><br/>
+     Figurinos: Steysse Reis<br/>
+     Assistente de Figurino: Isabela Pena<br/>
+     Cenário: Preqaria Cia de Teatro`,
+      
     images: [
       "./images/gallery/tartufo/1.webp",
       "./images/gallery/tartufo/2.webp",
@@ -527,7 +533,7 @@ Empatia e valorização das diferenças: NUM RAIO DE LUA é fundamentado no univ
       Som Direto: André Novaes<br/>
       Edição: João Valadares<br/>
       Trilha Sonora e Mixagem: Felipe Fantoni e Na Trilha Produções<br/>
-      Arte Gráfica: Daniel Roscoe e Raquel Alvarenga<br/>
+      Arte Gráfica: Daniel Roscoe e Raquel Alvarenga<br/><br/>
       Elenco:<br/>
       Carlos Magno Ribeiro<br/>
       Jerry Magalhaes<br/>
