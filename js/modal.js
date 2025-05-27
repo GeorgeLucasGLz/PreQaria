@@ -598,7 +598,7 @@ Waterapoc é um curta-metragem de ficção científica que conta a estória de A
       Maria Lúcia ................... Thais Azevedo,<br/>
       Prisioneiro 1................... Lorenzo Kaverna,<br/>
       Prisioneiro 2................... João Valadares,<br/>
-      Policial........................... Carlos Sauva,<br/>
+      Policial........................... Carlos Sauva,<br/><br/>
 
       Turma da Escola, Festa Estranha e Rodoviária: <br/>
       Alice Fernandes,<br/>
@@ -632,49 +632,49 @@ Waterapoc é um curta-metragem de ficção científica que conta a estória de A
       Thaysa Pires,<br/>
       Valentina Pereira,<br/>
       Vitor Pierry,<br/>
-      Yasmin Ferrari,<br/>
+      Yasmin Ferrari,<br/><br/>
 
       Produção Executiva:<br/>
-      Nathan Brits e Maskcine Produções<br/>
+      Nathan Brits e Maskcine Produções<br/><br/>
 
       Roteiro:<br/>
-      Lincoln F. Dos Santos (In Memorian)<br/>
+      Lincoln F. Dos Santos (In Memorian)<br/><br/>
 
       Direção:<br/>
-      Maicon Douglas<br/>
+      Maicon Douglas<br/><br/>
 
       Direção de Produção:<br/>
-      João Valadares<br/>
+      João Valadares<br/><br/>
 
       Assistente de Produção:<br/>
-      Iasmin Duarte<br/>
+      Iasmin Duarte<br/><br/>
 
       Direção de Fotografia:<br/>
-      Álvaro Starling<br/>
+      Álvaro Starling<br/><br/>
 
       Câmeras:<br/>
       Alvaro Starling<br/>
       Maicon Douglas<br/>
-      Mindu Reiler<br/>
+      Mindu Reiler<br/><br/>
 
       Som Direto:<br/>
-      Thales de Castro<br/>
+      Thales de Castro<br/><br/>
 
       Direção de Arte:<br/>
-      Iasmin Duarte<br/>
+      Iasmin Duarte<br/><br/>
 
       Assistente de Arte:<br/>
-      João Valadares<br/>
+      João Valadares<br/><br/>
 
       Continuidade:<br/>
-      Thaysa Pires Pereira<br/>
+      Thaysa Pires Pereira<br/><br/>
 
       Direção de Cena e Produção de Elenco:<br/>
-      João Valadares<br/>
+      João Valadares<br/><br/>
 
       Edição e Finalização AV:<br/>
       Álvaro Starling<br/>
-      Rodrigo Lapa<br/>
+      Rodrigo Lapa<br/><br/>
 
       Apoio:<br/>
       Panificadora Galdina<br/>
