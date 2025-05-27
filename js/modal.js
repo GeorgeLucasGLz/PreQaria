@@ -304,11 +304,12 @@ A Preqaria Cia de Teatro realiza desde 2014 a "Temporada de Teatro” em Sete La
 
 `,
     fichaTecnica: `Texto: Raysner D’ Paula<br/>
-      Direção: João Valadares<br/>
-      Elenco: Iasmin Duarte,<br/>
+      Direção: João Valadares<br/><br/> 
+      Elenco:<br/> 
+      Iasmin Duarte,<br/>
       Leticia Cley,<br/>
       Nathan Britz,<br/>
-      Rafa Martins,<br/>
+      Rafa Martins,<br/><br/> 
       Trilha sonora Original: Nathan Britz e Rafa Martins<br/>
       Cenário: Iuri Simon<br/>
       Iluminação: João Valadares<br/>
