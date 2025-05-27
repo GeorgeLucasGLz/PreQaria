@@ -548,148 +548,142 @@ Waterapoc é um curta-metragem de ficção científica que conta a estória de A
   },
   "cinema-pipoca": {
     title: "Humanamente Mefisto (2005)",
-    fichaTecnica:[
-        "Elenco: Jerry Adriane ",
-             "Rodrigo Melgaço ",
-             "Guilherme Théo ",
-             "Roteiro e Direção: João Valadares",
-             "Assistente de Direção: Laly Cataguases ",
-             "Direção de Fotografia: Iuri Bastos",
-             "Assistente de Fotografia: Daniel Roscoe ",
-             "Produção: João Valadares",
-             "Tamira Ferreira",
-             "Júlio César Callado ",
-             "Continuidade: Ricardo Moraleida",
-             "Direção de Arte: Luzimar Pereira ",
-             "Assistente de Arte: Elessandro Matos",
-             "Edição: Carlos Canela",
-             "Trilha Sonora: Licio Daf ",
-             "Câmera: Suzana Markus",
-             "Carlos Canela ",
-             "Som Direto: Carlos Magno",
-             "Maquiagem: Sol Baracho ",
-             "Eletricista: Glauco ",
-             "Still/Making off: Ana Luiza Oliveira"
-
+    fichaTecnica: [
+      "Elenco: Jerry Adriane ",
+      "Rodrigo Melgaço ",
+      "Guilherme Théo ",
+      "Roteiro e Direção: João Valadares",
+      "Assistente de Direção: Laly Cataguases ",
+      "Direção de Fotografia: Iuri Bastos",
+      "Assistente de Fotografia: Daniel Roscoe ",
+      "Produção: João Valadares",
+      "Tamira Ferreira",
+      "Júlio César Callado ",
+      "Continuidade: Ricardo Moraleida",
+      "Direção de Arte: Luzimar Pereira ",
+      "Assistente de Arte: Elessandro Matos",
+      "Edição: Carlos Canela",
+      "Trilha Sonora: Licio Daf ",
+      "Câmera: Suzana Markus",
+      "Carlos Canela ",
+      "Som Direto: Carlos Magno",
+      "Maquiagem: Sol Baracho ",
+      "Eletricista: Glauco ",
+      "Still/Making off: Ana Luiza Oliveira",
     ],
-      
+
     textoApresentacao: `O curta-metragem Humanamente Mefisto conta a estória de Álvaro, um ator teatral experiente que vive dias de profunda inquietação causadas pelo texto de sua próxima peça: Fausto de Goethe. No processo do espetáculo o texto da peça faz Álvaro pensar em sua própria vida: a relação que tem com o bem e o mal, com Deus e o Diabo, e todas as coisas que são atribuídas a essas entidades. É como se no fundo Deus e o Diabo fossem parte dele mesmo, como se o bem ou o mal ainda estivessem por serem feitos – são frutos das ações humanas.
 `,
     images: ["./images/mefisto.webp"],
   },
   "cinema-outros-dias": {
     title: "Coisa Feita pelo Coração (2025)",
-    fichaTecnica:[
-        
-"Elenco",
+    fichaTecnica: `"Elenco",
 
-"Eduardo ......................... Nikolas Hoffman",
-"Mãe de Eduardo ............ Carine França",
-"Mônica ......................... Clarissa Nadu",
-"Aninha........................... Iasmin Duarte",
-"Marinete ...................... Marina Ribas",
-"Marcos .......................... Matheus Carvalho",
-"Divino ........................... Marcelo Drummond",
-"Professora ...................... Rejane Félix",
-"Renato ........................... Pedro Cordeiro",
-"DJ Silveira......................Delley Silveira",
-"Garota do Balançø ......... Julia Karoline",
-"Garçonete ....................... Maria Maia",
-"Banda Vocalista ............ Leo Guto",
-            "Baixista ..............Samuel Oliveira",
-            "Baterista .............Markus Kupertino",
-            "João de Santo Cristo ...... Nathan Brits",
-            "Maria Lúcia ................... Thais Azevedo",
-            "Prisioneiro 1................... Lorenzo Kaverna",
-            "Prisioneiro 2................... João Valadares",
-"Policial........................... Carlos Sauva",
+      Eduardo ......................... Nikolas Hoffman,<br/>
+      Mãe de Eduardo ............ Carine França,<br/>
+      Mônica ......................... Clarissa Nadu,<br/>
+      Aninha........................... Iasmin Duarte,<br/>
+      Marinete ...................... Marina Ribas,<br/>
+      Marcos .......................... Matheus Carvalho,<br/>
+      Divino ........................... Marcelo Drummond,<br/>
+      Professora ...................... Rejane Félix,<br/>
+      Renato ........................... Pedro Cordeiro,<br/>
+      DJ Silveira......................Delley Silveira,<br/>
+      Garota do Balançø ......... Julia Karoline,<br/>
+      Garçonete ....................... Maria Maia,<br/>
+      Banda Vocalista ............ Leo Guto,<br/>
+      Baterista .............Markus Kupertino,<br/>
+      João de Santo Cristo ...... Nathan Brits,<br/>
+      Maria Lúcia ................... Thais Azevedo,<br/>
+      Prisioneiro 1................... Lorenzo Kaverna,<br/>
+      Prisioneiro 2................... João Valadares,<br/>
+      Policial........................... Carlos Sauva,<br/>
 
-"Turma da Escola, Festa Estranha e Rodoviária: ",
-"Alice Fernandes",
-"Alice Pontello",
-"Álvaro Texeira",
-"Ana Clara Soares",
-"Anna Pontelo",
-"Arthur Boniek",
-"Barbara Pascoalone",
-"Cecilia Garone",
-"Deley Silveira",
-"Eduardo José Golçalves",
-"Ester Goulart",
-"Gabriela Pacheco",
-"Guilherme de Morais",
-"Helena Rosa",
-"Isabela Lupifieri",
-"Kauan Coelho",
-"Kauan Tavares",
-"Lucas Antôny",
-"Luiza Pontello",
-"Malu Brasil",
-"Maria Maia",
-"Marcela Guimarães",
-"Mirian Rayane",
-"Nick Fonthelli",
-"Patricia Lopes",
-"Richard Emanuel",
-"Roberta Lanza",
-"Teresa Raquel",
-"Thaysa Pires",
-"Valentina Pereira",
-"Vitor Pierry",
-"Yasmin Ferrari",
+      Turma da Escola, Festa Estranha e Rodoviária: <br/>
+      Alice Fernandes,<br/>
+      Alice Pontello,<br/>
+      Álvaro Texeira,<br/>
+      Ana Clara Soares,<br/>
+      Anna Pontelo,<br/>
+      Arthur Boniek,<br/>
+      Barbara Pascoalone,<br/>
+      Cecilia Garone,<br/>
+      Deley Silveira,<br/>
+      Eduardo José Golçalves,<br/>
+      Ester Goulart,<br/>
+      Gabriela Pacheco,<br/>
+      Guilherme de Morais,<br/>
+      Helena Rosa,<br/>
+      Isabela Lupifieri,<br/>
+      Kauan Coelho,<br/>
+      Kauan Tavares,<br/>
+      Lucas Antôny,<br/>
+      Luiza Pontello,<br/>
+      Malu Brasil,<br/>
+      Maria Maia,<br/>
+      Marcela Guimarães,<br/>
+      Mirian Rayane,<br/>
+      Nick Fonthelli,<br/>
+      Patricia Lopes,<br/>
+      Richard Emanuel,<br/>
+      Roberta Lanza,<br/>
+      Teresa Raquel,<br/>
+      Thaysa Pires,<br/>
+      Valentina Pereira,<br/>
+      Vitor Pierry,<br/>
+      Yasmin Ferrari,<br/>
 
-"Produção Executiva",
-"Nathan Brits e Maskcine Produções",
+      Produção Executiva:<br/>
+      Nathan Brits e Maskcine Produções<br/>
 
-"Roteiro",
-"Lincoln F. Dos Santos (In Memorian)",
+      Roteiro:<br/>
+      Lincoln F. Dos Santos (In Memorian)<br/>
 
-"Direção",
-"Maicon Douglas",
+      Direção:<br/>
+      Maicon Douglas<br/>
 
-"Direção de Produção",
-"João Valadares",
+      Direção de Produção:<br/>
+      João Valadares<br/>
 
-"Assistente de Produção",
-"Iasmin Duarte",
+      Assistente de Produção:<br/>
+      Iasmin Duarte<br/>
 
-"Direção de Fotografia",
-"Álvaro Starling",
+      Direção de Fotografia:<br/>
+      Álvaro Starling<br/>
 
-"Câmeras",
-"Alvaro Starling",
-"Maicon Douglas",
-"Mindu Reiler",
+      Câmeras:<br/>
+      Alvaro Starling<br/>
+      Maicon Douglas<br/>
+      Mindu Reiler<br/>
 
-"Som Direto",
-"Thales de Castro",
+      Som Direto:<br/>
+      Thales de Castro<br/>
 
-"Direção de Arte",
-"Iasmin Duarte",
+      Direção de Arte:<br/>
+      Iasmin Duarte<br/>
 
-"Assistente de Arte",
-"João Valadares",
+      Assistente de Arte:<br/>
+      João Valadares<br/>
 
-"Continuidade",
-"Thaysa Pires Pereira",
+      Continuidade:<br/>
+      Thaysa Pires Pereira<br/>
 
-"Direção de Cena e Produção de Elenco",
-"João Valadares",
+      Direção de Cena e Produção de Elenco:<br/>
+      João Valadares<br/>
 
-"Edição e Finalização AV",
-"Álvaro Starling",
-"Rodrigo Lapa",
+      Edição e Finalização AV:<br/>
+      Álvaro Starling<br/>
+      Rodrigo Lapa<br/>
 
-"Apoio",
-"Panificadora Galdina",
-"Colégio Caetano",
-"Amor Saúde",
-"Setelagoano",
-"Preqaria Cia de Teatro",
-"Rodoviária de Sete Lagoas",
-"Sangreal Produções"
-
-    ],
+      Apoio:<br/>
+      Panificadora Galdina<br/>
+      Colégio Caetano<br/>
+      Amor Saúde<br/>
+      Setelagoano<br/>
+      Preqaria Cia de Teatro<br/>
+      Rodoviária de Sete Lagoas<br/>
+      Sangreal Produções`,
     textoApresentacao: `O media-metragem "Coisa Feita pelo Coração" une as narrativas de "Eduardo e Mônica" e "Faroeste Caboclo", duas das mais icônicas composições de Renato Russo para contar uma história contemporânea, explorando as belezas naturais, Centro Cultural, pontos turísticos e cotidianos de Sete Lagoas. 
 <br /><br />O filme realizado com recursos da Lei Paulo Gustavo do Governo Federal com Apoio da Secretaria Municipal de Cultura, Turismo e Esporte de Sete Lagoas, é dirigido por Maicon Douglas, com Direção de Fotografia de Álvaro Starling, Direção de Cena de João Valadares e Produção Executiva de Nathan Brits. O projeto faz uma releitura cinematográfica que coloca as personagens das canções atemporais da Legião Urbana em um mesmo universo, interagindo entre si e com o próprio Renato Manfredini Jr. (Renato Russo), antes de sua ascensão à fama vivido por Pedro Cordeiro. Em cena Clarissa Nadu é Monica e Nikolas Hoffman Eduardo.
 <br /><br />O elenco revela mais uma vez a força da Escola Livre de Artes da Preqaria Cia de Teatro, já que é composto totalmente por alunos, ex-alunos, atores e professores da instituição. 
@@ -760,8 +754,7 @@ function openModal(galleryId) {
     // Verificar se a ficha técnica é um array ou uma string
     if (Array.isArray(galleryData[galleryId].fichaTecnica)) {
       // Se for um array, formatar como lista
-      fichaTecnica.innerHTML =
-        galleryData[galleryId].fichaTecnica.join(", ");
+      fichaTecnica.innerHTML = galleryData[galleryId].fichaTecnica.join(", ");
     } else {
       // Se for uma string, usar diretamente
       fichaTecnica.innerHTML = galleryData[galleryId].fichaTecnica;
