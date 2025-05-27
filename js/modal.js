@@ -548,29 +548,40 @@ Waterapoc é um curta-metragem de ficção científica que conta a estória de A
   },
   "cinema-pipoca": {
     title: "Humanamente Mefisto (2005)",
-    fichaTecnica: [
-      "Elenco: Jerry Adriane ",
-      "Rodrigo Melgaço ",
-      "Guilherme Théo ",
-      "Roteiro e Direção: João Valadares",
-      "Assistente de Direção: Laly Cataguases ",
-      "Direção de Fotografia: Iuri Bastos",
-      "Assistente de Fotografia: Daniel Roscoe ",
-      "Produção: João Valadares",
-      "Tamira Ferreira",
-      "Júlio César Callado ",
-      "Continuidade: Ricardo Moraleida",
-      "Direção de Arte: Luzimar Pereira ",
-      "Assistente de Arte: Elessandro Matos",
-      "Edição: Carlos Canela",
-      "Trilha Sonora: Licio Daf ",
-      "Câmera: Suzana Markus",
-      "Carlos Canela ",
-      "Som Direto: Carlos Magno",
-      "Maquiagem: Sol Baracho ",
-      "Eletricista: Glauco ",
-      "Still/Making off: Ana Luiza Oliveira",
-    ],
+    fichaTecnica: `Elenco:<br/> 
+    Jerry Adriane<br/> 
+    Rodrigo Melgaço<br/> 
+    Guilherme Théo<br/> <br/>
+    Roteiro e Direção:<br/> 
+    João Valadares<br/><br/> 
+    Assistente de Direção:<br/> 
+    Laly Cataguases<br/><br/> 
+    Direção de Fotografia:<br/> 
+    Iuri Bastos<br/><br/> 
+    Assistente de Fotografia:<br/> 
+    Daniel Roscoe<br/><br/> 
+    Produção:<br/> João Valadares<br/> 
+    Tamira Ferreira<br/> 
+    Júlio César Callado<br/> <br/>
+    Continuidade:<br/> Ricardo Moraleida<br/> <br/>
+    Direção de Arte:<br/> 
+    Luzimar Pereira<br/> <br/>
+    Assistente de Arte:<br/> 
+    Elessandro Matos<br/> <br/>
+    Edição:<br/> 
+    Carlos Canela<br/> <br/>
+    Trilha Sonora:<br/> 
+    Licio Daf<br/> <br/>
+    Câmera:<br/> 
+    Suzana Markus<br/> <br/>
+    Som Direto:<br/> 
+    Carlos Magno<br/> <br/>
+    Maquiagem:<br/> 
+    Sol Baracho<br/> <br/>
+    Eletricista:<br/> 
+    Glauco<br/> <br/>
+    Still/Making off:<br/> 
+    Ana Luiza Oliveira<br/> <br/>`,
 
     textoApresentacao: `O curta-metragem Humanamente Mefisto conta a estória de Álvaro, um ator teatral experiente que vive dias de profunda inquietação causadas pelo texto de sua próxima peça: Fausto de Goethe. No processo do espetáculo o texto da peça faz Álvaro pensar em sua própria vida: a relação que tem com o bem e o mal, com Deus e o Diabo, e todas as coisas que são atribuídas a essas entidades. É como se no fundo Deus e o Diabo fossem parte dele mesmo, como se o bem ou o mal ainda estivessem por serem feitos – são frutos das ações humanas.
 `,
