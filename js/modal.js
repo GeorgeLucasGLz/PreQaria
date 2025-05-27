@@ -761,7 +761,7 @@ function openModal(galleryId) {
     if (Array.isArray(galleryData[galleryId].fichaTecnica)) {
       // Se for um array, formatar como lista
       fichaTecnica.innerHTML =
-        "Em cena: " + galleryData[galleryId].fichaTecnica.join(", ");
+        galleryData[galleryId].fichaTecnica.join(", ");
     } else {
       // Se for uma string, usar diretamente
       fichaTecnica.innerHTML = galleryData[galleryId].fichaTecnica;
