@@ -65,25 +65,24 @@ Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de
   },
   windsor: {
     title: "As Alegres Comadres de Windsor (2017 - 2023)",
-    fichaTecnica: [
-      "Direção e adaptação: João Valadares",
-      "Assistência de direção: Rogério Alves",
-      "Figurino: Pedro Marota ",
-      "Cenografia: Paulinho do Boi",
-      "Iluminação: Allan Calisto",
-      "Designer Gráfico: Fabiano Lana",
-      "Assessoria de Imprensa: Glenda Souza",
-      "Em cena:",
-      "Júlio Gomes,",
-      "Layla Valadares,",
-      "Luciano Jordão,",
-      "Paulinho do Boi,",
-      "Pedro Paulo,",
-      "Roberta Rodrigues,",
-      "Tatiana Aparecida",
-      "e Thais Azevedo.",
-    ],
-    textoApresentacao: `“As Alegres Comadres de Windsor” é uma comedia de William Shakespeare onde o protagonista Falstaff é um impostor inominável que tenta, ao mesmo tempo, seduzir duas mulheres casadas de Windsor: Senhora Page e Senhora Ford. As alegres comadres se voltam contra o balofo fanfarrão cuja moral é inversamente proporcional ao tamanho de sua “pança majestosa”. Sob o engenho dessas nobres comadres e o ciúmes doentio de seus maridos, Falstaff é enganado, tratado como roupa suja, espancado, espetado, ridicularizado e insultado.
+    fichaTecnica: `Direção e adaptação: João Valadares<br/>
+      Assistência de direção: Rogério Alves<br/>
+      Figurino: Pedro Marota <br/>
+      Cenografia: Paulinho do Boi<br/>
+      Iluminação: Allan Calisto<br/>
+      Designer Gráfico: Fabiano Lana<br/>
+      Assessoria de Imprensa: Glenda Souza<br/><br/>
+      Em cena:<br/>,
+      Júlio Gomes<br/>
+      Layla Valadares<br/>
+      Luciano Jordão<br/>
+      Paulinho do Boi<br/>
+      Pedro Paulo<br/>
+      Roberta Rodrigues<br/>
+      Tatiana Aparecida<br/>
+      e Thais Azevedo.`,
+
+    textoApresentacao:  `“As Alegres Comadres de Windsor” é uma comedia de William Shakespeare onde o protagonista Falstaff é um impostor inominável que tenta, ao mesmo tempo, seduzir duas mulheres casadas de Windsor: Senhora Page e Senhora Ford. As alegres comadres se voltam contra o balofo fanfarrão cuja moral é inversamente proporcional ao tamanho de sua “pança majestosa”. Sob o engenho dessas nobres comadres e o ciúmes doentio de seus maridos, Falstaff é enganado, tratado como roupa suja, espancado, espetado, ridicularizado e insultado.
 `,
     images: [
       "./images/gallery/windsor/1.webp",
@@ -132,8 +131,21 @@ A dramaturgia aberta e contemporânea força os atores ao diálogo com o públic
   },
   "qorpo-santo": {
     title: "Qorpo Santo (2006 - 2008)",
-    fichaTecnica:
-      "Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes, Luísa Couto, Mariana Tozzi, Max Gonçalves, Rachel de Andrade , Renato Amado, Ronaldo Queiroz, Tacyane Guimarães e Thiago Prata.",
+    fichaTecnica: `Em cena: <br /> 
+    Bárbara Campos<br/>
+     Carolina Grigoli<br/> 
+     Guilherme Thiago<br/> 
+     João Paulo Valadares<br/> 
+     Kenya Goulart<br/> 
+     Luciene Bernardes<br/> 
+     Luísa Couto<br/> 
+     Mariana Tozzi<br/> 
+     Max Gonçalves<br/> 
+     Rachel de Andrade<br/> 
+     Renato Amado<br/> 
+     Ronaldo Queiroz<br/> 
+     Tacyane Guimarães<br/> 
+     Thiago Prata.`,
     textoApresentacao: `O espetáculo Qorpo Santo é a peça de fundação da Preqaria Cia de Teatro e faz uma colagem-livre dos textos mais conhecidos do escritor maldito José Joaquim de Campos Leão, o Qorpo Santo (1833-1883). Poeta, jornalista e anarquista, considerando louco por seus pares em sua época, foi perseguido pelas autoridades imperiais, no final do século passado, sendo internado em um sanatório. Qorpo Santo, criou no século XIX uma escrita ousada, genial, desconsiderada pelos seus contemporâneos. A originalidade de sua obra foi reconhecida pela crítica especializada. Houve quem afirmasse ser ele o precursor mundial do Teatro do Absurdo, mesmo que inconscientemente, só depois dos movimentos de vanguarda do início do século XX e das características sociais da contemporaneidade é que se pôde ler Qorpo Santo e descobrir sua genialidade.<br /><br />
  
 O espetáculo é uma farsa cômica, faz um cruzamento de três textos onde se pode observar também o drama pessoal do incompreendido dramaturgo: O Credor da Fazenda Nacional é uma paródia sobre a burocracia, conta sobre a absurda via-crúcis de um cidadão que tenta exaustivamente receber do governo o que lhe é devido, as agruras sofridas, que o deixa refém das resoluções de funcionários públicos. As Relações Naturais trata dos desejos reprimidos, do erotismo exacerbado e dos pecados da carne, praticamente um manifesto as avessas sobre religiosidade, sexualidade e a família. Mateus e Mateusa é sobre as irônicas relações de amor e ódio de um casal de velhos e suas três filhas em que os personagens se agridem mutuamente, chantagens emocionais, suborno, solidão, discute a respeito da família, casamento e da vida em comum.<br /><br />
@@ -284,21 +296,19 @@ A Preqaria Cia de Teatro realiza desde 2014 a "Temporada de Teatro” em Sete La
 <br /><br />
 
 `,
-    fichaTecnica: [
-      "Texto: Raysner D’ Paula",
-      "Direção: João Valadares",
-      "Elenco: Iasmin Duarte,",
-      "Leticia Cley,",
-      "Nathan Britz,",
-      "Rafa Martins",
-      "Trilha sonora Original: Nathan Britz e Rafa Martins",
-      "Cenário: Iuri Simon",
-      "Iluminação: João Valadares ",
-      "Cenotecnia: Paulinho do Boi ",
-      "Figurinos: Elenco com orientação de Ilza Gonçalves.",
-      "Fotos: Junio Souza",
-      "Realização: Preqaria Cia de Teatro",
-    ],
+    fichaTecnica: `Texto: Raysner D’ Paula<br/>
+      Direção: João Valadares<br/>
+      Elenco: Iasmin Duarte,<br/>
+      Leticia Cley,<br/>
+      Nathan Britz,<br/>
+      Rafa Martins,<br/>
+      Trilha sonora Original: Nathan Britz e Rafa Martins<br/>
+      Cenário: Iuri Simon<br/>
+      Iluminação: João Valadares<br/>
+      Cenotecnia: Paulinho do Boi<br/>
+      Figurinos: Elenco com orientação de Ilza Gonçalves<br/>
+      Fotos: Junio Souza<br/>
+      Realização: Preqaria Cia de Teatro`,
     images: [
       "./images/gallery/princesa-gaia/1.webp",
       "./images/gallery/princesa-gaia/2.webp",
