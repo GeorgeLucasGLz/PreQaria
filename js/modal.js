@@ -443,25 +443,34 @@ Empatia e valorização das diferenças: NUM RAIO DE LUA é fundamentado no univ
 
 
 `,
-    fichaTecnica: [
-      "Direção e Dramaturgia: João Valadares",
-      "Em cena: Débora Campelo, Fábio Damasceno, Iasmin Duarte, Ilza Gonçalves, Julia  Karoline, Letícia Cley, Matheus Carvalho, Nathan Brits, Ranielle Flor, Sheila Oliveira, Yaku Runa Simi, Zhara.",
-      "Percussão: Mestre Sauva  e Lorenzo Caverna.",
-      "Coro: Cintia Mara, Thais Azevedo, Katia Alencar.",
-      "Musicalização e Contrabaixo: Rogério Pardal",
-      "Flauta: Yaku Runa Simi",
-      "Dramaturgista: Claudio Diniz",
-      "Preparação vocal: Mestre Sauva",
-      "Preparação corporal: Lorenzo Kaverna",
-      "Coreografia, Dança Afro e preparação corporal: Marcos Miranda ",
-      "Expressão vocal e ritmo: Raquel Coutinho",
-      "Workshop de Máscaras em Material Reciclável: Rogério Alves",
-      "Figurino: Anna Oliveira e Ilza Gonçalves.",
-      "Costureira: Ilda Gonçalves.",
-      "Designer gráfico: Felipe Gontijo",
-      "Iluminação: João Valadares.",
-      "Realização: Preqaria Cia de Teatro",
-    ],
+    fichaTecnica: `Direção e Dramaturgia: João Valadares<br/><br/>
+      Em cena:<br/> Débora Campelo<br/>
+      Fábio Damasceno<br/>
+      Iasmin Duarte<br/>
+      Ilza Gonçalves<br/>
+      Julia  Karoline<br/>
+      Letícia Cley<br/>
+      Matheus Carvalho<br/>
+      Nathan Brits<br/>
+      Ranielle Flor<br/>
+      Sheila Oliveira<br/>
+      Yaku Runa Simi<br/>
+      Zhara.<br/><br/>
+      Percussão: Mestre Sauva  e Lorenzo Caverna.<br/><br/>
+      Coro: Cintia Mara, Thais Azevedo, Katia Alencar.<br/><br/>
+      Musicalização e Contrabaixo: Rogério Pardal<br/><br/>
+      Flauta: Yaku Runa Simi<br/><br/>
+      Dramaturgista: Claudio Diniz<br/><br/>
+      Preparação vocal: Mestre Sauva<br/><br/>
+      Preparação corporal: Lorenzo Kaverna<br/><br/>
+      Coreografia, Dança Afro e preparação corporal: Marcos Miranda<br/><br/>
+      Expressão vocal e ritmo: Raquel Coutinho<br/><br/>
+      Workshop de Máscaras em Material Reciclável: Rogério Alves<br/><br/>
+      Figurino: Anna Oliveira e Ilza Gonçalves.<br/><br/>
+      Costureira: Ilda Gonçalves.<br/><br/>
+      Designer gráfico: Felipe Gontijo<br/><br/>
+      Iluminação: João Valadares.<br/><br/>
+      Realização: Preqaria Cia de Teatro<br/><br/>`,
     images: [
       "./images/gallery/ceu-constelado/1.webp",
       "./images/gallery/ceu-constelado/2.webp",
@@ -501,32 +510,30 @@ Empatia e valorização das diferenças: NUM RAIO DE LUA é fundamentado no univ
   },
   "cinema-waterapoc": {
     title: "Waterapoc (2009)",
-    fichaTecnica: [
-      "Roteiro: Gilvan Marçal",
-      "Direção: João Valadares",
-      "Assistente de Direção: Mariana Souto",
-      "Direção de Fotografia: Marco Aurelio Ribeiro",
-      "Assistente de Fotografia: Diogo Lisboa",
-      "Câmera: Gabriel Martins",
-      "Direção de Arte: Carolina Linares",
-      "Figurino: Caroline Candido",
-      "Assistente de Figurino: Rafael Ramalho",
-      "Maquiagem: Elisinha Silva e Fernanda Botelho",
-      "Direção de Produção: Vanessa Maciel e Fernanda Botelho",
-      "Assistente de Produção: Maíra Camargo e Luciene Bernardes",
-      "Continuidade: João Paulo Teixeira",
-      "Still e Making off: João Paulo Lustosa",
-      "Som Direto: André Novaes",
-      "Edição: João Valadares",
-      "Trilha Sonora e Mixagem: Felipe Fantoni e Na Trilha Produções",
-      "Arte Gráfica: Daniel Roscoe e Raquel Alvarenga",
-      "Elenco:",
-      "Carlos Magno Ribeiro",
-      "Jerry Magalhaes",
-      "Marcos Cordeiro",
-      "Renato Amado",
-      "Alexandre Toledo",
-    ],
+    fichaTecnica: `Roteiro: Gilvan Marçal<br/>
+      Direção: João Valadares<br/>
+      Assistente de Direção: Mariana Souto<br/>
+      Direção de Fotografia: Marco Aurelio Ribeiro<br/>
+      Assistente de Fotografia: Diogo Lisboa<br/>
+      Câmera: Gabriel Martins<br/>
+      Direção de Arte: Carolina Linares<br/>
+      Figurino: Caroline Candido<br/>
+      Assistente de Figurino: Rafael Ramalho<br/>
+      Maquiagem: Elisinha Silva e Fernanda Botelho<br/>
+      Direção de Produção: Vanessa Maciel e Fernanda Botelho<br/>
+      Assistente de Produção: Maíra Camargo e Luciene Bernardes<br/>
+      Continuidade: João Paulo Teixeira<br/>
+      Still e Making off: João Paulo Lustosa<br/>
+      Som Direto: André Novaes<br/>
+      Edição: João Valadares<br/>
+      Trilha Sonora e Mixagem: Felipe Fantoni e Na Trilha Produções<br/>
+      Arte Gráfica: Daniel Roscoe e Raquel Alvarenga<br/>
+      Elenco:<br/>
+      Carlos Magno Ribeiro<br/>
+      Jerry Magalhaes<br/>
+      Marcos Cordeiro<br/>
+      Renato Amado<br/> 
+      Alexandre Toledo<br/>`,
 
     textoApresentacao: `O curta-metragem Waterapoc aborda a temática da provável escassez de água, o aquecimento global e o fim de recursos naturais como o petróleo.
 <br /><br />Na trama o protagonista viaja de um futuro hipotético, no qual uma empresa privada detém o monopólio de toda a água do planeta, para um passado histórico, alguns dias antes dos atentados de 11 de setembro de 2001. A única e coerente prova do homem que afirma vir do futuro é prever o que vai acontecer no dia seguinte: a queda das torres gêmeas do World Trade Center. 
