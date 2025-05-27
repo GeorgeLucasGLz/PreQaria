@@ -578,7 +578,7 @@ Waterapoc é um curta-metragem de ficção científica que conta a estória de A
   },
   "cinema-outros-dias": {
     title: "Coisa Feita pelo Coração (2025)",
-    fichaTecnica: `"Elenco",
+    fichaTecnica: `Elenco:<br/>
 
       Eduardo ......................... Nikolas Hoffman,<br/>
       Mãe de Eduardo ............ Carine França,<br/>
