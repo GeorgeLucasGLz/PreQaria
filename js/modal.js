@@ -72,7 +72,7 @@ Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de
       Iluminação: Allan Calisto<br/>
       Designer Gráfico: Fabiano Lana<br/>
       Assessoria de Imprensa: Glenda Souza<br/><br/>
-      Em cena:<br/>,
+      Em cena:<br/>
       Júlio Gomes<br/>
       Layla Valadares<br/>
       Luciano Jordão<br/>
