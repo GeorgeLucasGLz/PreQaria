@@ -49,17 +49,42 @@ Pena, é que nenhuma história termina com um começo. O amor é sempre começo.
   fausto: {
     title: "Fausto(s!) (2010 - 2016)",
     fichaTecnica:
-      "Realizado com recursos do Prêmio Funarte de Teatro Myriam Muniz 2009, a montagem do espetáculo Fausto(s!) reuniu um coletivo formado por artistas da Preqaria Cia de Teatro (Gabriela Domínguez, João Valadares, Kenya Goulart, Milenna Trindade, Raysner de Paula e Tacy Guimarães), da Cia do Chá de Teatro (Francis Severino, Jésus Lataliza, Luiz Dias e Sara Pinheiro) e artistas convidados (Alexandre Toledo, Amanda Prates, Joaquim Elias e Raul Belém Machado). A partir dessas parcerias, a Preqaria Cia de Teatro se propôs abrir sua perspectiva para outras formas de se fazer teatro, sem se distanciar em nada do seu campo de pesquisa: a precariedade da existência humana.",
-    textoApresentacao: `O espetáculo Fausto(s!) é uma releitura contemporânea do drama “Fausto” de Goethe, em que Fausto faz um pacto com Mefistófeles e tem todos os desejos realizados: torna-se jovem, rico e conquista a mulher por quem se apaixonou. Mas, em um momento de lucidez, o próprio Fausto questiona essa condição: "Mefistófeles criou no meu peito um fogo vivo que me atraí para todas as imagens da beleza. Assim me sinto transportado do desejo ao prazer e, em pleno prazer, anseio pelo desejo". Na opinião desse coletivo essa é uma característica de todo ser humano: "no auge do prazer, anseia pelo desejo", acaba de conquistar algo e já está pensando na próxima conquista. Isso é humano, embora Fausto atribua essa falculdade ao demônio, ela é humana, e é, de certa forma, o motor do mundo e ao mesmo tempo a sua maneira de auto-destruição. Nesse sentido todos fizeram o pacto e todos são Fausto(s!). <br /><br />
-
-A estratégia dramatúrgica foi partir de algumas situações sugeridas no texto de Goethe para se criar imagens cênicas que discutisse questões pertinentes ao nosso tempo. Em dado momento do texto original, Fausto questiona Mefistófoles da razão pela qual ele, um demônio com poderes sobrenaturais, perde seu tempo com uma pequena alma, um "grão de areia" em relação ao imenso universo. Diante do questionamento, Mefistófoles se declara incapaz de destruir o mundo: <br /><br />
-
-"Já desencadei sobre ele marés, tempestades, incêndios, tremor de terra: mar e terra contiuam em sossego. Do ar e da àgua, como da terra mil gérmens brotam e frutificam no seco, no úmido, no frio e no quente. Se eu não tivesse reservado o fogo para mim, nada teria de meu". <br /><br />
-
-Novamente uma leitura de aproximação se faz possível: o demônio se declara incapaz de destruir o mundo, mas basta parar um dia para ver os noticiários, todos os problemas de aquecimento glogal, efeito estufa e poluição, para descobrir que o homem, protegido em sua insignificância em relação ao universo está fazendo aos poucos o que Mefistófoles afirma não conseguir.<br /><br />
-
+      `Elenco:<br/> <br/>
+      Alexandre Toledo<br/> 
+      Francis Severino (Leo Horta)<br/> 
+      Gabriela Domínguez<br/> 
+      Jésus Lataliza<br/>
+      Kenya Goulart(Maria Tereza Teca)<br/> 
+      Luiz Dias<br/>
+      Milenna Trindade<br/>
+      Raysner d’ Paula<br/>
+      Tacy Guimarães<br/>
+      Sara Pinheiro (Helaine Freitas).<br/><br/>
+Direção e Dramaturgia: João Valadares<br/>
+Cenário: Raul Belém Machado<br/>
+Figurino: Wiliam Raush<br/>
+Iluminação: Felipe Cosse, Juliano Coelho e Vladmir Medeiros<br/>
+Montagem de Luz: Welerson Aquino (Neném)<br/>
+Assistente de Iluminação: Jésus Lataliza<br/>
+Preparação Corporal: Joaquim Elias<br/>
+Preparação Vocal / Trilha Sonora: Amanda Prates<br/>
+Coordenação de Produção: Milena Lago<br/>
+Produção Executiva: Paloma Parentoni<br/>
+Projeto Gráfico: Marcus Vinícius Souza<br/>
+Parceria: Cia do Chá<br/>
+Realização: Preqaria Cia de Teatro
+`,
+    textoApresentacao: `O espetáculo Fausto(s!) é uma releitura contemporânea do drama “Fausto” de Goethe, em que Fausto faz um pacto com Mefistófeles e tem todos os desejos realizados: torna-se jovem, rico e conquista a mulher por quem se apaixonou. Mas, em um momento de lucidez, o próprio Fausto questiona essa condição: "Mefistófeles criou no meu peito um fogo vivo que me atraí para todas as imagens da beleza. Assim me sinto transportado do desejo ao prazer e, em pleno prazer, anseio pelo desejo". Na opinião desse coletivo essa é uma característica de todo ser humano: "no auge do prazer, anseia pelo desejo", acaba de conquistar algo e já está pensando na próxima conquista. Isso é humano, embora Fausto atribua essa falculdade ao demônio, ela é humana, e é, de certa forma, o motor do mundo e ao mesmo tempo a sua maneira de auto-destruição. Nesse sentido todos fizeram o pacto e todos são Fausto(s!). 
+<br/><br/>
+Este espetáculo recebeu o Prêmio Funarte Miriam Muniz 2010 circulou através do projeto Trilha da Cultura, foi prêmiado na categoria Melhor Iluminação e indicado na categoria Melhor Direção do Prêmio Usiminas Simparc em 2010. A estratégia dramatúrgica foi partir de algumas situações sugeridas no texto de Goethe para se criar imagens cênicas que discutisse questões pertinentes ao nosso tempo. Em dado momento do texto original, Fausto questiona Mefistófoles da razão pela qual ele, um demônio com poderes sobrenaturais, perde seu tempo com uma pequena alma, um "grão de areia" em relação ao imenso universo. Diante do questionamento, Mefistófoles se declara incapaz de destruir o mundo: 
+<br/><br/>
+"Já desencadei sobre ele marés, tempestades, incêndios, tremor de terra: mar e terra contiuam em sossego. Do ar e da àgua, como da terra mil gérmens brotam e frutificam no seco, no úmido, no frio e no quente. Se eu não tivesse reservado o fogo para mim, nada teria de meu". 
+<br/><br/>
+Novamente uma leitura de aproximação se faz possível: o demônio se declara incapaz de destruir o mundo, mas basta parar um dia para ver os noticiários, todos os problemas de aquecimento glogal, efeito estufa e poluição, para descobrir que o homem, protegido em sua insignificância em relação ao universo está fazendo aos poucos o que Mefistófoles afirma não conseguir.
+<br/><br/>
 Essa possibilidade de transitar do clássico ao contemporâneo foi um dos objetivos motivadores desse espetáculo. A partir desse pressuposto a cozinha da bruxa que prepara em seu caldeirão um elixir capaz de rejuvenescer Fausto, pode ser uma clínica de reabilitação estética, um spa/academia que oferece serviços de cirurgia plástica, redução de estômago ou escova permanente. Os macacos que circundam e servem a bruxa são também os personal trainers ou enfermeiros estéticos. A intenção é passar do alegórico – personificando Deus, os anjos e o demônio em seres humanos, para chegar na resignificação desses naquilo que está contido em cada indivíduo. Assim a metáfora do bem e do mal pode não ser traduzida como a fisicalização dos seres Deus e Diabo, mas, antes disso, na constatação de que o bem ou o mal estão por ser feitos, são frutos das ações humanas.
-Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de si mesmo para poder se enchergar, algo eminentemente existencialista, e que insurgiu a idéia de investigar a linguagem do Coro.  Como parte de um todo hegemônico o integrante do coro se manifesta criticamente em relação às ações de seu corifeu. Todos os atores fazem parte do coro,  mas todos eles tem também seus momentos como Fausto, o personagem/mito que “no auge do prazer anseia pelo desejo”,  tornando-se ao mesmo tempo crítico e autor da ação. <br /><br />
+<br/><br/>
+Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de si mesmo para poder se enchergar, algo eminentemente existencialista, e que insurgiu a idéia de investigar a linguagem do Coro.  Como parte de um todo hegemônico o integrante do coro se manifesta criticamente em relação às ações de seu corifeu. Todos os atores fazem parte do coro,  mas todos eles tem também seus momentos como Fausto, o personagem/mito que “no auge do prazer anseia pelo desejo”,  tornando-se ao mesmo tempo crítico e autor da ação.
 
 
 `,
