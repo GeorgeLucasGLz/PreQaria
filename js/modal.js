@@ -19,15 +19,15 @@ Produção: Fabio Schimdt, Gabriela Dominguez e Raysner de Paula<br/>
 Realização: Preqaria Cia. de Teatro
 `,
     textoApresentacao: `As pessoas normais, as pessoas que não são estranhas, elas dizem, elas olham nos olhos umas das outras e dizem: Eu te amo! Mas este não é o caso dos personagens de “Nosso Estranho Amor”, espetáculo da Preqaria Cia de Teatro. Trata-se aqui de pessoas que se apaixonam em situações extremas, personagens que se definem pelo que perderam, pelo que na têm, pelo que lhes falta.
-<br/>
+<br/><br/>
 Vencedor do Prêmio Funarte de Teatro Myriam Muniz 2008 e do Edital Caixa Cultural 2010 o espetáculo ficou em repertório por 13 anos, sendo assistido por mais de 10 mil pessoas. “Nosso Estranho Amor” é uma livre adaptação do enredo da novela “Primeiro Amor” em diálogo com as novelas “O expulso”, “O Calmante” e “O fim” de Samuel Beckett. Os “sem teto” apresentados por Beckett foram o ponto de partida para que a companhia criasse a sua própria dramaturgia.  Na montagem o grupo sugere uma leitura metafórica dos textos originais em que a situação de morador de rua do protagonista, ou seja, o fato de ele não ter uma casa, se evidencia com a falta do amor em sua vida. Com este universo, por cadeias de situações simples e pequenos diálogos cotidianos, a peça constrói uma fábula contemporânea sobre um dos sentimentos primordiais do homem como ser social: o amor, o absurdo que há no amor entre um homem e uma mulher.
-<br/>
+<br/><br/>
 A maior parte das palavras ditas na peça vieram de poemas do livro inédito “Clichês e Flores”, do ator e dramaturgo João Valadares, que antes havia publicado “Hipoteca”, pela Anome Livros. Em uma brincadeira com as canções de Caetano Veloso executadas ao vivo pelo violonista Paulinho do Boi e a violinista Clarice Rodrigues, o texto falado pela atriz Piera Rodrigues é, em parte, retirado das letras de músicas do compositor baiano, como se a mulher encontrasse paralelo entre o homem por quem se apaixonou e os personagens das canções que tanto gosta. 
-<br/>
+<br/><br/>
 Todo o trabalho de criação cênica foi desenvolvido através de pesquisa realizada pelo diretor Cláudio Dias, da Cia de Teatro Luna Lunera, que passa pelo método do processo colaborativo confrontando as técnicas de “Contato improvisação” do coreógrafo e bailarino Steve Preston que trabalha o movimento com troca de toques, peso e energias; e “View points” da bailarina e coreógrafa Ane Bogart que propõe jogos de relação entre corpo e espaço. A relação com a dança foi impressa no corpo dos atores e norteia a concepção de cenas importantes do espetáculo.
-<br/>
+<br/><br/>
 Enquanto seguem suas vidas os personagens de “Nosso Estranho Amor” parecem querer encobrir suas tragédias pessoais. O homem fala sem parar, confusamente e de modo entrecortado, mas o mais importante, o fato de ter sido despejado da casa onde viveu desde que nasceu, fica no segundo plano do seu discurso, como um silêncio eloqüente. A jovem se apronta, experimenta os sapatos, se prepara para um novo dia de trabalho, mas o sorriso fácil não deflagra a solidão em que se encontra. Nesse sentido a iluminação realizada por Felipe Cosse e Juliano Coelho (Prêmio Shell 2007) busca encobrir o que está fora e descobrir o que está dentro, deixando para o público a percepção de atmosfera intimista a partir do espaço cênico proposto pelo cenógrafo Luiz Dias.
-<br/>
+<br/><br/>
 Quando não se tem mais nada e já não se pode perder mais nada, é sinal que algo está por acontecer. Duas pessoas se permitem um abraço, deixando que os poros da pele troquem planos e sonhos, parece ser essa a hora em que o acaso assume o seu papel. Os clichês de sempre: alguns gestos, um olhar, um novo corte de cabelo e uma música cantarolada sem grandes pretensões, tipo de coisa que não faz muito sentido, mas que na presença de Deus e o universo e outros seres mitológicos como o amor, fazem toda diferença. Apesar das condições, apesar desses pequenos absurdos cotidianos, parecia coerente que se apaixonassem. E foi assim.
 Pena, é que nenhuma história termina com um começo. O amor é sempre começo.
 
