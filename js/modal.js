@@ -46,6 +46,42 @@ Pena, é que nenhuma história termina com um começo. O amor é sempre começo.
     ],
   },
 
+  "estrada": {
+    title: "Pela Estrada Adentro (2012 - 2013)",
+    fichaTecnica: `Texto: Fernando Limoeiro<br/>
+Argumentos e colaboração no texto: Marcus Ferreira e Fernando Caramuru<br/>
+Direção e Iluminação: Yuri Simon<br/>
+Realização: Asas Produções<br/>
+Cenário: Heleno Polisseni<br/>
+Figurino e Adereços: Mauro Gelmini<br/>
+Trilha Sonora Original: Renato Goulart<br/><br/>
+Elenco:<br/>
+Chris Geburah (Zaluí);<br/>
+Brenda Campos (Mãe, Sapo Rei e Rainha Tilápia);<br/>
+João Valadares (Sofia [coruja], Arremedo, Anjoão e Pererecas cantoras);<br/>
+Keu Freire (Lucifrão, Tio Felisperto e Pererecas cantoras).<br/>
+
+`,
+    textoApresentacao: `O espetáculo infantil “Pela Estrada Adentro” foi co-produzido Asas Produções e a Preqaria Cia de Teatro com texto escrito por Fernando Limoeiro. A peça conta a estória da menina Zaluí, determinada e corajosa que, por amor ao seu tio, um solitário apaixonado pela natureza e de personalidade um tanto diversa da sua, resolve entrar numa aventura pelo rio.
+<br/><br/>Enfrentando perigosas corredeiras e seres estranhíssimos, Zaluí busca satisfazer o desejo puro de abraçar o tio no dia de seu aniversário. É e o rio da própria vida de Zaluí, o rio que corre segundo a sua natureza, transpondo obstáculos e guiado por seus desejos mais sinceros. Quando navegar pelo rio uma segunda vez, nem Zaluí nem o rio serão os mesmos, pois tudo que é vivo flui, se forja e se transforma progressivamente. E ainda assim Zaluí e o rio continuarão com suas respectivas identidades.
+<br/><br/>Sob direção de Yuri Simon, a encenação busca a sensação de delicadeza e suavidade. "Pela Estrada Adentro" é uma história contada com muita cor, cheiro, música e mistério. Representa, através de elementos visuais de um quarto infantil, o sonho da personagem: o barco em que a menina viaja pelo rio, suas margens e barrancos. No fundo da cena todos os elementos são compostos e revestidos em diversos tecidos dando a impressão de que as peças cenográficas são formadas por uma grande colcha de retalhos. O elenco é composto por Chris Geburah, Brenda Campos, João Valadares e Keu Freire que já viajaram para 16 cidades dos estados do Rio de Janeiro e São Paulo se apresentando para mais de 10 mil crianças entre Março e Setembro de 2012.
+<br/><br/>A jornada de Zaluí é feita de obstáculos, luta, poesia, afeto e determinação.  A cada momento se misturam espanto e reflexão, descritos numa linguagem clara e bem humorada, tão saborosa quanto o bolo de chocolate que Zaluí leva em sua aventura pelas águas do rio, autêntico e mágico como seu coração de criança.
+<br/><br/>A peça foi assistida por mais de 10 mil espectadores em 32 cidades dos estados de Minas Gerais, Rio de Janeiro e São Paulo.
+
+
+`,
+    images: [
+      "./images/gallery/estrada/1.webp",
+      "./images/gallery/estrada/2.webp",
+      "./images/gallery/estrada/3.webp",
+      "./images/gallery/estrada/4.webp",
+      "./images/gallery/estrada/5.webp",
+      "./images/gallery/estrada/6.webp",
+      "./images/gallery/estrada/7.webp",
+      "./images/gallery/estrada/8.webp",
+    ],
+  },
+
   "fausto": {
     title: "Fausto(s!) (2010 - 2016)",
     fichaTecnica:
