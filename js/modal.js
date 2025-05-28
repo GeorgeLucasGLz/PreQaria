@@ -424,14 +424,19 @@ A Preqaria Cia de Teatro realiza desde 2014 a "Temporada de Teatro” em Sete La
 No teatro de Wehbi, a denúncia social revela-se na maneira pela qual os personagens estão inseridos na sociedade. São seres humanos anônimos reconhecíveis em qualquer esquina e que, por essa razão, permite que o público faça uma viagem interior sobre sua própria função social. O diálogo entre palhaço e o vendedor, nos permite elucidar sobre nós mesmos e o contexto histórico e evolutivo no qual vivemos. 
 
 `,
-    fichaTecnica: [
-      "Guilherme Thiago",
-      "João Paulo Valadares",
-      "Max Gonçalves",
-      "Renato Amado",
-      "Ronaldo Queiroz",
-      "Thiago Prata",
-    ],
+    fichaTecnica: `Texto: Timochenco Wehbi<br/>
+Direção: Ricardo Martins<br/><br/>
+Atores:<br/> João Valadares<br/>
+  Leonardo Horta<br/>
+Preparação Corporal: Christina Fornaciari<br/>
+Figurinos: Adriana Gontijo<br/>
+Maquiagem: Cacá Zech<br/>
+Cenário: Rogério Alves<br/>
+Designer Gráfico e Fotografia: Rubens Rangel e Matheus Faria<br/>
+Assessoria de Comunicação: Gustavo Mendicino<br/>
+Iluminação: Bruno Santanna<br/>
+Realização: Preqaria Cia de Teatro e Cia Lúdica dos Atores<br/>
+`,
     images: [
       "./images/gallery/palhacos/1.webp",
       "./images/gallery/palhacos/2.webp",
