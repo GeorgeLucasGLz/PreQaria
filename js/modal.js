@@ -182,8 +182,27 @@ O espetáculo "Qorpo Santo" surgiu como uma pesquisa sobre o grotesco e o trabal
   "tribunal": {
     title: "Tribunal Quarto de Zona (2008 - 2009)",
     fichaTecnica: `
-Elenco<br />
-Cristiane Andrade,<br /> Gabriela Dominguez,<br /> Guilherme Thiago,<br /> João Valadares,<br /> Kênia Goulart, <br />Milena Trindade,<br /> Raysner d’Paula,<br /> Ronaldo Queiroz e<br /> Tacyane Guimarães.`,
+Direção e Dramaturgia: João Valadares<br/> <br/> 
+Elenco:<br/>  
+Gabriela Dominguez<br/> 
+Guilherme Thiago<br/> 
+João Valadares<br/> 
+Kenya Goulart<br/> 
+Luciene Bernardes(Cristiane Andrade)<br/> 
+Milenna Trindade<br/> 
+Raysner d’Paula<br/> 
+Ronaldo Queiroz.<br/> <br/> 
+Iluminação: Thiago Prata<br/> 
+Cenografia: Luciene Bernardes e Wallace Barros<br/> 
+Criação Audiovisual: Leonardo Souza<br/> 
+Maquiagem: Gabriela Dominguez<br/> 
+Técnico de Luz: Cristiano Cunha<br/> 
+Técnico de som: Luiz Dias<br/> 
+Workshop de Dança: Wanderson Vieira<br/> 
+Arte Gráfica: Wallace Barros (Foto de Luciene Bernardes)<br/> 
+Realização: Preqaria Cia de Teatro<br/> 
+
+`,
     textoApresentacao: ` “TRIBUNAL - Quarto de Zona” é o resultado de uma pesquisa da Preqaria Cia de Teatro que partiu da apropriação cênica de alguns conceitos do existencialismo filosófico e seu diálogo estrito com o Teatro do Absurdo. <br />
     Durante o processo cada ator abordou temas fortes colocando o seu ponto de vista sobre algumas das questões universais do ser humano, como a busca pelo prazer e o medo da morte. Apesar do peso da temática abordada o grupo percebeu que a força do realismo exacerbado – trágico por excelência, trazia em si o cerne da comicidade.  <br /><br />
     Abandonou-se então a pretensão filosófica, ganhando liberdade para construir uma fábula simples, na qual fosse possível discutir as nossas próprias questões. Falar do prazer e do medo de cada um dos atores. Era preciso ir além da filosofia para chegar à existência, a nossa existência em relação ao outro. O resultado ficou plástico, hora engraçado, hora dramático, leituras teatrais de conteúdo pessoal que apontam um caminho de urgente confrontação consigo mesmo. <br /><br />
