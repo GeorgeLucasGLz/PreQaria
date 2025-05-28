@@ -46,7 +46,7 @@ Pena, é que nenhuma história termina com um começo. O amor é sempre começo.
     ],
   },
 
-  fausto: {
+  "fausto": {
     title: "Fausto(s!) (2010 - 2016)",
     fichaTecnica:
       `Elenco:<br/> <br/>
@@ -102,7 +102,7 @@ Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de
       "./images/gallery/faustos/10.webp",
     ],
   },
-  windsor: {
+  "windsor": {
     title: "As Alegres Comadres de Windsor (2017 - 2023)",
     fichaTecnica: `Direção e adaptação: João Valadares<br/>
       Assistência de direção: Rogério Alves<br/>
@@ -351,7 +351,18 @@ Realização: Preqaria Cia de Teatro
 O espetáculo de rua "A Praça Dr. Sem Graça" coloca em cena Lacrimoso, Feioso e Xaxato: 3 palhaços que tentam a todo custo se apresentar em um espaço público, mas são impedidos pela Dona Guarda que os surpreende com a notícia da morte de Chouriço, quarto integrante e fiel companheiro da trupe. De forma inusitada os palhaços tentam reconstituir o assassinato e encontrar o culpado. Através de suas versões absurdas para o crime abrem uma brecha para concretizar o encontro com o público.
 `,
 
-    fichaTecnica: `Em cena Brenda Campos, João Valadares, Keu Freire e  o ator convidado Vinício Queiros, depois substituido por Claudio Márcio, que escreveu juntamente com Keu Freire e Max Hebert o texto do espetáculo.`,
+    fichaTecnica: `Texto: Keu Freire e Max Hebert<br/>
+Direção: Chris Geburah<br/><br/>
+Elenco:<br/> 
+Brenda Campos<br/> 
+João Valadares<br/> 
+Keu Freire<br/> 
+Claudio Márcio (Vinício Queiros).<br/>
+Cenário e Figurino: O Coletivo<br/>
+Fotos: Carolina Candido<br/>
+Produção: João Valadares e Keu Freire<br/>
+Realização: Preqaria Cia de Teatro e Cia Brabuleta
+`,
     images: [
       "./images/gallery/praca/1.webp",
       "./images/gallery/praca/2.webp",
