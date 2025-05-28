@@ -103,7 +103,7 @@ Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de
       "./images/gallery/windsor/10.webp",
     ],
   },
-  saga: {
+  "saga": {
     title: "Saga - Uma História do Povo Preto (2023 - Atual)",
     fichaTecnica: `Preqaria Cia de Teatro	<br /> A companhia foi fundada em Belo Horizonte em 14 de Julho de 2006 e, desde 2014, tem sua sede em Sete Lagoas MG. A partir de seu terceiro espetáculo “Nosso Estranho Amor” inspirado na obra de Samuel Beckett, vencedor do Prêmio Miriam Muniz em 2009, o grupo aprofunda a investigação as voltas com a precariedade da existência humana através de variadas linguagens cênicas. Ao longo de seus 18 anos, realizou treze espetáculos e 3 curta metragens, conquistou vários prêmios, realizou parcerias com artistas de renome internacional, participou de importantes festivais do país.<br /><br />
 
@@ -137,21 +137,34 @@ A dramaturgia aberta e contemporânea força os atores ao diálogo com o públic
   },
   "qorpo-santo": {
     title: "Qorpo Santo (2006 - 2008)",
-    fichaTecnica: `Em cena: <br /> 
-    Bárbara Campos<br/>
-     Carolina Grigoli<br/> 
-     Guilherme Thiago<br/> 
-     João Paulo Valadares<br/> 
-     Kenya Goulart<br/> 
-     Luciene Bernardes<br/> 
-     Luísa Couto<br/> 
-     Mariana Tozzi<br/> 
-     Max Gonçalves<br/> 
-     Rachel de Andrade<br/> 
-     Renato Amado<br/> 
-     Ronaldo Queiroz<br/> 
-     Tacyane Guimarães<br/> 
-     Thiago Prata.`,
+    fichaTecnica: `Direção: Yuri Simon<br/> <br/> 
+Elenco:<br/> 
+Bárbara Campos<br/> 
+Carolina Grigoli<br/> 
+Guilherme Thiago<br/> 
+João Valadares<br/> 
+Kenya Goulart<br/> 
+Luciene Bernardes<br/> 
+Luísa Couto<br/> 
+Mariana Tozzi<br/> 
+Max Gonçalves<br/> 
+Rachel de Andrade<br/> 
+Renato Amado<br/> 
+Ronaldo Queiroz<br/> 
+Tacyane Guimarães<br/> 
+Thiago Prata<br/><br/> 
+Autor: José Joaquim de Campos Leão<br/>
+Preparação Corporal: Iolene Di Stéfano<br/>
+Maquiagem: Diorcélio Santos<br/>
+Figurino: Yuri Simon e Preqaria Cia de Teatro<br/>
+Cenário: Luciene Bernardes e Thiago Prata<br/>
+Cenotécnico: Roberto Monteiro<br/> 
+Iluminação: Enedson Gomes<br/>
+Trilha Sonora: Yuri Simon<br/>
+Projeto Gráfico: Luciene Bernardes<br/>
+Produção: Thiago Prata<br/>
+Realização Preqaria Cia de Teatro
+`,
     textoApresentacao: `O espetáculo Qorpo Santo é a peça de fundação da Preqaria Cia de Teatro e faz uma colagem-livre dos textos mais conhecidos do escritor maldito José Joaquim de Campos Leão, o Qorpo Santo (1833-1883). Poeta, jornalista e anarquista, considerando louco por seus pares em sua época, foi perseguido pelas autoridades imperiais, no final do século passado, sendo internado em um sanatório. Qorpo Santo, criou no século XIX uma escrita ousada, genial, desconsiderada pelos seus contemporâneos. A originalidade de sua obra foi reconhecida pela crítica especializada. Houve quem afirmasse ser ele o precursor mundial do Teatro do Absurdo, mesmo que inconscientemente, só depois dos movimentos de vanguarda do início do século XX e das características sociais da contemporaneidade é que se pôde ler Qorpo Santo e descobrir sua genialidade.<br /><br />
  
 O espetáculo é uma farsa cômica, faz um cruzamento de três textos onde se pode observar também o drama pessoal do incompreendido dramaturgo: O Credor da Fazenda Nacional é uma paródia sobre a burocracia, conta sobre a absurda via-crúcis de um cidadão que tenta exaustivamente receber do governo o que lhe é devido, as agruras sofridas, que o deixa refém das resoluções de funcionários públicos. As Relações Naturais trata dos desejos reprimidos, do erotismo exacerbado e dos pecados da carne, praticamente um manifesto as avessas sobre religiosidade, sexualidade e a família. Mateus e Mateusa é sobre as irônicas relações de amor e ódio de um casal de velhos e suas três filhas em que os personagens se agridem mutuamente, chantagens emocionais, suborno, solidão, discute a respeito da família, casamento e da vida em comum.<br /><br />
@@ -166,7 +179,7 @@ O espetáculo "Qorpo Santo" surgiu como uma pesquisa sobre o grotesco e o trabal
       "./images/gallery/qorpo-santo/5.webp",
     ],
   },
-  tribunal: {
+  "tribunal": {
     title: "Tribunal Quarto de Zona (2008 - 2009)",
     fichaTecnica: `
 Elenco<br />
@@ -205,7 +218,7 @@ Cristiane Andrade,<br /> Gabriela Dominguez,<br /> Guilherme Thiago,<br /> João
       "./images/gallery/tribunal/10.webp",
     ],
   },
-  conversa: {
+  "conversa": {
     title: "Conversa Séria de Calcinha e Soutien (2011 - 2016)",
     textoApresentacao: `
 
@@ -256,7 +269,7 @@ O Criado no texto de Sartre tem participação modesta. É o responsável por le
       "./images/gallery/calcinha-e-soutien/5.webp",
     ],
   },
-  praca: {
+  "praca": {
     title: "A Praça Dr. Sem Graça (2013 - 2016)",
     textoApresentacao: `“A Praça Dr. Sem Graça” surgiu a partir de uma parceria entre a Companhia Brabuleta e a Preqaria Cia de Teatro. Trata-se de um espetáculo de rua que propõe uma intersecção entre a linguagem do clown e a força popular do Cordel. Nas praças, parques ou qualquer espaço público, os “paiaço” chegam, montam sua roda de instrumentos, objetos, fita zebrada e cones, e dão início à apresentação.
 <br /><br />Feioso, Lacrimoso, e Xaxato são palhaços que querem se apresentar em um espaço público, mas são impedidos por “Dona” Guarda que os surpreende com a notícia da morte de Chouriço, quarto integrante e fiel companheiro da trupe. De forma inusitada os palhaços tentam reconstituir o assassinato e encontrar o culpado. Através de suas versões absurdas para o crime abrem uma brecha para concretizar o encontro com o público.
@@ -280,7 +293,7 @@ O espetáculo de rua "A Praça Dr. Sem Graça" coloca em cena Lacrimoso, Feioso 
       "./images/gallery/praca/10.webp",
     ],
   },
-  princesa: {
+  "princesa": {
     title: "A Princesa Gaia (2015 - 2021)",
     textoApresentacao: `“A Princesa Gaia” é uma peça lúdica e divertida que aponta questões importantes sobre a relação entre o homem e o planeta terra buscando conscientizar nossos pequenos cidadãos. A peça conta a estória da Terra quando ela era ainda uma jovem princesa que, de tanto insistir, ganha a permissão de seu pai, o grande Rei Sol para casar-se. Não satisfeita com os pretendentes indicados por ele, a princesa foge para um local desconhecido, o nada, onde se encontra com o primeiro homem e... se apaixona! O casamento acontece, mas a relação é instável. 
 <br /><br />
@@ -329,7 +342,7 @@ A Preqaria Cia de Teatro realiza desde 2014 a "Temporada de Teatro” em Sete La
       "./images/gallery/princesa-gaia/10.webp",
     ],
   },
-  palhacos: {
+  "palhacos": {
     title: "Palhaços (2011 - 2021)",
     textoApresentacao: `“Palhaços” é um espetáculo divertido e emocionante que faz uma reflexão sobre as escolhas que todo indivíduo precisa fazer ao longo da vida. A linguagem popular se apropria da figura do palhaço e do ambiente do circo para falar dos nossos sonhos esquecidos de infância, das consessões que o homem contemporâneo faz em detrimento dos seus desejos mais sinceros. A peça pode ser apresentada tanto em teatro quanto espaços alternativos.
 <br /><br />Escrito na década de 70 pelo paulista Timochenko Wehbi o texto conta a estória do palhaço Careta (Leo Horta) que tem sua rotina alterada quando, de volta a seu camarim onde irá se preparar para a próxima sessão do velho circo mambembe, se depara com um espectador/fã que, de maneira desavisada, adentra o espaço do artista. A partir daí pode-se conhecer melhor o visitante – um vendedor de sapatos, metódico e cheio de problemas pessoais, cujo nome é Benvindo (João Valadares). O que deveria ser a preparação para mais um número, transforma-se em um jogo tragicômico e surpreendente, no qual o palhaço traz à tona os sonhos mais puros e os desejos mais pérfidos de seu fã. Enquanto ajuda o espectador Benvindo a compreender a realidade em que vive, o palhaço Careta reflete sobre sua própria condição de artista, as dificuldades financeiras, o prazer de fazer o que gosta, os valores morais que para ele são essênciais.
@@ -360,7 +373,7 @@ No teatro de Wehbi, a denúncia social revela-se na maneira pela qual os persona
       "./images/gallery/palhacos/10.webp",
     ],
   },
-  amor: {
+  "amor": {
     title: "Amor (2017 - 2021)",
     textoApresentacao: `A esperança no amor é o mote do espetáculo “Amor” da Preqaria Cia de Teatro que busca a interlocução com o espectador através de uma encenação aberta. A proposta narrativa faz uma superposição de imagens cênicas e textuais criadas a partir da experiência amorosa dos integrantes do grupo e suas percepções do atual momento social. A discussão do sonho romântico imposto pela sociedade, a incomunicabilidade entre pares, as barreiras amorosas de um homossexual, e a maternidade são temas da peça que, de forma despretenciosa, lança mão das linguagens da dança, da máscara, do teatro e da performance para criar um espetáculo contemporâneo.
 <br /><br />
@@ -396,7 +409,7 @@ O espetáculo “Amor” é um manifesto contra o medo de amar.
       "./images/gallery/amor/10.webp",
     ],
   },
-  tartufo: {
+  "tartufo": {
     title: "Tartufo's 80 (2018 - 2023)",
     textoApresentacao:
       'A Preqaria Cia de Teatro apresenta seu mais novo espetáculo "Tartufo’s 80", uma comédia debochada e irreverente do mestre francês Molière adaptada para os anos de 1980. A peça com direção de Ricardo Martins traz em cena Izabela Oliveira, João Valadares, Marina Galeri, Piera Rodrigues e Rogério Alves. A referência da década se deu a partir do cenário, uma Brasília ano 1980. O carro é a casa da família de Orgon. A partir daí várias ideias para completar essa atmosfera como as roupas características, a parodia de  sucessos musicais e filmes populares da época, fazem desta montagem uma grande viagem ao passado. Venha rir e se divertir com essa deliciosa comédia!',
