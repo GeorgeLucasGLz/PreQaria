@@ -1119,13 +1119,13 @@ nav.mobile-active {
 /* Grid de shows */
 .shows-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    margin: 0 auto 40px;
     max-width: 1200px;
-    margin-bottom: 40px;
     position: relative;
     z-index: 2;
+    justify-items: center;
 }
 
 /* Card de show */
@@ -1136,12 +1136,13 @@ nav.mobile-active {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     transition: var(--transition);
     border: 1px solid rgba(152, 60, 34, 0.4);
-    height: 100%;
+    height: 380px;
     display: flex;
     flex-direction: column;
     transform: translateY(0);
     position: relative;
     z-index: 3;
+    width: 100%;
 }
 
 .show-card:hover {
@@ -1151,7 +1152,7 @@ nav.mobile-active {
 }
 
 .show-card-img {
-    height: 200px;
+    height: 180px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1179,13 +1180,20 @@ nav.mobile-active {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .show-card h4 {
     color: var(--secondary-color);
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
     font-size: 1.2rem;
     transition: var(--transition);
+    min-height: 2.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px;
 }
 
 .show-card:hover h4 {
@@ -1195,8 +1203,14 @@ nav.mobile-active {
 .show-card p {
     color: var(--text-color);
     font-size: 0.9rem;
-    margin-bottom: 15px;
+    margin: 0 0 15px 0;
     flex-grow: 1;
+    padding: 0 15px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .show-gallery-btn {
