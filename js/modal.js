@@ -1132,7 +1132,7 @@ function updateImageCounter() {
   }`;
 }
 
-// Fechar o modal quando clicar fora do conteu00fado
+// Fechar o modal quando clicar fora do conteúdo
 window.addEventListener("click", function (event) {
   const modal = document.getElementById("galleryModal");
   if (event.target === modal) {
@@ -1142,8 +1142,10 @@ window.addEventListener("click", function (event) {
 
 // Navegar com as teclas do teclado quando o modal estiver aberto
 window.addEventListener("keydown", function (event) {
-  const modal = document.getElementById("galleryModal");
-  if (modal.style.display === "block") {
+  const galleryModal = document.getElementById("galleryModal");
+  const companhiaModal = document.getElementById("companhiaModal");
+  
+  if (galleryModal.style.display === "block") {
     if (event.key === "ArrowLeft") {
       changeImage(-1);
     } else if (event.key === "ArrowRight") {
@@ -1151,5 +1153,72 @@ window.addEventListener("keydown", function (event) {
     } else if (event.key === "Escape") {
       closeModal();
     }
+  } else if (companhiaModal && companhiaModal.style.display === "block" && event.key === "Escape") {
+    closeCompanhiaModal();
   }
 });
+
+// Função para abrir o modal da Companhia
+function openCompanhiaModal() {
+  const modal = document.getElementById('companhiaModal');
+  if (modal) {
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+// Função para fechar o modal da Companhia
+function closeCompanhiaModal() {
+  const modal = document.getElementById('companhiaModal');
+  if (modal) {
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+  }
+}
+
+// Adicionar evento de clique para o botão de fechar do modal da Companhia
+document.addEventListener('DOMContentLoaded', function() {
+  const closeCompanhiaBtn = document.querySelector('#companhiaModal .close');
+  if (closeCompanhiaBtn) {
+    closeCompanhiaBtn.addEventListener('click', closeCompanhiaModal);
+  }
+  
+  // Fechar o modal ao clicar fora do conteúdo
+  const companhiaModal = document.getElementById('companhiaModal');
+  if (companhiaModal) {
+    companhiaModal.addEventListener('click', function(event) {
+      if (event.target === companhiaModal) {
+        closeCompanhiaModal();
+      }
+    });
+  }
+});
+
+// Função global openModal modificada para lidar com diferentes tipos de modais
+const originalOpenModal = window.openModal;
+window.openModal = function(modalId) {
+  if (modalId === 'companhia') {
+    openCompanhiaModal();
+  } else if (originalOpenModal) {
+    originalOpenModal(modalId);
+  } else {
+    console.error("Função openModal original não encontrada");
+  }
+};
+
+// Função global closeModal modificada para lidar com diferentes tipos de modais
+const originalCloseModal = window.closeModal;
+window.closeModal = function(modalId) {
+  if (modalId === 'companhia') {
+    closeCompanhiaModal();
+  } else if (originalCloseModal) {
+    originalCloseModal();
+  } else {
+    // Se não houver uma função original, apenas tente fechar qualquer modal visível
+    const modals = document.querySelectorAll('.modal');
+    modals.forEach(modal => {
+      modal.style.display = 'none';
+    });
+    document.body.style.overflow = 'auto';
+  }
+};

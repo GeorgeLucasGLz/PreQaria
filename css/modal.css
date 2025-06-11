@@ -267,12 +267,149 @@
 }
 
 @media (max-width: 380px) {
-    
     .tab-content {
         max-height: 7em;
     }
     
     .ficha-tecnica, .texto-apresentacao {
         font-size: 0.9rem;
+    }
+}
+
+/* Saiba Mais Button */
+.saiba-mais-btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.saiba-mais-btn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Companhia Modal */
+.companhia-modal {
+    max-width: 900px;
+    padding: 30px;
+}
+
+.modal-companhia-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+    max-height: 80vh;
+    overflow: hidden;
+}
+
+.modal-companhia-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.modal-companhia-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-companhia-text {
+    flex: 1;
+    color: var(--text-color);
+    max-height: calc(80vh - 40px);
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+/* Scrollbar styling */
+.modal-companhia-text::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modal-companhia-text::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.modal-companhia-text::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+.modal-companhia-text::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.modal-companhia-text h3 {
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(152, 60, 34, 0.3);
+}
+
+.modal-companhia-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.modal-companhia-text ul {
+    margin: 15px 0 0 20px;
+    padding: 0;
+}
+
+.modal-companhia-text li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    position: relative;
+    padding-left: 20px;
+}
+
+.modal-companhia-text li:before {
+    content: '•';
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -3px;
+}
+
+/* Responsive styles for the companhia modal */
+@media (max-width: 768px) {
+    .modal-companhia-container {
+        flex-direction: column;
+    }
+    
+    .modal-companhia-image,
+    .modal-companhia-text {
+        min-width: 100%;
+    }
+    
+    .companhia-modal {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .companhia-modal {
+        padding: 15px;
+    }
+    
+    .modal-companhia-text h3 {
+        font-size: 1.5rem;
     }
 }
