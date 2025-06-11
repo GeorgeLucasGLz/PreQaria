@@ -234,14 +234,15 @@ function animateNumber(element, final, duration = 3500) {
     const start = 0;
     const increment = final / (duration / 16); // 60fps
     let current = 0;
+    const hasPlusSign = element.textContent.includes('+');
     
     const updateNumber = () => {
         current += increment;
         if (current < final) {
-            element.textContent = Math.round(current).toLocaleString() + (element.textContent.includes('+') ? '+' : '');
+            element.textContent = Math.round(current).toLocaleString() + (hasPlusSign ? '+' : '');
             requestAnimationFrame(updateNumber);
         } else {
-            element.textContent = final.toLocaleString() + (element.textContent.includes('+') ? '+' : '');
+            element.textContent = final.toLocaleString() + (hasPlusSign ? '+' : '');
         }
     };
     
@@ -270,7 +271,7 @@ if (statsSection) {
 
 // Função para animar números de estatística
 function animateStats() {
-    const statItems = document.querySelectorAll('.stat-item');
+    const statNumbers = document.querySelectorAll('.stat-number');
     
     // Opções do Intersection Observer
     const options = {
@@ -278,34 +279,39 @@ function animateStats() {
         rootMargin: '0px 0px -50px 0px'
     };
     
+    // Função para animar um único número
+    const animateNumber = (element, target) => {
+        const hasPlus = element.textContent.includes('+');
+        let current = 0;
+        const duration = 3500; 
+        const stepTime = 16; 
+        const totalSteps = duration / stepTime;
+        const increment = target / totalSteps;
+        
+        const animate = () => {
+            current += increment;
+            if (current < target) {
+                element.textContent = Math.round(current).toLocaleString() + (hasPlus ? '+' : '');
+                setTimeout(animate, stepTime);
+            } else {
+                element.textContent = target.toLocaleString() + (hasPlus ? '+' : '');
+            }
+        };
+        
+        // Inicia a animação
+        setTimeout(animate, stepTime);
+    };
+    
     // Callback para o Intersection Observer
     const observerCallback = (entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const statNumber = entry.target.querySelector('.stat-number');
-                const target = parseInt(statNumber.getAttribute('data-count'));
-                const duration = 3000; // 3 segundos
-                const stepTime = 50; // ms
-                const steps = duration / stepTime;
-                const increment = target / steps;
-                let current = 0;
-                
-                // Adiciona a classe de animação
-                entry.target.classList.add('animate');
-                
-                // Anima o número
-                const timer = setInterval(() => {
-                    current += increment;
-                    if (current >= target) {
-                        clearInterval(timer);
-                        statNumber.textContent = target.toLocaleString() + (statNumber.textContent.includes('+') ? '+' : '');
-                    } else {
-                        statNumber.textContent = Math.round(current).toLocaleString();
-                    }
-                }, stepTime);
-                
-                // Para de observar após a animação começar
-                observer.unobserve(entry.target);
+                if (statNumber) {
+                    const target = parseInt(statNumber.getAttribute('data-count'));
+                    animateNumber(statNumber, target);
+                    observer.unobserve(entry.target);
+                }
             }
         });
     };
@@ -314,7 +320,7 @@ function animateStats() {
     const observer = new IntersectionObserver(observerCallback, options);
     
     // Observa cada item de estatística
-    statItems.forEach(item => {
+    document.querySelectorAll('.stat-item').forEach(item => {
         observer.observe(item);
     });
 }
