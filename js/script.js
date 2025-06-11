@@ -229,8 +229,101 @@ document.querySelectorAll('.content, .espetaculo, .curso, .projeto-social, .stat
     observer.observe(element);
 });
 
-// Garantir que a seção 'more-shows' seja visível imediatamente
+// Função para animar números
+function animateNumber(element, final, duration = 3500) {
+    const start = 0;
+    const increment = final / (duration / 16); // 60fps
+    let current = 0;
+    
+    const updateNumber = () => {
+        current += increment;
+        if (current < final) {
+            element.textContent = Math.round(current).toLocaleString() + (element.textContent.includes('+') ? '+' : '');
+            requestAnimationFrame(updateNumber);
+        } else {
+            element.textContent = final.toLocaleString() + (element.textContent.includes('+') ? '+' : '');
+        }
+    };
+    
+    updateNumber();
+}
+
+// Configurar o Intersection Observer para a animação dos números
+const statsSection = document.querySelector('.stats');
+if (statsSection) {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Animar cada número de estatística
+                document.querySelectorAll('.stat-number').forEach(statNumber => {
+                    const finalNumber = parseInt(statNumber.textContent.replace(/\D/g, ''));
+                    animateNumber(statNumber, finalNumber);
+                });
+                // Parar de observar após a primeira vez
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    observer.observe(statsSection);
+}
+
+// Função para animar números de estatística
+function animateStats() {
+    const statItems = document.querySelectorAll('.stat-item');
+    
+    // Opções do Intersection Observer
+    const options = {
+        threshold: 0.5,
+        rootMargin: '0px 0px -50px 0px'
+    };
+    
+    // Callback para o Intersection Observer
+    const observerCallback = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const statNumber = entry.target.querySelector('.stat-number');
+                const target = parseInt(statNumber.getAttribute('data-count'));
+                const duration = 3000; // 3 segundos
+                const stepTime = 50; // ms
+                const steps = duration / stepTime;
+                const increment = target / steps;
+                let current = 0;
+                
+                // Adiciona a classe de animação
+                entry.target.classList.add('animate');
+                
+                // Anima o número
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        clearInterval(timer);
+                        statNumber.textContent = target.toLocaleString() + (statNumber.textContent.includes('+') ? '+' : '');
+                    } else {
+                        statNumber.textContent = Math.round(current).toLocaleString();
+                    }
+                }, stepTime);
+                
+                // Para de observar após a animação começar
+                observer.unobserve(entry.target);
+            }
+        });
+    };
+    
+    // Cria o Intersection Observer
+    const observer = new IntersectionObserver(observerCallback, options);
+    
+    // Observa cada item de estatística
+    statItems.forEach(item => {
+        observer.observe(item);
+    });
+}
+
+// Inicia a animação quando o DOM estiver carregado
 document.addEventListener('DOMContentLoaded', function() {
+    animateStats();
+    
+    // Garantir que a seção 'more-shows' seja visível imediatamente
     // Função para controlar a visibilidade do cursor personalizado
     function checkCursorVisibility() {
         const cursor = document.querySelector('.custom-cursor');

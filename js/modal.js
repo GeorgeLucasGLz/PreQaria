@@ -46,7 +46,7 @@ Pena, é que nenhuma história termina com um começo. O amor é sempre começo.
     ],
   },
 
-  "estrada": {
+  estrada: {
     title: "Pela Estrada Adentro (2012 - 2013)",
     fichaTecnica: `Texto: Fernando Limoeiro<br/>
 Argumentos e colaboração no texto: Marcus Ferreira e Fernando Caramuru<br/>
@@ -82,10 +82,9 @@ Keu Freire (Lucifrão, Tio Felisperto e Pererecas cantoras).<br/>
     ],
   },
 
-  "fausto": {
+  fausto: {
     title: "Fausto(s!) (2010 - 2016)",
-    fichaTecnica:
-      `Elenco:<br/> <br/>
+    fichaTecnica: `Elenco:<br/> <br/>
       Alexandre Toledo<br/> 
       Francis Severino (Leo Horta)<br/> 
       Gabriela Domínguez<br/> 
@@ -138,7 +137,7 @@ Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de
       "./images/gallery/faustos/10.webp",
     ],
   },
-  "windsor": {
+  windsor: {
     title: "As Alegres Comadres de Windsor (2017 - 2023)",
     fichaTecnica: `Direção e adaptação: João Valadares<br/>
       Assistência de direção: Rogério Alves<br/>
@@ -172,7 +171,7 @@ Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de
       "./images/gallery/windsor/10.webp",
     ],
   },
-  "saga": {
+  saga: {
     title: "Saga - Uma História do Povo Preto (2023 - Atual)",
     fichaTecnica: `Preqaria Cia de Teatro	<br /> A companhia foi fundada em Belo Horizonte em 14 de Julho de 2006 e, desde 2014, tem sua sede em Sete Lagoas MG. A partir de seu terceiro espetáculo “Nosso Estranho Amor” inspirado na obra de Samuel Beckett, vencedor do Prêmio Miriam Muniz em 2009, o grupo aprofunda a investigação as voltas com a precariedade da existência humana através de variadas linguagens cênicas. Ao longo de seus 18 anos, realizou treze espetáculos e 3 curta metragens, conquistou vários prêmios, realizou parcerias com artistas de renome internacional, participou de importantes festivais do país.<br /><br />
 
@@ -248,7 +247,7 @@ O espetáculo "Qorpo Santo" surgiu como uma pesquisa sobre o grotesco e o trabal
       "./images/gallery/qorpo-santo/5.webp",
     ],
   },
-  "tribunal": {
+  tribunal: {
     title: "Tribunal Quarto de Zona (2008 - 2009)",
     fichaTecnica: `
 Direção e Dramaturgia: João Valadares<br/> <br/> 
@@ -306,7 +305,7 @@ Realização: Preqaria Cia de Teatro<br/>
       "./images/gallery/tribunal/10.webp",
     ],
   },
-  "conversa": {
+  conversa: {
     title: "Conversa Séria de Calcinha e Soutien (2011 - 2016)",
     textoApresentacao: `
 O espetáculo Conversa Séria de Calcinha e Soutien é a quarta montagem da Preqaria Cia de Teatro, livremente inspirada na peça Entre Quatro Paredes de Jean-Paul Sartre.<br/>
@@ -377,7 +376,7 @@ Realização: Preqaria Cia de Teatro
       "./images/gallery/calcinha-e-soutien/5.webp",
     ],
   },
-  "praca": {
+  praca: {
     title: "A Praça Dr. Sem Graça (2013 - 2016)",
     textoApresentacao: `“A Praça Dr. Sem Graça” surgiu a partir de uma parceria entre a Companhia Brabuleta e a Preqaria Cia de Teatro. Trata-se de um espetáculo de rua que propõe uma intersecção entre a linguagem do clown e a força popular do Cordel. Nas praças, parques ou qualquer espaço público, os “paiaço” chegam, montam sua roda de instrumentos, objetos, fita zebrada e cones, e dão início à apresentação.
 <br /><br />Feioso, Lacrimoso, e Xaxato são palhaços que querem se apresentar em um espaço público, mas são impedidos por “Dona” Guarda que os surpreende com a notícia da morte de Chouriço, quarto integrante e fiel companheiro da trupe. De forma inusitada os palhaços tentam reconstituir o assassinato e encontrar o culpado. Através de suas versões absurdas para o crime abrem uma brecha para concretizar o encontro com o público.
@@ -412,26 +411,19 @@ Realização: Preqaria Cia de Teatro e Cia Brabuleta
       "./images/gallery/praca/10.webp",
     ],
   },
-  "princesa": {
-    title: "A Princesa Gaia (2015 - 2021)",
-    textoApresentacao: `“A Princesa Gaia” é uma peça lúdica e divertida que aponta questões importantes sobre a relação entre o homem e o planeta terra buscando conscientizar nossos pequenos cidadãos. A peça conta a estória da Terra quando ela era ainda uma jovem princesa que, de tanto insistir, ganha a permissão de seu pai, o grande Rei Sol para casar-se. Não satisfeita com os pretendentes indicados por ele, a princesa foge para um local desconhecido, o nada, onde se encontra com o primeiro homem e... se apaixona! O casamento acontece, mas a relação é instável. 
-<br /><br />
-A Princesa Gaia<br />
+  princesa: {
+    title: "A Princesa Gaia (2015 - 2025)",
+    textoApresentacao: `“A Princesa Gaia” conta a estória da Terra quando ela era ainda uma jovem princesa que, de tanto insistir, ganha a permissão de seu pai, o grande Rei Sol para casar-se. Não satisfeita com os pretendentes indicados por ele, a princesa foge para um local desconhecido, o nada, onde se encontra com Homo Sapiens - o primeiro homem, cheio de indagações e perspicácia, que acabam fascinando a princesa. O casamento acontece, mas em pouco tempo a felicidade certa se transforma em uma relação exploratória, onde a ganancia do homem pelas riquezas materiais da esposa tornam o convívio instável.<br/><br/>
+
+A direção de João Valadares propõe que os personagens se relacionem com brinquedos dos parques de diversões. Assim a Ama Lua tem uma gangorra elevada, de onde pode circundar a Princesa Gaia fazendo seus mimos e cumprindo com o seu dever de guardar a princesa; a princesa Gaia tem uma roda da vida, onde gira a cabeça e embaralha os sonhos de ser feliz, vivenciando os ciclos dos dias, dos desejos, das estações; o posto do Grande Rei é um trono escorregador, do alto do qual pode comandar todo o seu reino, embora às vezes escorregue atrás das montanhas. <br/><br/>
+
+A peça teve sua estreia em 2015 e foi indicada ao prêmio Sinparc Melhores de Minas nas categorias Melhor Atriz (Valquíria Correa) e Melhor Ator (João Valadares). A nova montagem tem elenco renovado: Iasmin Duarte, Leticia Cley, Nathan Britz e Rafa Martins, os dois últimos também assinam a nova trilha sonora do espetáculo. O cenário é de Iuri Simon, a Iluminação de João Valadares e a cenotécnica de Paulinho do Boi. Os figurinos foram criados pelos atores com orientação de Ilza Gonçalves.<br/><br/>
+
+Em “A Princesa Gaia”, o próprio espectador, pessoas de todas as idades, fazem parte da história contada. Somos todos os filhos da grande Mãe Terra. A partir dessa identificação, enquanto vivemos a experiência lúdica do teatro, somos convidados a refletir sobre a nossa relação com a água e demais recursos naturais da Terra, refletir sobre a preservação da espécie humana e o cuidado com o planeta em que vivemos, assombrado por incertezas climáticas e ambientais. <br/><br/>
+
+A Preqaria Cia de Teatro foi fundada em 2006 e desde então discute a precariedade da existência humana através de variadas linguagens cênicas. Os frutos vieram e ao longo de quase duas décadas conquistou vários prêmios, realizou parcerias com artistas de renome internacional, participou de festivais importantes do país e, orgulhosamente, ajudou a transformar a realidade teatral de Sete Lagoas – MG com projetos como a “Temporada de Teatro de Sete Lagoas” com a incrível marca de 60 mil espectadores em 5 anos, o “Curta Teatro – Festival de Cenas Curtas”, o “Arte Concreta: Ações de Formação em Sete Lagoas” e principalmente, com a Escola Livre de Artes. 
 
 
-Diversão e consciência para nossos pequenos cidadãos é a proposta de "A Princesa Gaia" da Preqaria Cia de Teatro. Falta d' água, desmatamento, poluição, aquecimento global, Rio de Lama. A ganância do homem é responsável por nossos maiores problemas, mas não foi sempre assim, o homem já se relacionou com a terra em um casamento harmonioso. Uma mudança de comportamento é necessária, mas como conscientizar as crianças? 
-<br />O espetáculo “A Princesa Gaia” é uma peça lúdica e divertida que conta a estória da Terra quando ela era ainda uma jovem princesa que, de tanto insistir, ganha a permissão de seu pai, o grande Rei Sol para casar-se. Não satisfeita com os pretendentes indicados por ele, a princesa foge para um local desconhecido, o nada. Lá ela se encontra um ser estranho, o primeiro homem cheio de indagações e perspicácia, que acabam fascinando a princesa. Com grande astúcia, a princesa convence seu pai de que essa criatura deve ser seu marido e ele acaba permitindo o matrimônio. O casamento acontece, mas em pouco tempo a felicidade certa se transforma em uma relação autoritária. O homem deixa-se envolver mais com todas as riquezas materiais de sua esposa do que com ela própria, desencadeando uma série de acontecimentos que tornam o convívio instável.  
-<br /><br />
-Em “A Princesa Gaia”, o próprio espectador, pessoas de todas as idades, fazem parte da história contada. Somos todos os filhos da grande Mãe Terra. A partir dessa identificação, enquanto vivemos a experiência lúdica do teatro, somos convidados a refletir sobre a nossa relação com a água e demais recursos naturais da Terra, refletir sobre a preservação da espécie humana e o cuidado com o planeta em que vivemos, assombrado por incertezas climáticas e ambientais.
-Preqaria Cia de Teatro<br />
-
-
-A Preqaria Cia de Teatro completou 18 anos em Julho de 2024. Através de sua pesquisa sobre a precariedade da existência humana expressa na montagem de treze espetáculos e três curta-metragens a companhia se firmou no cenário mineiro e nacional, participando de festivais importantes, recebendo prêmios, e realizando parcerias com artistas de renome internacional.
-<br /><br />
-Em 2009 que o grupo fundou a “Escola Livre de Teatro” de Sete Lagoas – MG que vem transformando a realidade teatral da cidade. Mais de 2300 pessoas já passaram pela escola entre alunos regulares e alunos esporádicos participantes de Oficinas Curtas ligadas ao universo teatral.
-<br /><br />
-A Preqaria Cia de Teatro realiza desde 2014 a "Temporada de Teatro” em Sete Lagoas uma iniciativa que uniu todos os grupos de teatro da cidade, além de vários grupos de outras partes do país, formando público e uma rede de produção e divulgação compartilhada. Até aqui foram mais de 2100 artistas participantes e mais de 60 mil espectadores assistindo espetáculos gratuitos de diferentes linguagens. Um trabalho de compartilhamento artístico e formação de público reconhecido pela Prefeitura Municipal de Sete Lagoas que concedeu ao grupo o título de Utilidade Pública Municipal.
-<br /><br />
 
 `,
     fichaTecnica: `Texto: Raysner D’ Paula<br/>
@@ -449,19 +441,25 @@ A Preqaria Cia de Teatro realiza desde 2014 a "Temporada de Teatro” em Sete La
       Fotos: Junio Souza<br/>
       Realização: Preqaria Cia de Teatro`,
     images: [
-      "./images/gallery/princesa-gaia/1.webp",
-      "./images/gallery/princesa-gaia/2.webp",
-      "./images/gallery/princesa-gaia/3.webp",
-      "./images/gallery/princesa-gaia/4.webp",
-      "./images/gallery/princesa-gaia/5.webp",
-      "./images/gallery/princesa-gaia/6.webp",
-      "./images/gallery/princesa-gaia/7.webp",
-      "./images/gallery/princesa-gaia/8.webp",
-      "./images/gallery/princesa-gaia/9.webp",
-      "./images/gallery/princesa-gaia/10.webp",
+      "./images/gallery/princesa-gaia/001.webp",
+      "./images/gallery/princesa-gaia/002.webp",
+      "./images/gallery/princesa-gaia/003.webp",
+      "./images/gallery/princesa-gaia/004.webp",
+      "./images/gallery/princesa-gaia/005.webp",
+      "./images/gallery/princesa-gaia/006.webp",
+      "./images/gallery/princesa-gaia/007.webp",
+      "./images/gallery/princesa-gaia/008.webp",
+      "./images/gallery/princesa-gaia/009.webp",
+      "./images/gallery/princesa-gaia/010.webp",
+      "./images/gallery/princesa-gaia/011.webp",
+      "./images/gallery/princesa-gaia/012.webp",
+      "./images/gallery/princesa-gaia/013.webp",
+      "./images/gallery/princesa-gaia/014.webp",
+      "./images/gallery/princesa-gaia/015.webp",
+      "./images/gallery/princesa-gaia/016.webp",
     ],
   },
-  "palhacos": {
+  palhacos: {
     title: "Palhaços (2011 - 2021)",
     textoApresentacao: `“Palhaços” é um espetáculo divertido e emocionante que faz uma reflexão sobre as escolhas que todo indivíduo precisa fazer ao longo da vida. A linguagem popular se apropria da figura do palhaço e do ambiente do circo para falar dos nossos sonhos esquecidos de infância, das consessões que o homem contemporâneo faz em detrimento dos seus desejos mais sinceros. A peça pode ser apresentada tanto em teatro quanto espaços alternativos.
 <br /><br />Escrito na década de 70 pelo paulista Timochenko Wehbi o texto conta a estória do palhaço Careta (Leo Horta) que tem sua rotina alterada quando, de volta a seu camarim onde irá se preparar para a próxima sessão do velho circo mambembe, se depara com um espectador/fã que, de maneira desavisada, adentra o espaço do artista. A partir daí pode-se conhecer melhor o visitante – um vendedor de sapatos, metódico e cheio de problemas pessoais, cujo nome é Benvindo (João Valadares). O que deveria ser a preparação para mais um número, transforma-se em um jogo tragicômico e surpreendente, no qual o palhaço traz à tona os sonhos mais puros e os desejos mais pérfidos de seu fã. Enquanto ajuda o espectador Benvindo a compreender a realidade em que vive, o palhaço Careta reflete sobre sua própria condição de artista, as dificuldades financeiras, o prazer de fazer o que gosta, os valores morais que para ele são essênciais.
@@ -497,7 +495,7 @@ Realização: Preqaria Cia de Teatro e Cia Lúdica dos Atores<br/>
       "./images/gallery/palhacos/10.webp",
     ],
   },
-  "amor": {
+  amor: {
     title: "Amor (2017 - 2021)",
     textoApresentacao: `A esperança no amor é o mote do espetáculo “Amor” da Preqaria Cia de Teatro que busca a interlocução com o espectador através de uma encenação aberta. A proposta narrativa faz uma superposição de imagens cênicas e textuais criadas a partir da experiência amorosa dos integrantes do grupo e suas percepções do atual momento social. A discussão do sonho romântico imposto pela sociedade, a incomunicabilidade entre pares, as barreiras amorosas de um homossexual, e a maternidade são temas da peça que, de forma despretenciosa, lança mão das linguagens da dança, da máscara, do teatro e da performance para criar um espetáculo contemporâneo.
 <br /><br />
@@ -533,7 +531,7 @@ O espetáculo “Amor” é um manifesto contra o medo de amar.
       "./images/gallery/amor/10.webp",
     ],
   },
-  "tartufo": {
+  tartufo: {
     title: "Tartufo's 80 (2018 - 2023)",
     textoApresentacao:
       'A Preqaria Cia de Teatro apresenta seu mais novo espetáculo "Tartufo’s 80", uma comédia debochada e irreverente do mestre francês Molière adaptada para os anos de 1980. A peça com direção de Ricardo Martins traz em cena Izabela Oliveira, João Valadares, Marina Galeri, Piera Rodrigues e Rogério Alves. A referência da década se deu a partir do cenário, uma Brasília ano 1980. O carro é a casa da família de Orgon. A partir daí várias ideias para completar essa atmosfera como as roupas características, a parodia de  sucessos musicais e filmes populares da época, fazem desta montagem uma grande viagem ao passado. Venha rir e se divertir com essa deliciosa comédia!',
@@ -644,7 +642,7 @@ Empatia e valorização das diferenças: NUM RAIO DE LUA é fundamentado no univ
       "./images/gallery/ceu-constelado/10.webp",
     ],
   },
-  "essencias": {
+  essencias: {
     title: "Essências (2022)",
     textoApresentacao: ``,
     fichaTecnica: [
@@ -668,7 +666,7 @@ Empatia e valorização das diferenças: NUM RAIO DE LUA é fundamentado no univ
       "images/gallery/essencias/10.webp",
     ],
   },
-  "agreste": {
+  agreste: {
     title: "Agreste (2011)",
     textoApresentacao: ``,
     fichaTecnica: [
@@ -692,7 +690,7 @@ Empatia e valorização das diferenças: NUM RAIO DE LUA é fundamentado no univ
       "images/gallery/essencias/10.webp",
     ],
   },
-  "verao": {
+  verao: {
     title: "Sonho de Uma Noite de Verão (2014",
     textoApresentacao: ``,
     fichaTecnica: [
@@ -715,7 +713,8 @@ Empatia e valorização das diferenças: NUM RAIO DE LUA é fundamentado no univ
       "images/gallery/essencias/9.webp",
       "images/gallery/essencias/10.webp",
     ],
-  },"estranho": {
+  },
+  estranho: {
     title: "O estranho Julgamento de Josef K (2018)",
     textoApresentacao: ``,
     fichaTecnica: [
@@ -1144,7 +1143,7 @@ window.addEventListener("click", function (event) {
 window.addEventListener("keydown", function (event) {
   const galleryModal = document.getElementById("galleryModal");
   const companhiaModal = document.getElementById("companhiaModal");
-  
+
   if (galleryModal.style.display === "block") {
     if (event.key === "ArrowLeft") {
       changeImage(-1);
@@ -1153,40 +1152,44 @@ window.addEventListener("keydown", function (event) {
     } else if (event.key === "Escape") {
       closeModal();
     }
-  } else if (companhiaModal && companhiaModal.style.display === "block" && event.key === "Escape") {
+  } else if (
+    companhiaModal &&
+    companhiaModal.style.display === "block" &&
+    event.key === "Escape"
+  ) {
     closeCompanhiaModal();
   }
 });
 
 // Função para abrir o modal da Companhia
 function openCompanhiaModal() {
-  const modal = document.getElementById('companhiaModal');
+  const modal = document.getElementById("companhiaModal");
   if (modal) {
-    modal.style.display = 'block';
-    document.body.style.overflow = 'hidden';
+    modal.style.display = "block";
+    document.body.style.overflow = "hidden";
   }
 }
 
 // Função para fechar o modal da Companhia
 function closeCompanhiaModal() {
-  const modal = document.getElementById('companhiaModal');
+  const modal = document.getElementById("companhiaModal");
   if (modal) {
-    modal.style.display = 'none';
-    document.body.style.overflow = 'auto';
+    modal.style.display = "none";
+    document.body.style.overflow = "auto";
   }
 }
 
 // Adicionar evento de clique para o botão de fechar do modal da Companhia
-document.addEventListener('DOMContentLoaded', function() {
-  const closeCompanhiaBtn = document.querySelector('#companhiaModal .close');
+document.addEventListener("DOMContentLoaded", function () {
+  const closeCompanhiaBtn = document.querySelector("#companhiaModal .close");
   if (closeCompanhiaBtn) {
-    closeCompanhiaBtn.addEventListener('click', closeCompanhiaModal);
+    closeCompanhiaBtn.addEventListener("click", closeCompanhiaModal);
   }
-  
+
   // Fechar o modal ao clicar fora do conteúdo
-  const companhiaModal = document.getElementById('companhiaModal');
+  const companhiaModal = document.getElementById("companhiaModal");
   if (companhiaModal) {
-    companhiaModal.addEventListener('click', function(event) {
+    companhiaModal.addEventListener("click", function (event) {
       if (event.target === companhiaModal) {
         closeCompanhiaModal();
       }
@@ -1196,8 +1199,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Função global openModal modificada para lidar com diferentes tipos de modais
 const originalOpenModal = window.openModal;
-window.openModal = function(modalId) {
-  if (modalId === 'companhia') {
+window.openModal = function (modalId) {
+  if (modalId === "companhia") {
     openCompanhiaModal();
   } else if (originalOpenModal) {
     originalOpenModal(modalId);
@@ -1208,17 +1211,17 @@ window.openModal = function(modalId) {
 
 // Função global closeModal modificada para lidar com diferentes tipos de modais
 const originalCloseModal = window.closeModal;
-window.closeModal = function(modalId) {
-  if (modalId === 'companhia') {
+window.closeModal = function (modalId) {
+  if (modalId === "companhia") {
     closeCompanhiaModal();
   } else if (originalCloseModal) {
     originalCloseModal();
   } else {
     // Se não houver uma função original, apenas tente fechar qualquer modal visível
-    const modals = document.querySelectorAll('.modal');
-    modals.forEach(modal => {
-      modal.style.display = 'none';
+    const modals = document.querySelectorAll(".modal");
+    modals.forEach((modal) => {
+      modal.style.display = "none";
     });
-    document.body.style.overflow = 'auto';
+    document.body.style.overflow = "auto";
   }
 };
