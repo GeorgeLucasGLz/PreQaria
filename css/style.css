@@ -1181,6 +1181,7 @@ nav.mobile-active {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: start;
 }
 
 .show-card h4 {
@@ -1206,7 +1207,7 @@ nav.mobile-active {
     margin: 0 0 15px 0;
     flex-grow: 1;
     padding: 0 15px;
-    text-align: center;
+    text-align: start;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -2191,6 +2192,56 @@ footer::before {
 * {
     scrollbar-width: thin;
     scrollbar-color: var(--primary-color) var(--bg-color);
+}
+
+/* Footer Developer Credit */
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+.developer-credit {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0.8;
+    transition: var(--transition);
+}
+
+.developer-credit a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.developer-credit a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .developer-credit {
+        margin-top: 10px;
+    }
 }
 
 /* Para navegadores baseados no Edge */
