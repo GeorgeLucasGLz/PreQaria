@@ -412,7 +412,7 @@ Realização: Preqaria Cia de Teatro e Cia Brabuleta
     ],
   },
   princesa: {
-    title: "A Princesa Gaia (2015 - 2025)",
+    title: "A Princesa Gaia (2015 - Atual)",
     textoApresentacao: `“A Princesa Gaia” conta a estória da Terra quando ela era ainda uma jovem princesa que, de tanto insistir, ganha a permissão de seu pai, o grande Rei Sol para casar-se. Não satisfeita com os pretendentes indicados por ele, a princesa foge para um local desconhecido, o nada, onde se encontra com Homo Sapiens - o primeiro homem, cheio de indagações e perspicácia, que acabam fascinando a princesa. O casamento acontece, mas em pouco tempo a felicidade certa se transforma em uma relação exploratória, onde a ganancia do homem pelas riquezas materiais da esposa tornam o convívio instável.<br/><br/>
 
 A direção de João Valadares propõe que os personagens se relacionem com brinquedos dos parques de diversões. Assim a Ama Lua tem uma gangorra elevada, de onde pode circundar a Princesa Gaia fazendo seus mimos e cumprindo com o seu dever de guardar a princesa; a princesa Gaia tem uma roda da vida, onde gira a cabeça e embaralha os sonhos de ser feliz, vivenciando os ciclos dos dias, dos desejos, das estações; o posto do Grande Rei é um trono escorregador, do alto do qual pode comandar todo o seu reino, embora às vezes escorregue atrás das montanhas. <br/><br/>
@@ -561,34 +561,53 @@ O espetáculo “Amor” é um manifesto contra o medo de amar.
     ],
   },
   "raio-lua": {
-    title: "Num Raio de Lua (2022 - 2023)",
-    textoApresentacao: `“Eu conto uma história, você conta a sua e a gente viaja num raio de lua”! Neste divertido espetáculo quatro amigos se encontram para “brincar de ser outro” e viajar num raio de lua, ou seja, para exercitar a sua imaginação. Na aventura criada aos olhos do público um Ecólogo, um Burrinho, um Chinês, um Mexicano, uma Embaixadora, um Governador e duas Agentes Secretas descobrem um grande tesouro, bem melhor que o ouro: o H2C4YZ.  Proteger e compartilhar esse tesouro passa a ser a missão dos atores e do público!
-<br /><br />                                  Abordagens possíveis  
-<br />
-Empatia e valorização das diferenças: NUM RAIO DE LUA é fundamentado no universo do indivíduo em formação que se relaciona em casa e na escola e vive a tensão de desejos opostos. Ao longo da peça as crianças identificam dificuldades de convívio e suas possíveis soluções: “Amigo eu vim para pedir desculpas, aquilo não foi sua culpa. Sem você para ser minha dupla, eu vou mal... sem você”. 
-<br /><br />Meio ambiente: São muitas possíveis formas de abordar o assunto tanto no viés da degradação, quando os efeitos dos cuidados com o planeta: 
-<br /><br />Brincar longe das telas: A peça aborda a necessidade de se repensar as tecnologias e o tempo “gasto” online, em detrimento de partilhar o tempo com outras pessoas onde a oportunidade de viver diferentes emoções, afetos, rupturas, trocas, disputas e cumplicidades, ensina sobre comportamento humano e suas relações.
-<br /><br />A autonomia do brincar: Na atividade lúdica de “brincar de ser outro” a criança aprende a agir como em um grupo social, construindo sua identidade sociocultural.  Por meio da experiência criativa da imaginação ela tem a oportunidade de refletir, duvidar, agir, discutir e criar, utilizando das informações do mundo a sua volta, combinando ficção com realidade. 
+    title: "Num Raio de Lua (2022 - Atual)",
+    textoApresentacao: `“Eu conto uma história, você conta a sua e a gente viaja num raio de lua”! Neste divertido espetáculo quatro amigos se encontram para “brincar de ser outro” e viajar num raio de lua, ou seja, para exercitar a sua imaginação. Na aventura criada aos olhos do público um Ecólogo, um Burrinho, um Chinês, um Mexicano, uma Embaixadora, um Governador e duas Agentes Secretas descobrem um grande tesouro, bem melhor que o ouro: o H2C4YZ.  Proteger e compartilhar esse tesouro passa a ser a missão dos atores e do público!<br/><br/>
+O texto da peça se fundamenta no universo da criança que brinca pela necessidade de agir em relação ao mundo dos adultos e não apenas ao universo dos objetos que ela tem acesso. A ideia é dar oportunidade para pensar, refletir, duvidar, agir, discutir, criar e imagina através da atividade lúdica de atuar e brincar de ser outro. <br/><br/>
+Nessa experiência criativa que combina ficção com realidade, NUM RAIO DE LUA ainda aborda algumas das questões pertinentes como a necessidade de se repensar as tecnologias e o tempo “gasto” online, em detrimento de partilhar as brincadeiras presenciais com outras crianças, onde a oportunidade de viver diferentes emoções, afetos, rupturas, trocas, disputas e cumplicidades, ensina sobre comportamento humano e suas relações, formando os cidadãos.<br/><br/>
+NUM RAIO DE LUA é ainda um convite para refletir sobre as mudanças climáticas e a importância das arvores na manutenção do clima na terra, controlando as chuvas, evitando erosões e enchentes, abrigando animais, entre tantas outras funções de extrema importância.
 `,
-    fichaTecnica: [
-      "Bárbara Campos",
-      "Carolina Grigoli",
-      "Kenya Goulart",
-      "Luciene Bernardes",
-      "Luísa Couto",
-      "Mariana Tozzi",
-    ],
+    fichaTecnica: `
+      Texto e Direção: João Valadares<br/><br/>
+Elenco: <br/>
+Felipe Gontijo, <br/>
+Iasmin Duarte (Celeste Galvão)<br/>
+Nathan Brits<br/>
+Pedro Cordeiro (Anna Campos)<br/><br/>
+Cenografia: Rogério Alves<br/>
+Figurino: Larissa de Souza<br/>
+Trilha Sonora: Nathan Brits<br/>
+Iluminação: João Valadares<br/>
+Criação Gráfica: Felipe Gontijo<br/>
+Preparação Vocal: Mestre Saúva<br/>
+Consultoria Musical: Rogério Pardal<br/>
+Fotografia: Rafaelle Rane e Junio Souza<br/>
+Assistente de Fotografia: Pedro Henrique<br/>
+Realização: Preqaria Cia de Teatro<br/>
+
+    `,
     images: [
-      "./images/gallery/lua/1.webp",
-      "./images/gallery/lua/2.webp",
-      "./images/gallery/lua/3.webp",
-      "./images/gallery/lua/4.webp",
-      "./images/gallery/lua/5.webp",
-      "./images/gallery/lua/6.webp",
-      "./images/gallery/lua/7.webp",
-      "./images/gallery/lua/8.webp",
-      "./images/gallery/lua/9.webp",
-      "./images/gallery/lua/10.webp",
+      "./images/gallery/lua/001.webp",
+      "./images/gallery/lua/002.webp",
+      "./images/gallery/lua/003.webp",
+      "./images/gallery/lua/004.webp",
+      "./images/gallery/lua/005.webp",
+      "./images/gallery/lua/006.webp",
+      "./images/gallery/lua/007.webp",
+      "./images/gallery/lua/008.webp",
+      "./images/gallery/lua/009.webp",
+      "./images/gallery/lua/010.webp",
+      "./images/gallery/lua/011.webp",
+      "./images/gallery/lua/012.webp",
+      "./images/gallery/lua/013.webp",
+      "./images/gallery/lua/014.webp",
+      "./images/gallery/lua/015.webp",
+      "./images/gallery/lua/016.webp",
+      "./images/gallery/lua/017.webp",
+      "./images/gallery/lua/018.webp",
+      "./images/gallery/lua/019.webp",
+      "./images/gallery/lua/020.webp",
+
     ],
   },
   "ceu-constelado": {
