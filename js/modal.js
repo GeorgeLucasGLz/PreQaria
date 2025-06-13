@@ -631,7 +631,7 @@ Realização: Preqaria Cia de Teatro<br/>
 
 `,
     fichaTecnica: `Direção e Dramaturgia: João Valadares<br/><br/>
-      Em cena:<br/> Débora Campelo<br/>
+      Elenco:<br/> Débora Campelo<br/>
       Fábio Damasceno<br/>
       Iasmin Duarte<br/>
       Ilza Gonçalves<br/>
