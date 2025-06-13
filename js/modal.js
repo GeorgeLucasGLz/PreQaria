@@ -173,34 +173,44 @@ Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de
   },
   saga: {
     title: "Saga - Uma História do Povo Preto (2023 - Atual)",
-    fichaTecnica: `Preqaria Cia de Teatro	<br /> A companhia foi fundada em Belo Horizonte em 14 de Julho de 2006 e, desde 2014, tem sua sede em Sete Lagoas MG. A partir de seu terceiro espetáculo “Nosso Estranho Amor” inspirado na obra de Samuel Beckett, vencedor do Prêmio Miriam Muniz em 2009, o grupo aprofunda a investigação as voltas com a precariedade da existência humana através de variadas linguagens cênicas. Ao longo de seus 18 anos, realizou treze espetáculos e 3 curta metragens, conquistou vários prêmios, realizou parcerias com artistas de renome internacional, participou de importantes festivais do país.<br /><br />
+    fichaTecnica: `Concepção e atuação: Nathan Brits e João Valadares <br/>
+Iluminação: Iasmin Duarte, Nathan Brits e João Valadares <br/>
+Realização: Preqaria Cia de Teatro
+`,
 
-Orgulhosamente, ajudou a transformar a realidade teatral de Sete Lagoas com projetos como a “Temporada de Teatro de Sete Lagoas”, que em 8 edições levou 60 mil pessoas ao teatro na cidade e, principalmente, com a Escola Livre de Artes, que há 15 anos forma artistas e cidadãos. <br />`,
+    textoApresentacao: `“SAGA – Uma história do povo preto” traz uma narrativa possível para a trajetória do negro africano, partindo de uma de suas cosmovisões até o Brasil de hoje, misturando aspectos históricos, mitológicos e culturais. Apesar do tema sério, a peça traz leveza, como na versão do grupo para a história de Ananse, a entidade Aranha da África Central. Muito astuto Ananse consegue alcançar seus objetivos frente a Nyame, um Deus forte e poderoso, em uma das cosmogonias africanas para o início dos tempos. <br/><br/>
 
-    textoApresentacao: `“SAGA – Uma história do povo preto” traz uma narrativa possível para a trajetória do negro africano, partindo de uma de suas cosmovisões até o Brasil de hoje, misturando aspectos históricos, mitológicos e culturais. Apesar do tema sério, a peça traz leveza, como na versão do grupo para a história de Ananse, a entidade Aranha da África Central. Muito astuto Ananse consegue alcançar seus objetivos frente a Nyame, um Deus forte e poderoso, em uma das cosmogonias africanas para o início dos tempos. <br />
+Um diferencial do espetáculo é tratar um tema sério como o racismo estrutural no Brasil também para o público infanto-juvenil, a peça vem se apresentando em escolas e já foi vista por mais de 5 mil crianças a partir de 10 anos de idade. <br/><br/>
 
-Um diferencial do espetáculo é tratar um tema sério como o racismo estrutural no Brasil também para o público infanto-juvenil, a peça vem se apresentando em escolas e já foi vista por mais de 5 mil crianças a partir de 10 anos de idade. <br /><br />
+Abordando aspectos da invasão, ganância, escravização e extermínio dos negros, a peça se posiciona nos dias atuais ao apontar o racismo estrutural ainda presente na sociedade. O comportamento em relações hierárquicas das empresas e nas relações interpessoais em várias camadas do cotidiano, demonstrando a resultante de nossa perspectiva histórica.
+<br/><br/>O diálogo das Linguagens<br/><br/>
 
-Abordando aspectos da invasão, ganância, escravização e extermínio dos negros, a peça se posiciona nos dias atuais ao apontar o racismo estrutural ainda presente na sociedade. O comportamento em relações hierárquicas das empresas e nas relações interpessoais em várias camadas do cotidiano, demonstrando a resultante de nossa perspectiva histórica.<br /><br />
-O diálogo das Linguagens<br />
-
-Em "SAGA – Uma história do povo preto", a companhia recorre a diversas áreas de conhecimento como a história, a antropologia, a mitologia, o teatro e a música; agregando relatos sobre costumes, crenças e questões sociais que não devemos esquecer. Teatralmente, o espetáculo lança mão de linguagens que o grupo vem pesquisando há mais de dez anos, como as máscaras, o teatro de sombras e o teatro de objetos. <br /><br />
-
-A dramaturgia aberta e contemporânea força os atores ao diálogo com o público, assume o compromisso épico das narrativas, mas também se apoia em cenas dramáticas onde os atores devem assumir personas mais definidas.<br /><br />
-
+Em "SAGA – Uma história do povo preto", a companhia recorre a diversas áreas de conhecimento como a história, a antropologia, a mitologia, o teatro e a música; agregando relatos sobre costumes, crenças e questões sociais que não devemos esquecer. Teatralmente, o espetáculo lança mão de linguagens que o grupo vem pesquisando há mais de dez anos, como as máscaras, o teatro de sombras e o teatro de objetos. 
+<br/><br/>
+A dramaturgia aberta e contemporânea força os atores ao diálogo com o público, assume o compromisso épico das narrativas, mas também se apoia em cenas dramáticas onde os atores devem assumir personas mais definidas.
 
 `,
     images: [
-      "./images/gallery/saga/1.webp",
-      "./images/gallery/saga/2.webp",
-      "./images/gallery/saga/3.webp",
-      "./images/gallery/saga/4.webp",
-      "./images/gallery/saga/5.webp",
-      "./images/gallery/saga/6.webp",
-      "./images/gallery/saga/7.webp",
-      "./images/gallery/saga/8.webp",
-      "./images/gallery/saga/9.webp",
-      "./images/gallery/saga/10.webp",
+      "./images/gallery/saga/001.webp",
+      "./images/gallery/saga/002.webp",
+      "./images/gallery/saga/003.webp",
+      "./images/gallery/saga/004.webp",
+      "./images/gallery/saga/005.webp",
+      "./images/gallery/saga/006.webp",
+      "./images/gallery/saga/007.webp",
+      "./images/gallery/saga/008.webp",
+      "./images/gallery/saga/009.webp",
+      "./images/gallery/saga/010.webp",
+      "./images/gallery/saga/011.webp",
+      "./images/gallery/saga/012.webp",
+      "./images/gallery/saga/013.webp",
+      "./images/gallery/saga/014.webp",
+      "./images/gallery/saga/015.webp",
+      "./images/gallery/saga/016.webp",
+      "./images/gallery/saga/017.webp",
+      "./images/gallery/saga/018.webp",
+      "./images/gallery/saga/019.webp",
+      "./images/gallery/saga/020.webp",
     ],
   },
   "qorpo-santo": {
