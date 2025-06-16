@@ -139,36 +139,50 @@ Uma das propostas de encenação está ligada a capacidade 'faustica' de sair de
   },
   windsor: {
     title: "As Alegres Comadres de Windsor (2017 - 2023)",
-    fichaTecnica: `Direção e adaptação: João Valadares<br/>
-      Assistência de direção: Rogério Alves<br/>
-      Figurino: Pedro Marota <br/>
-      Cenografia: Paulinho do Boi<br/>
-      Iluminação: Allan Calisto<br/>
-      Designer Gráfico: Fabiano Lana<br/>
-      Assessoria de Imprensa: Glenda Souza<br/><br/>
-      Em cena:<br/>
-      Júlio Gomes<br/>
-      Layla Valadares<br/>
-      Luciano Jordão<br/>
-      Paulinho do Boi<br/>
-      Pedro Paulo<br/>
-      Roberta Rodrigues<br/>
-      Tatiana Aparecida<br/>
-      e Thais Azevedo.`,
+    fichaTecnica: `Texto: William Shakespeare<br/>
+Direção e adaptação: João Valadares<br/>
+Assistência de direção: Rogério Alves<br/>
+Figurino: Pedro Marota <br/>
+Cenografia: Paulinho do Boi<br/>
+Iluminação: Allan Calisto<br/>
+Designer Gráfico: Fabiano Lana<br/>
+Assessoria de Imprensa: Glenda Souza<br/><br/>
+Em cena: <br/>
+Paulinho do Boi (Júlio Gomes)<br/>
+Layla Valadares (Debora Chaves)<br/>
+Luciano Jordão<br/>
+Pedro Paulo Silveira<br/>
+Roberta Rodrigues<br/>
+Tatiana Aparecida<br/>
+Thais Azevedo.
+`,
 
     textoApresentacao: `“As Alegres Comadres de Windsor” é uma comedia de William Shakespeare onde o protagonista Falstaff é um impostor inominável que tenta, ao mesmo tempo, seduzir duas mulheres casadas de Windsor: Senhora Page e Senhora Ford. As alegres comadres se voltam contra o balofo fanfarrão cuja moral é inversamente proporcional ao tamanho de sua “pança majestosa”. Sob o engenho dessas nobres comadres e o ciúmes doentio de seus maridos, Falstaff é enganado, tratado como roupa suja, espancado, espetado, ridicularizado e insultado.
+<br/><br/>
+A montagem de “As Alegres Comadres de Windsor” de William Shakespeare foi uma proposta de encenação do Curso de Formação Profissional da Escola Livre de Artes e que passou a integrar o repertório da Preqaria Cia de Teatro.  O texto foi escolhido por João Valadares para abrigar o resultado da pesquisa de dois anos no campo das Máscaras da Commedia Dell Arte. Ao longo de 18 meses de trabalho os atores realizaram uma oficina de Máscaras Neutras e Expressivas com o Diretor João Valadares, outra de confecção de Máscaras Expressivas com o Assistente de Direção Rogério Alves, e ainda algumas aulas técnicas com Luana Lourenço.
 `,
     images: [
-      "./images/gallery/windsor/1.webp",
-      "./images/gallery/windsor/2.webp",
-      "./images/gallery/windsor/3.webp",
-      "./images/gallery/windsor/4.webp",
-      "./images/gallery/windsor/5.webp",
-      "./images/gallery/windsor/6.webp",
-      "./images/gallery/windsor/7.webp",
-      "./images/gallery/windsor/8.webp",
-      "./images/gallery/windsor/9.webp",
-      "./images/gallery/windsor/10.webp",
+      "./images/gallery/windsor/001.webp",
+      "./images/gallery/windsor/002.webp",
+      "./images/gallery/windsor/003.webp",
+      "./images/gallery/windsor/004.webp",
+      "./images/gallery/windsor/005.webp",
+      "./images/gallery/windsor/006.webp",
+      "./images/gallery/windsor/007.webp",
+      "./images/gallery/windsor/008.webp",
+      "./images/gallery/windsor/009.webp",
+      "./images/gallery/windsor/010.webp",
+      "./images/gallery/windsor/011.webp",
+      "./images/gallery/windsor/012.webp",
+      "./images/gallery/windsor/013.webp",
+      "./images/gallery/windsor/014.webp",
+      "./images/gallery/windsor/015.webp",
+      "./images/gallery/windsor/016.webp",
+      "./images/gallery/windsor/017.webp",
+      "./images/gallery/windsor/018.webp",
+      "./images/gallery/windsor/019.webp",
+      "./images/gallery/windsor/020.webp",
+      
     ],
   },
   saga: {
@@ -419,6 +433,67 @@ Realização: Preqaria Cia de Teatro e Cia Brabuleta
       "./images/gallery/praca/8.webp",
       "./images/gallery/praca/9.webp",
       "./images/gallery/praca/10.webp",
+    ],
+  },
+  aves: {
+    title: "Aves e a Nova Babilônia Suspensa (2013 - 2016)",
+    textoApresentacao: `"Aves: A Nova Babilônia Suspensa"  é uma peça irreverente e crítica, fruto de uma pesquisa em torno da técnica dos bufões. O ponto de partida da peça é a comédia grega "As Aves" de Aristófanes, mas as referências são muitas como “Prometeu Acorrentado” de Ésquilo, o discurso do Conde de Assumar durante a Inconfidência Mineira, e as palavras formosas "Tupã Tenondé" do Guaranis. 
+<br/><br/>
+No enredo Pão Puro e Rola Bosta são Tupis (Sons em pé) que querem o mesmo que todos: morar em uma cidade melhor, econômica e ambientalmente sustentável; sem corrupção, onde a saúde e a educação funcionam bem, onde o trânsito não é tão caótico, e assim por diante. Desiludidos com Atenas resolvem fundar uma nova cidade nas Nuvens, uma Nova Babilônia Suspensa! 
+<br/><br/>
+Debochados, desbocados e críticos, os bufões seguem sua jornada de aprendizado e Zuera sem fim. Em sua trajetória vão reconhecendo elementos do nosso cotidiano, abordando temas sérios com leveza e bom humor. Doe a quem doer nunca se eximem de dizer o que é preciso e nesse compromisso com a verdade a cidade de "Atenas" é o alvo: sabem das portas do novo hospital que não passa nem uma maca, dos valores exorbitantes pagos para cantores Sertanejos se apresentarem na cidade, do desmatamento de áreas que deveriam ser preservadas para se construir bairros de luxo, e por aí vai... tudo com alegria e bom humor. 
+<br/><br/>
+Outra particularidade da montagem é a linguagem itinerante do espetáculo que passa por cinco locações. A proposta é uma postura ativa da plateia que deve se posicionar frente a cena e frente a realidade da cidade.
+`,
+
+    fichaTecnica: `
+
+
+Dramaturgia e Direção: João Valadares <br/><br/>
+
+
+Elenco: <br/>
+Clarissa Nadu<br/>
+Júlia Karoline<br/>
+Marcelo Drumonnd<br/>
+Maria Maia<br/>
+Mateus Vinícius Carvalho<br/>
+Edvan Henrique (Nathan Brits)<br/>
+Pedro Cordeiro<br/>
+Zahara Campos<br/><br/>
+
+
+Figurinos: Pedro Marota<br/>
+Iluminação: João Valadares e Nathan Brits<br/>
+Preparação Vocal: Mestre Sauva<br/>
+Expressão Corporal: Lorenzo Kverna<br/>
+Treinamento de Bufões: João Valadares<br/>
+Fotos e vídeos: Danilo Lima<br/>
+Arte Gráfica: Iasmin Duarte<br/>
+Realização: Preqaria Cia de Teatro 
+
+`,
+    images: [
+      "./images/gallery/aves/001.webp",
+      "./images/gallery/aves/002.webp",
+      "./images/gallery/aves/003.webp",
+      "./images/gallery/aves/004.webp",
+      "./images/gallery/aves/005.webp",
+      "./images/gallery/aves/006.webp",
+      "./images/gallery/aves/007.webp",
+      "./images/gallery/aves/008.webp",
+      "./images/gallery/aves/009.webp",
+      "./images/gallery/aves/010.webp",
+      "./images/gallery/aves/011.webp",
+      "./images/gallery/aves/012.webp",
+      "./images/gallery/aves/013.webp",
+      "./images/gallery/aves/014.webp",
+      "./images/gallery/aves/015.webp",
+      "./images/gallery/aves/016.webp",
+      "./images/gallery/aves/017.webp",
+      "./images/gallery/aves/018.webp",
+      "./images/gallery/aves/019.webp",
+      "./images/gallery/aves/020.webp",
     ],
   },
   princesa: {
