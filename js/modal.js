@@ -748,7 +748,21 @@ Realização: Preqaria Cia de Teatro<br/>
   },
   essencias: {
     title: "Essências (2022)",
-    textoApresentacao: ``,
+    textoApresentacao: `Nossas ancestralidades, nossos avós, os rios, e as veias da terra. Esses parentes nós vemos como coisas a parte, mas não estão separados, eles também são o que somos, estão lá e aqui dentro. O corpo é a terra, tem os sais minerais, e todo um ecossistema de plantar, de colher, de construir, regar e irrigar. As montanhas, as grutas, os rios e mares, as rochas e nossas duras cabeças. Neste espetáculo buscamos relacionar o dentro e o fora, as essências pessoais e os elementos que nos formam.
+<br/><br/>
+Reflexões sobre “Essências”<br/><br/>
+ 
+A Escola Livre de Artes acertou mais uma vez. O espetáculo Essências, criação coletiva da turma do curso de formação profissional em teatro da Preqaria Cia de Teatro, é um convite à reflexão sobre a profundidade do ser. O jogo da memória e a busca de compreensão das identidades assinala o horizonte de ideias formadoras da concepção estética desse espetáculo.<br/><br/>
+A peça é um aprofundamento na temática identitária já explorada em Céu Constelado (2022). Se em Céu constelado, a questão histórica da ancestralidade foi o mote, em Essências, a passagem do “nós” para o “eu”, na minha leitura, é o problema central. As consequências dessa transformação revelam-se no decorrer de uma narrativa segura e bem estruturada. Nesse sentido, a direção de João Valadares é fundamental para definir o andamento da peça e garantir a verossimilhança do texto.<br/><br/>
+O teatro pós-dramático explora o acontecimento e estabelece uma conexão entre aqueles que executam a ação e aqueles que observam o jogo. A justaposição especular das arquibancadas que formam o cenário em Essências permite que o expectador adentre com facilidade no jogo cênico. Em certos momentos, o público parece protagonizar o espetáculo. Forma-se uma relação intimista que interioriza o texto e permite a identificação com a proposta estética do jogo. A apropriação deliberada de meios e formas múltiplas rompe com padrões usuais e propõe novos modos e conceitos na montagem do espetáculo. É aqui que a Preqaria Cia. de Teatro revela sua filiação a personalidades do teatro contemporâneo como revela sua filiação a personalidades do teatro contemporâneo como Bertold Brecht, Jerzy Grotowski, Hans-Thies Lehmann ou Eugênio Barba.<br/><br/>
+Os atores, formandos da Escola Livre de Artes da Preqária, captaram muito bem a ideia da transição de uma época de comunhão e partilha para um tempo de individualismo e solidão. A abertura da peça apresenta uma dança tribal e ritualística que evolui para momentos de egoísmos narcisistas. Assistimos estupefatos à passagem de uma primavera em flor para um inverno de saque e sangue.<br/><br/>
+O vazio e a fluidez revelados nas cenas que seguem colocam em evidência a existência vaga e sem sentido. A partir daí as personagens mergulham no seu vazio existencial. Como Nietzsche já havia enunciado, “se você olhar longamente para um abismo, o abismo também olha para dentro de você”. Quer dizer, a contemplação do abismo leva à ruína, à angústia, ao vazio e à morte. É o abismo que devora o indivíduo que o contempla e se entrega a ele. O preço da individualização radical é a melancolia que caracteriza nossa modernidade líquida.<br/><br/>
+A crítica social surge de forma sutil no espetáculo. Em certa altura, uma personagem revela que, apesar de sua aparência exterior, carrega um rio poluído em seu espírito. O rio poluído revela a condição efêmera da sociedade de aparências e seu descaso com as minorias fragilizadas. Tudo isso de forma sutil e sem apelos a lágrimas ou engajamentos desnecessários.<br/><br/>
+O resultado é o sufocamento. “Eu não consigo respirar”, vai dizer outra personagem. A angústia, a melancolia, a solidão e a ausência, numa paráfrase a Jorge Luis Borges, “cercam-nos como a corda à garganta. O mar ao que se afunda.” Se um dia já fomos um bando, agora estabelecemos uma solidão em grupo. Estamos sós e ponto. Tudo é líquido, inclusive o amor.<br/><br/>
+Contudo, não há que se pensar que o novo espetáculo da Preqária é um desfile de mazelas sociais e tragédias pessoais. Isso seria de uma ingenuidade gritante. Essências é a denúncia de um mundo caduco. Certamente, todos estão taciturnos, como Drumond já alertava, “mas nutrem grandes esperanças”. A crítica ao narcisismo de nosso tempo tem uma função pedagógica. Ela procura resgatar valores fundados na defesa de uma humanidade mais conectada àquilo que realmente importa. O corpo, a terra, a natureza, a comunhão, a fraternidade, o amor, precisam ter importância. O “nós” precisa ser essencial. O outro deve ser a medida de nossas essências. Precisamos alcançar o outro para compreender a nós mesmos. O convite está feito.
+<br/><br/><br/>
+Cláudio Diniz - Historiador<br/>
+Sete Lagoas, dezembro de 2022.`,
     fichaTecnica: [
       "Carolina Grigoli",
       "Guilherme Thiago",
@@ -758,16 +772,26 @@ Realização: Preqaria Cia de Teatro<br/>
       "Luísa Couto",
     ],
     images: [
-      "images/gallery/essencias/1.webp",
-      "images/gallery/essencias/2.webp",
-      "images/gallery/essencias/3.webp",
-      "images/gallery/essencias/4.webp",
-      "images/gallery/essencias/5.webp",
-      "images/gallery/essencias/6.webp",
-      "images/gallery/essencias/7.webp",
-      "images/gallery/essencias/8.webp",
-      "images/gallery/essencias/9.webp",
-      "images/gallery/essencias/10.webp",
+      "images/gallery/essencias/001.webp",
+      "images/gallery/essencias/002.webp",
+      "images/gallery/essencias/003.webp",
+      "images/gallery/essencias/004.webp",
+      "images/gallery/essencias/005.webp",
+      "images/gallery/essencias/006.webp",
+      "images/gallery/essencias/007.webp",
+      "images/gallery/essencias/008.webp",
+      "images/gallery/essencias/009.webp",
+      "images/gallery/essencias/010.webp",
+      "images/gallery/essencias/011.webp",
+      "images/gallery/essencias/012.webp",
+      "images/gallery/essencias/013.webp",
+      "images/gallery/essencias/014.webp",
+      "images/gallery/essencias/015.webp",
+      "images/gallery/essencias/016.webp",
+      "images/gallery/essencias/017.webp",
+      "images/gallery/essencias/018.webp",
+      "images/gallery/essencias/019.webp",
+      "images/gallery/essencias/020.webp",
     ],
   },
   agreste: {
@@ -820,7 +844,8 @@ Realização: Preqaria Cia de Teatro<br/>
   },
   estranho: {
     title: "O estranho Julgamento de Josef K (2018)",
-    textoApresentacao: ``,
+    textoApresentacao: `
+`,
     fichaTecnica: [
       "Carolina Grigoli",
       "Guilherme Thiago",
@@ -1169,8 +1194,25 @@ A ideia é criar uma dramaturgia contemporânea, que valorize a beleza das gruta
   }, "vento": {
     title: "Eu sou o vento",
     fichaTecnica: "",
-    textoApresentacao: "",
-    images: []
+    textoApresentacao: `“O mais importante da vida está nos silêncios”<br/><br/>
+
+Espetáculo “Eu sou o vento” de Jon Fosse, prêmio Nobel de Literatura de 2023, com direção de João Valadares, indicado ao prêmio Sinparc de Melhor Direção; e atuação dos talentosos Iasmin Duarte e Pedro Cordeiro. O espetáculo propõe uma montagem teatral contemporânea com elementos da dança, partituras coreográficas em meio aos tecidos que refratam a luz e o vento. <br/><br/>
+Em “Eu sou o vento”, há um terreno limite, uma tensão que se desprende na poesia, de algum modo este poema dramático reclama a contradição e o conflito para estar vivo. Em meio as pausas e silêncios temos a impressão de que algo está acontecendo, algo profundo, talvez doloroso, mas ao mesmo tempo é como se não acontecesse nada. Como uma tempestade que nasce no mais profundo do mar e ainda não se desencadeou.
+
+`,
+    images: ["./images/gallery/vento/001.webp",
+      "./images/gallery/vento/002.webp",
+      "./images/gallery/vento/003.webp",
+      "./images/gallery/vento/004.webp",
+      "./images/gallery/vento/005.webp",
+      "./images/gallery/vento/006.webp",
+      "./images/gallery/vento/007.webp",
+      "./images/gallery/vento/008.webp",
+      "./images/gallery/vento/009.webp",
+      "./images/gallery/vento/010.webp",
+      "./images/gallery/vento/011.webp",
+      "./images/gallery/vento/012.webp",
+    ]
   }
 };
 
@@ -1243,8 +1285,7 @@ function openModal(galleryId) {
   } else {
     // Ficha técnica padrão se não houver nenhuma definida
     fichaTecnica.innerHTML =
-      "Em cena: Bárbara Campos, Carolina Grigoli, Guilherme Thiago, João Paulo Valadares, Kenya Goulart, Luciene Bernardes, Luísa Couto, Mariana Tozzi, Max Gonçalves, Rachel de Andrade, Renato Amado, Ronaldo Queiroz, Tacyane Guimarães e Thiago Prata.";
-  }
+     "Informações sobre este espetáculo em breve."}
 
   // Adicionar texto de apresentação
   if (galleryData[galleryId].textoApresentacao) {
