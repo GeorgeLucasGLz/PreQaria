@@ -864,27 +864,47 @@ O último dia de apresentação foi também a formatura dos oito alunos da Escol
   },
   estranho: {
     title: "O estranho Julgamento de Josef K (2018)",
-    textoApresentacao: `
+    textoApresentacao: `A poesia de Shakespeare e a poética montagem da Preqaria Cia de Teatro para a peça "Sonho de Uma Noite de Verão" vem encantando o público de Sete Lagoas. Prova disso são a seqüência de sessões lotadas no segundo semestre de 2014. Quem ainda não viu a peça terá nova chance durante a 2ª Temporada de Teatro de Sete Lagoas, nos dias 8, 9 e 10 de Maio, no Templo 8, sexta, sabádo e domingo as 20h. <br/><br/>
+
+
+"Sonho de Uma Noite de Verão" vem se apresentando na cidade desde Junho de 2014 quando lotou todas as apresentações da semana de estréia. Em Julho participou do Inverno Cultural da UFSJ, quando mais de trezentas pessoas não conseguiram assistir o espetáculo devido a grande procura. Durante todo o mês de Agosto de 2014, se apresentou na abertura da "1ª Temporada de Teatro de Sete Lagoas". Em Novembro de 2014 compôs a programação da Virada Cultural de Sete Lagoas.
+<br/><br/>
+
+Neste "sonho" leve e divertido Shakespeare lança mão de seres imaginários da floresta, duendes e fadas, para mergulhar na difícil e desafiadora viagem do autoconhecimento humano, atravessando os obscuros labirintos da mente e desnudando paixões, iluminando desejos, apontando os grandes fantasmas que perseguem o homem desde sempre. O tema central é o amor e o senso de coragem que o amor exige dos homens.  
+<br/><br/>
+
+A direção de João Valadares explora o belíssimo espaço do Templo 8 através de uma encenação itinerante que começa no Coreto da Praça Tiradentes e aproveita cada locação com uma estética teatral diferente. Os atores Angélica De Vries, Caroline Costa, Douglas Santo, Izabela Oliveira, Júlio Gomes, Larissa Natielly, Letícia Gontijo, Luciano Jordão, Pedro Moura, Piera Rodrigues, Roberta Rodrigues, Sirlene Marques,  Ronaldo Queiroz, Tatyana Aparecida, Thaís Azevedo; se revezam em vários papéis desafiando os próprios limites para transformar a si mesmo e desta forma transformar algo dentro de cada espectador. Nessa montagem Homens ganham cabeças de burros, fadas iluminam a noite, Reis e Rainhas comemoram seu matrimônio em uma Festa Rave, e duendes se tornam cúpidos para fazer com que casais perdidos se reencontrem. 
+<br/><br/>
+
+Ainda em Maio a 2ª Temporada de Teatro de Sete Lagoas terá os espetáculos Como a Gente Gosta, Concerto em Ré e Na Roda do Grupo Maria Cutia de Belo Horizonte.
+<br/><br/>
+
+ 
+Credito das Fotos "Sonho de Uma Noite de Verão": Rickert Senhorini
+
 `,
-    fichaTecnica: [
-      "Carolina Grigoli",
-      "Guilherme Thiago",
-      "João Paulo Valadares",
-      "Kenya Goulart",
-      "Luciene Bernardes",
-      "Luísa Couto",
-    ],
+    fichaTecnica: "",
     images: [
-      "images/gallery/essencias/1.webp",
-      "images/gallery/essencias/2.webp",
-      "images/gallery/essencias/3.webp",
-      "images/gallery/essencias/4.webp",
-      "images/gallery/essencias/5.webp",
-      "images/gallery/essencias/6.webp",
-      "images/gallery/essencias/7.webp",
-      "images/gallery/essencias/8.webp",
-      "images/gallery/essencias/9.webp",
-      "images/gallery/essencias/10.webp",
+      "images/gallery/josefk/001.webp",
+      "images/gallery/josefk/002.webp",
+      "images/gallery/josefk/003.webp",
+      "images/gallery/josefk/004.webp",
+      "images/gallery/josefk/005.webp",
+      "images/gallery/josefk/006.webp",
+      "images/gallery/josefk/007.webp",
+      "images/gallery/josefk/008.webp",
+      "images/gallery/josefk/009.webp",
+      "images/gallery/josefk/010.webp",
+      "images/gallery/josefk/011.webp",
+      "images/gallery/josefk/012.webp",
+      "images/gallery/josefk/013.webp",
+      "images/gallery/josefk/014.webp",
+      "images/gallery/josefk/015.webp",
+      "images/gallery/josefk/016.webp",
+      "images/gallery/josefk/017.webp",
+      "images/gallery/josefk/018.webp",
+      "images/gallery/josefk/019.webp",
+      
     ],
   },
   "cinema-waterapoc": {
