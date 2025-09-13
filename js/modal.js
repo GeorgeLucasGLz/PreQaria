@@ -1155,6 +1155,23 @@ O filme foi realizado com recursos da Lei Paulo Gustavo do Governo Federal, sob 
       "./images/gallery/almir/025.webp",
     ],
   },
+  "peter": {
+
+
+    images: ["./images/gallery/peter/001.webp"],
+    title: "Peter Lund - Viagem ao Brasil Profundo",
+    fichaTecnica: "",
+    textoApresentacao: `Artístico e musical, turístico e educativo, lúdico e divertido, “Peter Lund – Viagem ao Brasil Profundo” espera mostrar um pouco da genialidade deste dinamarquês que viveu mais de 50 anos no Brasil, reiventou o pensamento científico do século XIX e deixou marcas definitivas na história das Américas e do mundo. <br/><br/>
+As descobertas de Peter Lund questionaram a teoria biológica vigente na época que dizia que a terra tinha 5435 anos e que era renovada por catastrófes e inundações, explicando assim a extinção de alguns animais. Mas entre 1839 – 1841 na Gruta do Sumidouro Lund encontra três coisas que não poderiam estar juntas: fósseis de animais atuais, animais extintos e o homem. “Depois de seis anos encontro o que procuro, fósseis de homens junto aos fósseis de vários animais”. A teoria do catastrofismo não fazia mais sentido e suas descobertas ajudaram Darwin – que cita três vezes os achados de Lund em “A Origem das Espécies”, a explicar a evolução.<br/><br/>
+A ideia é criar uma dramaturgia contemporânea, que valorize a beleza das grutas, apresente esse personagem importante da ciência mundial para a sociedade brasileira e ainda discuta questões importantes ao Brasil da época e que continuam sendo pertinentes até hoje.
+`,
+
+  }, "vento": {
+    title: "Eu sou o vento",
+    fichaTecnica: "",
+    textoApresentacao: "",
+    images: []
+  }
 };
 
 // Variáveis globais para o modal
