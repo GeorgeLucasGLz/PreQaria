@@ -796,26 +796,26 @@ Sete Lagoas, dezembro de 2022.`,
   },
   agreste: {
     title: "Agreste (2011)",
-    textoApresentacao: ``,
-    fichaTecnica: [
-      "Carolina Grigoli",
-      "Guilherme Thiago",
-      "João Paulo Valadares",
-      "Kenya Goulart",
-      "Luciene Bernardes",
-      "Luísa Couto",
-    ],
+    textoApresentacao: `“Agreste” foi o espetáculo de Formatura do Curso de Aprofundamento da Escola Livre de Artes de Sete Lagoas em 2011. A peça traz a história de um casal dividido por uma cerca, que sempre se olham á distância. Aos poucos, com muita poesia, um deles atravessa a divisória e o enredo se desenrola no calor do sertão.<br/><br/>
+O texto, do dramaturgo contemporâneo Newton Moreno, traz uma grande surpresa aos espectadores, ao revelar que um dos personagens Etevaldo, na verdade é uma mulher.<br/><br/>
+A peça em si, revela o amor em sua forma mais pura, explorando a dramaticidade de todos os atores recém formados. “Eu só não faço a viúva”, adita o artista Gabriel Pimenta, que durante a peça, assim como os outros colegas de cena, interpretou diversos papeis. “Isso é o mais bacana da peça, assim como nas cenas, os atores precisam mostrar sua superação”, relata João Valadares, diretor do espetáculo.<br/><br/>
+De passagem por Sete Lagoas, a pedagoga Aline Lícia, confessa que no começo não entendeu bem o texto, mas que no final se envolveu totalmente com o enredo. “Acho muito importante ter iniciativas como essa. Principalmente de graça. No país, o teatro e as artes em geral ainda são muito caras, então é muito importante ter ações como essa”, finaliza.<br/><br/>
+O último dia de apresentação foi também a formatura dos oito alunos da Escola Livre de Artes, que entre os dias 21 e 24 de julho de 2011, encenaram o texto “Agreste”, no anfiteatro do Centro Cultural Casarão.
+`,
+    fichaTecnica: 
+      "",
+  
     images: [
-      "images/gallery/essencias/1.webp",
-      "images/gallery/essencias/2.webp",
-      "images/gallery/essencias/3.webp",
-      "images/gallery/essencias/4.webp",
-      "images/gallery/essencias/5.webp",
-      "images/gallery/essencias/6.webp",
-      "images/gallery/essencias/7.webp",
-      "images/gallery/essencias/8.webp",
-      "images/gallery/essencias/9.webp",
-      "images/gallery/essencias/10.webp",
+      "images/gallery/agreste/001.webp",
+      "images/gallery/agreste/002.webp",
+      "images/gallery/agreste/003.webp",
+      "images/gallery/agreste/004.webp",
+      "images/gallery/agreste/005.webp",
+      "images/gallery/agreste/006.webp",
+      "images/gallery/agreste/007.webp",
+      "images/gallery/agreste/008.webp",
+      "images/gallery/agreste/009.webp",
+      "images/gallery/agreste/010.webp",
     ],
   },
   verao: {
