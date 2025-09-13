@@ -885,7 +885,16 @@ Sinopse<br />
 Waterapoc é um curta-metragem de ficção científica que conta a estória de André, um homem aparentemente comum que carrega consigo a tarefa de resolver o maior infortúnio de seu tempo: a falta d’água. Para tanto, volta do ano de 2052 para 2001 e investe em ações na Bolsa de Valores. O objetivo é adquirir empresas do ramo da água criando um contraponto à empresa que no futuro terá o monopólio de toda a água do planeta. Esses investimentos lhe rendem uma fortuna em pouco tempo e desagradam algumas pessoas que o procuram para um acerto de contas. Em meio a um ambiente hostil, André tenta provar que é um viajante do futuro e busca salvar o mundo de uma catástrofe ambiental. A hipótese justificaria seus rendimentos na Bolsa de Valores e a previsão que faz sobre o episódio de 11 de setembro. O filme é baseado na história real de Andrew Carlssin, um “viajante do tempo” que foi preso no dia 28 de janeiro de 2005 em Nova York, após um investimento inicial de 800 dólares que lhe rederam em apenas duas semanas 350 milhões de dólares. 
 
 `,
-    images: ["./images/waterapoc.webp"],
+    images: ["./images/gallery/waterapoc/002.webp",
+      "./images/gallery/waterapoc/001.webp",
+      "./images/gallery/waterapoc/003.webp",
+      "./images/gallery/waterapoc/004.webp",
+      "./images/gallery/waterapoc/005.webp",
+      "./images/gallery/waterapoc/006.webp",
+      "./images/gallery/waterapoc/007.webp",
+
+
+    ],
   },
   "cinema-pipoca": {
     title: "Humanamente Mefisto (2005)",
@@ -926,7 +935,13 @@ Waterapoc é um curta-metragem de ficção científica que conta a estória de A
 
     textoApresentacao: `O curta-metragem Humanamente Mefisto conta a estória de Álvaro, um ator teatral experiente que vive dias de profunda inquietação causadas pelo texto de sua próxima peça: Fausto de Goethe. No processo do espetáculo o texto da peça faz Álvaro pensar em sua própria vida: a relação que tem com o bem e o mal, com Deus e o Diabo, e todas as coisas que são atribuídas a essas entidades. É como se no fundo Deus e o Diabo fossem parte dele mesmo, como se o bem ou o mal ainda estivessem por serem feitos – são frutos das ações humanas.
 `,
-    images: ["./images/mefisto.webp"],
+    images: ["./images/gallery/mefisto/001.webp",
+      "./images/gallery/mefisto/002.webp",
+      "./images/gallery/mefisto/003.webp",
+      "./images/gallery/mefisto/004.webp",
+      "./images/gallery/mefisto/005.webp",
+
+    ],
   },
   "cinema-outros-dias": {
     title: "Coisa Feita pelo Coração (2025)",
@@ -1041,7 +1056,27 @@ Waterapoc é um curta-metragem de ficção científica que conta a estória de A
 <br /><br />O elenco revela mais uma vez a força da Escola Livre de Artes da Preqaria Cia de Teatro, já que é composto totalmente por alunos, ex-alunos, atores e professores da instituição. 
 <br /><br />A produção enfrenta questões contemporâneas importantes como o protagonismo feminino, através da personagem Mônica – interpretada como uma jovem mulher independente, intelectual e engajada em causas sociais – e o racismo estrutural brasileiro, por meio da representação de João de Santo Cristo, interpretado pelo ator e produtor executivo Nathan Brits. A produção promete trazer uma nova perspectiva às canções que marcaram gerações, abordando temas universais como a juventude, o amor e os dilemas existenciais que atravessam diferentes idades e realidades sociais.
 `,
-    images: ["./images/coracao.webp"],
+    images: ["./images/gallery/coracao/001.webp",
+      "./images/gallery/coracao/002.webp",
+      "./images/gallery/coracao/003.webp",
+      "./images/gallery/coracao/004.webp",
+      "./images/gallery/coracao/005.webp",
+      "./images/gallery/coracao/006.webp",
+      "./images/gallery/coracao/007.webp",
+      "./images/gallery/coracao/008.webp",
+      "./images/gallery/coracao/009.webp",
+      "./images/gallery/coracao/010.webp",
+      "./images/gallery/coracao/011.webp",
+      "./images/gallery/coracao/012.webp",
+      "./images/gallery/coracao/013.webp",
+      "./images/gallery/coracao/015.webp",
+      "./images/gallery/coracao/016.webp",
+      "./images/gallery/coracao/017.webp",
+      "./images/gallery/coracao/018.webp",
+      "./images/gallery/coracao/019.webp",
+      "./images/gallery/coracao/020.webp",
+      "./images/gallery/coracao/021.webp",
+        ],
   },
   "cinema-morrer": {
     title: "Almir não sabe morrer (2005)",
